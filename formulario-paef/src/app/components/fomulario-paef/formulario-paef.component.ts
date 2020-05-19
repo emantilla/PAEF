@@ -87,15 +87,15 @@ export class FormularioPaefComponent implements OnInit {
 
 
   create() {
-    /* this.service.saveFormulario(this.setRequest()).subscribe(
+    this.service.saveFormulario(this.setRequest()).subscribe(
       response => {
         alert('Evento creado satisfactoriamente');
         this.router.navigate(['/list-competition']);
       }, error => {
         alert('Error creando el evento, intente nuevamente');
       }
-    ); */
-    console.log(this.createForm)
+    );
+    console.log(this.createForm);
   }
 
   refreshPlaceholder(field) {
@@ -108,7 +108,7 @@ export class FormularioPaefComponent implements OnInit {
 
   setRequest(): any {
     let data = null;
-    
+
       data = {
         name: this.createForm.get('nameForm').value,
         uniq_url: this.createForm.get('urlIdForm').value,
