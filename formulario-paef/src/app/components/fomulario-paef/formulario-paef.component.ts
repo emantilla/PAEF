@@ -78,7 +78,6 @@ export class FormularioPaefComponent implements OnInit {
       this.createForm.get(field).setValue(value.value.getFullYear() + '-' +
         (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day));
       this.refreshPlaceholder(field);
-      this.validateDates();
     } else {
       this.createForm.get(field).setValue(value);
     }
@@ -106,28 +105,44 @@ export class FormularioPaefComponent implements OnInit {
     }
   }
 
-  setRequest(): any {
-    let data = null;
-    
+    setRequest(): any {
+      let data = null;
+
       data = {
-        name: this.createForm.get('nameForm').value,
-        uniq_url: this.createForm.get('urlIdForm').value,
-        start_date: this.createForm.get('startDateForm').value,
-        end_date: this.createForm.get('endDateForm').value,
-        prize_description: this.createForm.get('descriptionForm').value,
-        owner: parseInt(sessionStorage.getItem('pkUser'), 10)
+        estadoSolicitud: true,
+        solicitud: 1,
+        numeroEmpresa: "123123",
+        nombreEmpresa: "Mi casa ya",
+        direccionEmpresa: "Calle cerquita",
+        departamento: "11",
+        departamentoDesc: "Bogota DC",
+        ciudad: "1111",
+        ciudadDesc: "Bogota",
+        telefonoFijo: "6570161",
+        telefonoCelular: 3005740292,
+        correoElectronico: "elkinmantilla",
+        ciiu: "111",
+        entidadCuenta: "BAVV",
+        entidadCuentaDesc: "Banco Av Villas",
+        numeroCuenta: "12345678",
+        nombres: "nombre rep",
+        apellidos: "apellido rep",
+        tipoIdentificacion: "SC",
+        numeroIdentificacion: "12345678",
+        correoRep: "asdasd",
+        celularRep: 3005740292,
+        prProductoDeposito: true,
+        actividadEconomica: "Agricultura",
+        prConstitucion: true,
+        prDisminucionAno: true,
+        prParticipacion: true,
+        prSolicitud: true,
+        prCumpliento: true,
+        prEmpleados: true,
+        prPEP: true,
+        tipoPersona: "2",
+        prDisminucion: true
       };
-  }
-
-  validateDates() {
-    const startDate = this.createForm.get('startDateForm').value;
-    const endDate = this.createForm.get('endDateForm').value;
-
-    if (startDate !== null && startDate !== undefined && startDate !== '' &&
-      endDate !== null && endDate !== undefined && endDate !== '') {
-      this.hasErrorDates = new Date(startDate) > new Date(endDate);
-    }
-
   }
 
 }
