@@ -102,10 +102,9 @@ export class FormularioPaefComponent implements OnInit {
   create() {
     this.service.saveFormulario(this.setRequest()).subscribe(
       response => {
-        alert('Evento creado satisfactoriamente');
-        this.router.navigate(['/list-competition']);
+        alert('Registro creado satisfactoriamente');
       }, error => {
-        alert('Error creando el evento, intente nuevamente');
+        alert('Error creando el registro, intente nuevamente');
       }
     );
     console.log(this.createForm);
