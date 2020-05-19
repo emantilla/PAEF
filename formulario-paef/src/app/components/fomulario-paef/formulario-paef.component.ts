@@ -18,18 +18,30 @@ export class FormularioPaefComponent implements OnInit {
   endDatePlaceholder = '';
   hasErrorDates = false;
   url = environment.urlBack;
-  departametos: Array<any>;
+  departamentos: Array<any>;
+  ciudades: Array<any>;
+  actividadesEconomica: Array<any>;
 
   competitionView: {
     id: number, end_date: string, image: string, owner: string,
     prize_description: string, start_date: string, uniq_url: string, name: string
   };
 
-  constructor(private fb: FormBuilder, private router: Router, private service:FormularioService) { }
+  constructor(private fb: FormBuilder, private router: Router, private service: FormularioService) { }
 
   ngOnInit() {
     this.initUserDetailsForm();
-    console.log(this.service.getDepartamentos());
+    this.service.getDepartamentos().subscribe(data => {
+      this.departamentos = data;
+    });
+
+    this.service.getCiudades().subscribe(data => {
+      this.ciudades = data;
+    });
+
+    this.service.getCiuu().subscribe(data => {
+      this.actividadesEconomica = data;
+    });
   }
 
   private initUserDetailsForm() {
@@ -88,15 +100,15 @@ export class FormularioPaefComponent implements OnInit {
 
 
   create() {
-    /* this.service.saveFormulario(this.setRequest()).subscribe(
+    this.service.saveFormulario(this.setRequest()).subscribe(
       response => {
         alert('Evento creado satisfactoriamente');
         this.router.navigate(['/list-competition']);
       }, error => {
         alert('Error creando el evento, intente nuevamente');
       }
-    ); */
-    console.log(this.createForm)
+    );
+    console.log(this.createForm);
   }
 
   refreshPlaceholder(field) {
@@ -107,44 +119,44 @@ export class FormularioPaefComponent implements OnInit {
     }
   }
 
-    setRequest(): any {
-      let data = null;
+  setRequest(): any {
+    let data = null;
 
-      data = {
-        estadoSolicitud: true,
-        solicitud: 1,
-        numeroEmpresa: "123123",
-        nombreEmpresa: "Mi casa ya",
-        direccionEmpresa: "Calle cerquita",
-        departamento: "11",
-        departamentoDesc: "Bogota DC",
-        ciudad: "1111",
-        ciudadDesc: "Bogota",
-        telefonoFijo: "6570161",
-        telefonoCelular: 3005740292,
-        correoElectronico: "elkinmantilla",
-        ciiu: "111",
-        entidadCuenta: "BAVV",
-        entidadCuentaDesc: "Banco Av Villas",
-        numeroCuenta: "12345678",
-        nombres: "nombre rep",
-        apellidos: "apellido rep",
-        tipoIdentificacion: "SC",
-        numeroIdentificacion: "12345678",
-        correoRep: "asdasd",
-        celularRep: 3005740292,
-        prProductoDeposito: true,
-        actividadEconomica: "Agricultura",
-        prConstitucion: true,
-        prDisminucionAno: true,
-        prParticipacion: true,
-        prSolicitud: true,
-        prCumpliento: true,
-        prEmpleados: true,
-        prPEP: true,
-        tipoPersona: "2",
-        prDisminucion: true
-      };
+    data = {
+      estadoSolicitud: true,
+      solicitud: 1,
+      numeroEmpresa: '123123',
+      nombreEmpresa: 'Mi casa ya',
+      direccionEmpresa: 'Calle cerquita',
+      departamento: '11',
+      departamentoDesc: 'Bogota DC',
+      ciudad: '1111',
+      ciudadDesc: 'Bogota',
+      telefonoFijo: '6570161',
+      telefonoCelular: 3005740292,
+      correoElectronico: 'elkinmantilla',
+      ciiu: '111',
+      entidadCuenta: 'BAVV',
+      entidadCuentaDesc: 'Banco Av Villas',
+      numeroCuenta: '12345678',
+      nombres: 'nombre rep',
+      apellidos: 'apellido rep',
+      tipoIdentificacion: 'SC',
+      numeroIdentificacion: '12345678',
+      correoRep: 'asdasd',
+      celularRep: 3005740292,
+      prProductoDeposito: true,
+      actividadEconomica: 'Agricultura',
+      prConstitucion: true,
+      prDisminucionAno: true,
+      prParticipacion: true,
+      prSolicitud: true,
+      prCumpliento: true,
+      prEmpleados: true,
+      prPEP: true,
+      tipoPersona: '2',
+      prDisminucion: true
+    };
   }
 
 }

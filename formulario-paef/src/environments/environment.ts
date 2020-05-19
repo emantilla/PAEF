@@ -4,9 +4,8 @@
 
 export const environment = {
   production: false,
-  urlBack: 'http://34.107.173.170:80',
-  urlCloudFront: 'http://dfkg4t7hl9s9m.cloudfront.net/',
-  urlS3: 'https://concursostorage.s3.amazonaws.com/'
+  urlBack: '/AjaxATHFilter/wps/custom/',
+  CaptchaKey: 'https://concursostorage.s3.amazonaws.com/'
 };
 
 /*
