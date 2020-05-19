@@ -1,0 +1,1998 @@
+[
+  {
+    "idCiiu": "0111",
+    "descripcion": "Cultivo de cereales (excepto arroz), legumbres y semillas oleaginosas"
+  },
+  {
+    "idCiiu": "0112",
+    "descripcion": "Cultivo de arroz"
+  },
+  {
+    "idCiiu": "0113",
+    "descripcion": "Cultivo de hortalizas, raíces y tubérculos"
+  },
+  {
+    "idCiiu": "0114",
+    "descripcion": "Cultivo de tabaco"
+  },
+  {
+    "idCiiu": "0115",
+    "descripcion": "Cultivo de plantas textiles"
+  },
+  {
+    "idCiiu": "0119",
+    "descripcion": "Otros cultivos transitorios n.c.p."
+  },
+  {
+    "idCiiu": "0121",
+    "descripcion": "Cultivo de frutas tropicales y subtropicales"
+  },
+  {
+    "idCiiu": "0122",
+    "descripcion": "Cultivo de plátano y banano"
+  },
+  {
+    "idCiiu": "0123",
+    "descripcion": "Cultivo de café"
+  },
+  {
+    "idCiiu": "0124",
+    "descripcion": "Cultivo de caña de azúcar"
+  },
+  {
+    "idCiiu": "0125",
+    "descripcion": "Cultivo de flor de corte"
+  },
+  {
+    "idCiiu": "0126",
+    "descripcion": "Cultivo de palma para aceite (palma africana) y otros frutos oleaginosos"
+  },
+  {
+    "idCiiu": "0127",
+    "descripcion": "Cultivo de plantas con las que se preparan bebidas"
+  },
+  {
+    "idCiiu": "0128",
+    "descripcion": "Cultivo de especias y de plantas aromáticas y medicinales"
+  },
+  {
+    "idCiiu": "0129",
+    "descripcion": "Otros cultivos permanentes n.c.p."
+  },
+  {
+    "idCiiu": "0130",
+    "descripcion": "Propagación de plantas (actividades de los viveros, excepto viveros forestales)"
+  },
+  {
+    "idCiiu": "0141",
+    "descripcion": "Cría de ganado bovino y bufalino"
+  },
+  {
+    "idCiiu": "0142",
+    "descripcion": "Cría de caballos y otros equinos"
+  },
+  {
+    "idCiiu": "0143",
+    "descripcion": "Cría de ovejas y cabras"
+  },
+  {
+    "idCiiu": "0144",
+    "descripcion": "Cría de ganado porcino"
+  },
+  {
+    "idCiiu": "0145",
+    "descripcion": "Cría de aves de corral"
+  },
+  {
+    "idCiiu": "0149",
+    "descripcion": "Cría de otros animales n.c.p."
+  },
+  {
+    "idCiiu": "0150",
+    "descripcion": "Explotación mixta (agrícola y pecuaria)"
+  },
+  {
+    "idCiiu": "0161",
+    "descripcion": "Actividades de apoyo a la agricultura"
+  },
+  {
+    "idCiiu": "0162",
+    "descripcion": "Actividades de apoyo a la ganadería"
+  },
+  {
+    "idCiiu": "0163",
+    "descripcion": "Actividades posteriores a la cosecha"
+  },
+  {
+    "idCiiu": "0164",
+    "descripcion": "Tratamiento de semillas para propagación"
+  },
+  {
+    "idCiiu": "0170",
+    "descripcion": "Caza ordinaria y mediante trampas y actividades de servicios conexas"
+  },
+  {
+    "idCiiu": "0210",
+    "descripcion": "Silvicultura y otras actividades forestales"
+  },
+  {
+    "idCiiu": "0220",
+    "descripcion": "Extracción de madera"
+  },
+  {
+    "idCiiu": "0230",
+    "descripcion": "Recolección de productos forestales diferentes a la madera"
+  },
+  {
+    "idCiiu": "0240",
+    "descripcion": "Servicios de apoyo a la silvicultura"
+  },
+  {
+    "idCiiu": "0311",
+    "descripcion": "Pesca marítima"
+  },
+  {
+    "idCiiu": "0312",
+    "descripcion": "Pesca de agua dulce"
+  },
+  {
+    "idCiiu": "0321",
+    "descripcion": "Acuicultura marítima"
+  },
+  {
+    "idCiiu": "0322",
+    "descripcion": "Acuicultura de agua dulce"
+  },
+  {
+    "idCiiu": "0510",
+    "descripcion": "Extracción de hulla (carbón de piedra)"
+  },
+  {
+    "idCiiu": "0520",
+    "descripcion": "Extracción de carbón lignito"
+  },
+  {
+    "idCiiu": "0610",
+    "descripcion": "Extracción de petróleo crudo"
+  },
+  {
+    "idCiiu": "0620",
+    "descripcion": "Extracción de gas natural"
+  },
+  {
+    "idCiiu": "0710",
+    "descripcion": "Extracción de minerales de hierro"
+  },
+  {
+    "idCiiu": "0721",
+    "descripcion": "Extracción de minerales de uranio y de torio"
+  },
+  {
+    "idCiiu": "0722",
+    "descripcion": "Extracción de oro y otros metales preciosos"
+  },
+  {
+    "idCiiu": "0723",
+    "descripcion": "Extracción de minerales de níquel"
+  },
+  {
+    "idCiiu": "0729",
+    "descripcion": "Extracción de otros minerales metalíferos no ferrosos n.c.p."
+  },
+  {
+    "idCiiu": "0811",
+    "descripcion": "Extracción de piedra, arena, arcillas comunes, yeso y anhidrita"
+  },
+  {
+    "idCiiu": "0812",
+    "descripcion": "Extracción de arcillas de uso industrial, caliza, caolín y bentonitas"
+  },
+  {
+    "idCiiu": "0820",
+    "descripcion": "Extracción de esmeraldas, piedras preciosas y semipreciosas"
+  },
+  {
+    "idCiiu": "0891",
+    "descripcion": "Extracción de minerales para la fabricación de abonos y productos químicos"
+  },
+  {
+    "idCiiu": "0892",
+    "descripcion": "Extracción de halita (sal)"
+  },
+  {
+    "idCiiu": "0899",
+    "descripcion": "Extracción de otros minerales no metálicos n.c.p."
+  },
+  {
+    "idCiiu": "0910",
+    "descripcion": "Actividades de apoyo para la extracción de petróleo y de gas natural"
+  },
+  {
+    "idCiiu": "0990",
+    "descripcion": "Actividades de apoyo para otras actividades de explotación de minas y canteras"
+  },
+  {
+    "idCiiu": "1011",
+    "descripcion": "Procesamiento y conservación de carne y productos cárnicos"
+  },
+  {
+    "idCiiu": "1012",
+    "descripcion": "Procesamiento y conservación de pescados, crustáceos y moluscos"
+  },
+  {
+    "idCiiu": "1020",
+    "descripcion": "Procesamiento y conservación de frutas, legumbres, hortalizas y tubérculos"
+  },
+  {
+    "idCiiu": "1030",
+    "descripcion": "Elaboración de aceites y grasas de origen vegetal y animal"
+  },
+  {
+    "idCiiu": "1040",
+    "descripcion": "Elaboración de productos lácteos"
+  },
+  {
+    "idCiiu": "1051",
+    "descripcion": "Elaboración de productos de molinería"
+  },
+  {
+    "idCiiu": "1052",
+    "descripcion": "Elaboración de almidones y productos derivados del almidón"
+  },
+  {
+    "idCiiu": "1061",
+    "descripcion": "Trilla de café"
+  },
+  {
+    "idCiiu": "1062",
+    "descripcion": "Descafeinado, tostión y molienda del café"
+  },
+  {
+    "idCiiu": "1063",
+    "descripcion": "Otros derivados del café"
+  },
+  {
+    "idCiiu": "1071",
+    "descripcion": "Elaboración y refinación de azúcar"
+  },
+  {
+    "idCiiu": "1072",
+    "descripcion": "Elaboración de panela"
+  },
+  {
+    "idCiiu": "1081",
+    "descripcion": "Elaboración de productos de panadería"
+  },
+  {
+    "idCiiu": "1082",
+    "descripcion": "Elaboración de cacao, chocolate y productos de confitería"
+  },
+  {
+    "idCiiu": "1083",
+    "descripcion": "Elaboración de macarrones, fideos, alcuzcuz y productos farináceos similares"
+  },
+  {
+    "idCiiu": "1084",
+    "descripcion": "Elaboración de comidas y platos preparados"
+  },
+  {
+    "idCiiu": "1089",
+    "descripcion": "Elaboración de otros productos alimenticios n.c.p."
+  },
+  {
+    "idCiiu": "1090",
+    "descripcion": "Elaboración de alimentos preparados para animales"
+  },
+  {
+    "idCiiu": "1101",
+    "descripcion": "Destilación, rectificación y mezcla de bebidas alcohólicas"
+  },
+  {
+    "idCiiu": "1102",
+    "descripcion": "Elaboración de bebidas fermentadas no destiladas"
+  },
+  {
+    "idCiiu": "1103",
+    "descripcion": "Producción de malta, elaboración de cervezas y otras bebidas malteadas"
+  },
+  {
+    "idCiiu": "1104",
+    "descripcion": "Elaboración de bebidas no alcohólicas, producción de aguas minerales y de otras aguas embotelladas"
+  },
+  {
+    "idCiiu": "1200",
+    "descripcion": "Elaboración de productos de tabaco"
+  },
+  {
+    "idCiiu": "1311",
+    "descripcion": "Preparación e hilatura de fibras textiles"
+  },
+  {
+    "idCiiu": "1312",
+    "descripcion": "Tejeduría de productos textiles"
+  },
+  {
+    "idCiiu": "1313",
+    "descripcion": "Acabado de productos textiles"
+  },
+  {
+    "idCiiu": "1391",
+    "descripcion": "Fabricación de tejidos de punto y ganchillo"
+  },
+  {
+    "idCiiu": "1392",
+    "descripcion": "Confección de artículos con materiales textiles, excepto prendas de vestir"
+  },
+  {
+    "idCiiu": "1393",
+    "descripcion": "Fabricación de tapetes y alfombras para pisos"
+  },
+  {
+    "idCiiu": "1394",
+    "descripcion": "Fabricación de cuerdas, cordeles, cables, bramantes y redes"
+  },
+  {
+    "idCiiu": "1399",
+    "descripcion": "Fabricación de otros artículos textiles n.c.p."
+  },
+  {
+    "idCiiu": "1410",
+    "descripcion": "Confección de prendas de vestir, excepto prendas de piel"
+  },
+  {
+    "idCiiu": "1420",
+    "descripcion": "Fabricación de artículos de piel"
+  },
+  {
+    "idCiiu": "1430",
+    "descripcion": "Fabricación de artículos de punto y ganchillo"
+  },
+  {
+    "idCiiu": "1511",
+    "descripcion": "Curtido y recurtido de cueros; recurtido y teñido de pieles"
+  },
+  {
+    "idCiiu": "1512",
+    "descripcion": "Fabricación de artículos de viaje, bolsos de mano y artículos similares elaborados en cuero, y fabricación de artículos de talabartería y guarnicionería"
+  },
+  {
+    "idCiiu": "1513",
+    "descripcion": "Fabricación de artículos de viaje, bolsos de mano y artículos similares; artículos de talabartería y guarnicionería elaborados en otros materiales"
+  },
+  {
+    "idCiiu": "1521",
+    "descripcion": "Fabricación de calzado de cuero y piel, con cualquier tipo de suela"
+  },
+  {
+    "idCiiu": "1522",
+    "descripcion": "Fabricación de otros tipos de calzado, excepto calzado de cuero y piel"
+  },
+  {
+    "idCiiu": "1523",
+    "descripcion": "Fabricación de partes del calzado"
+  },
+  {
+    "idCiiu": "1610",
+    "descripcion": "Aserrado, acepillado e impregnación de la madera"
+  },
+  {
+    "idCiiu": "1620",
+    "descripcion": "Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados, tableros laminados, tableros de partículas y otros tableros y paneles"
+  },
+  {
+    "idCiiu": "1630",
+    "descripcion": "Fabricación de partes y piezas de madera, de carpintería y ebanistería para la construcción"
+  },
+  {
+    "idCiiu": "1640",
+    "descripcion": "Fabricación de recipientes de madera"
+  },
+  {
+    "idCiiu": "1690",
+    "descripcion": "Fabricación de otros productos de madera; fabricación de artículos de corcho, cestería y espartería"
+  },
+  {
+    "idCiiu": "1701",
+    "descripcion": "Fabricación de pulpas (pastas) celulósicas; papel y cartón"
+  },
+  {
+    "idCiiu": "1702",
+    "descripcion": "Fabricación de papel y cartón ondulado (corrugado); fabricación de envases, empaques y de embalajes de papel y cartón."
+  },
+  {
+    "idCiiu": "1709",
+    "descripcion": "Fabricación de otros artículos de papel y cartón"
+  },
+  {
+    "idCiiu": "1811",
+    "descripcion": "Actividades de impresión"
+  },
+  {
+    "idCiiu": "1812",
+    "descripcion": "Actividades de servicios relacionados con la impresión"
+  },
+  {
+    "idCiiu": "1820",
+    "descripcion": "Producción de copias a partir de grabaciones originales"
+  },
+  {
+    "idCiiu": "1910",
+    "descripcion": "Fabricación de productos de hornos de coque"
+  },
+  {
+    "idCiiu": "1921",
+    "descripcion": "Fabricación de productos de la refinación del petróleo"
+  },
+  {
+    "idCiiu": "1922",
+    "descripcion": "Actividad de mezcla de combustibles"
+  },
+  {
+    "idCiiu": "2011",
+    "descripcion": "Fabricación de sustancias y productos químicos básicos"
+  },
+  {
+    "idCiiu": "2012",
+    "descripcion": "Fabricación de abonos y compuestos inorgánicos nitrogenados"
+  },
+  {
+    "idCiiu": "2013",
+    "descripcion": "Fabricación de plásticos en formas primarias"
+  },
+  {
+    "idCiiu": "2014",
+    "descripcion": "Fabricación de caucho sintético en formas primarias"
+  },
+  {
+    "idCiiu": "2021",
+    "descripcion": "Fabricación de plaguicidas y otros productos químicos de uso agropecuario"
+  },
+  {
+    "idCiiu": "2022",
+    "descripcion": "Fabricación de pinturas, barnices y revestimientos similares, tintas para impresión y masillas"
+  },
+  {
+    "idCiiu": "2023",
+    "descripcion": "Fabricación de jabones y detergentes, preparados para limpiar y pulir; perfumes y preparados de tocador"
+  },
+  {
+    "idCiiu": "2029",
+    "descripcion": "Fabricación de otros productos químicos n.c.p."
+  },
+  {
+    "idCiiu": "2030",
+    "descripcion": "Fabricación de fibras sintéticas y artificiales"
+  },
+  {
+    "idCiiu": "2100",
+    "descripcion": "Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico"
+  },
+  {
+    "idCiiu": "2211",
+    "descripcion": "Fabricación de llantas y neumáticos de caucho"
+  },
+  {
+    "idCiiu": "2212",
+    "descripcion": "Reencauche de llantas usadas"
+  },
+  {
+    "idCiiu": "2219",
+    "descripcion": "Fabricación de formas básicas de caucho y otros productos de caucho n.c.p."
+  },
+  {
+    "idCiiu": "2221",
+    "descripcion": "Fabricación de formas básicas de plástico"
+  },
+  {
+    "idCiiu": "2229",
+    "descripcion": "Fabricación de artículos de plástico n.c.p."
+  },
+  {
+    "idCiiu": "2310",
+    "descripcion": "Fabricación de vidrio y productos de vidrio"
+  },
+  {
+    "idCiiu": "2391",
+    "descripcion": "Fabricación de productos refractarios"
+  },
+  {
+    "idCiiu": "2392",
+    "descripcion": "Fabricación de materiales de arcilla para la construcción"
+  },
+  {
+    "idCiiu": "2393",
+    "descripcion": "Fabricación de otros productos de cerámica y porcelana"
+  },
+  {
+    "idCiiu": "2394",
+    "descripcion": "Fabricación de cemento, cal y yeso"
+  },
+  {
+    "idCiiu": "2395",
+    "descripcion": "Fabricación de artículos de hormigón, cemento y yeso"
+  },
+  {
+    "idCiiu": "2396",
+    "descripcion": "Corte, tallado y acabado de la piedra"
+  },
+  {
+    "idCiiu": "2399",
+    "descripcion": "Fabricación de otros productos minerales no metálicos n.c.p."
+  },
+  {
+    "idCiiu": "2410",
+    "descripcion": "Industrias básicas de hierro y de acero"
+  },
+  {
+    "idCiiu": "2421",
+    "descripcion": "Industrias básicas de metales preciosos"
+  },
+  {
+    "idCiiu": "2429",
+    "descripcion": "Industrias básicas de otros metales no ferrosos"
+  },
+  {
+    "idCiiu": "2431",
+    "descripcion": "Fundición de hierro y de acero"
+  },
+  {
+    "idCiiu": "2432",
+    "descripcion": "Fundición de metales no ferrosos"
+  },
+  {
+    "idCiiu": "2511",
+    "descripcion": "Fabricación de productos metálicos para uso estructural"
+  },
+  {
+    "idCiiu": "2512",
+    "descripcion": "Fabricación de tanques, depósitos y recipientes de metal, excepto los utilizados para el envase o transporte de mercancías"
+  },
+  {
+    "idCiiu": "2513",
+    "descripcion": "Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central"
+  },
+  {
+    "idCiiu": "2520",
+    "descripcion": "Fabricación de armas y municiones"
+  },
+  {
+    "idCiiu": "2591",
+    "descripcion": "Forja, prensado, estampado y laminado de metal; pulvimetalurgia"
+  },
+  {
+    "idCiiu": "2592",
+    "descripcion": "Tratamiento y revestimiento de metales; mecanizado"
+  },
+  {
+    "idCiiu": "2593",
+    "descripcion": "Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería"
+  },
+  {
+    "idCiiu": "2599",
+    "descripcion": "Fabricación de otros productos elaborados de metal n.c.p."
+  },
+  {
+    "idCiiu": "2610",
+    "descripcion": "Fabricación de componentes y tableros electrónicos"
+  },
+  {
+    "idCiiu": "2620",
+    "descripcion": "Fabricación de computadoras y de equipo periférico"
+  },
+  {
+    "idCiiu": "2630",
+    "descripcion": "Fabricación de equipos de comunicación"
+  },
+  {
+    "idCiiu": "2640",
+    "descripcion": "Fabricación de aparatos electrónicos de consumo"
+  },
+  {
+    "idCiiu": "2651",
+    "descripcion": "Fabricación de equipo de medición, prueba, navegación y control"
+  },
+  {
+    "idCiiu": "2652",
+    "descripcion": "Fabricación de relojes"
+  },
+  {
+    "idCiiu": "2660",
+    "descripcion": "Fabricación de equipo de irradiación y equipo electrónico de uso médico y terapéutico"
+  },
+  {
+    "idCiiu": "2670",
+    "descripcion": "Fabricación de instrumentos ópticos y equipo fotográfico"
+  },
+  {
+    "idCiiu": "2680",
+    "descripcion": "Fabricación de medios magnéticos y ópticos para almacenamiento de datos"
+  },
+  {
+    "idCiiu": "2711",
+    "descripcion": "Fabricación de motores, generadores y transformadores eléctricos"
+  },
+  {
+    "idCiiu": "2712",
+    "descripcion": "Fabricación de aparatos de distribución y control de la energía eléctrica"
+  },
+  {
+    "idCiiu": "2720",
+    "descripcion": "Fabricación de pilas, baterías y acumuladores eléctricos"
+  },
+  {
+    "idCiiu": "2731",
+    "descripcion": "Fabricación de hilos y cables eléctricos y de fibra óptica"
+  },
+  {
+    "idCiiu": "2732",
+    "descripcion": "Fabricación de dispositivos de cableado"
+  },
+  {
+    "idCiiu": "2740",
+    "descripcion": "Fabricación de equipos eléctricos de iluminación"
+  },
+  {
+    "idCiiu": "2750",
+    "descripcion": "Fabricación de aparatos de uso doméstico"
+  },
+  {
+    "idCiiu": "2790",
+    "descripcion": "Fabricación de otros tipos de equipo eléctrico n.c.p."
+  },
+  {
+    "idCiiu": "2811",
+    "descripcion": "Fabricación de motores, turbinas, y partes para motores de combustión interna"
+  },
+  {
+    "idCiiu": "2812",
+    "descripcion": "Fabricación de equipos de potencia hidráulica y neumática"
+  },
+  {
+    "idCiiu": "2813",
+    "descripcion": "Fabricación de otras bombas, compresores, grifos y válvulas"
+  },
+  {
+    "idCiiu": "2814",
+    "descripcion": "Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión"
+  },
+  {
+    "idCiiu": "2815",
+    "descripcion": "Fabricación de hornos, hogares y quemadores industriales"
+  },
+  {
+    "idCiiu": "2816",
+    "descripcion": "Fabricación de equipo de elevación y manipulación"
+  },
+  {
+    "idCiiu": "2817",
+    "descripcion": "Fabricación de maquinaria y equipo de oficina (excepto computadoras y equipo periférico)"
+  },
+  {
+    "idCiiu": "2818",
+    "descripcion": "Fabricación de herramientas manuales con motor"
+  },
+  {
+    "idCiiu": "2819",
+    "descripcion": "Fabricación de otros tipos de maquinaria y equipo de uso general n.c.p."
+  },
+  {
+    "idCiiu": "2821",
+    "descripcion": "Fabricación de maquinaria agropecuaria y forestal"
+  },
+  {
+    "idCiiu": "2822",
+    "descripcion": "Fabricación de máquinas formadoras de metal y de máquinas herramienta"
+  },
+  {
+    "idCiiu": "2823",
+    "descripcion": "Fabricación de maquinaria para la metalurgia"
+  },
+  {
+    "idCiiu": "2824",
+    "descripcion": "Fabricación de maquinaria para explotación de minas y canteras y para obras de construcción"
+  },
+  {
+    "idCiiu": "2825",
+    "descripcion": "Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco"
+  },
+  {
+    "idCiiu": "2826",
+    "descripcion": "Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros"
+  },
+  {
+    "idCiiu": "2829",
+    "descripcion": "Fabricación de otros tipos de maquinaria y equipo de uso especial n.c.p."
+  },
+  {
+    "idCiiu": "2910",
+    "descripcion": "Fabricación de vehículos automotores y sus motores"
+  },
+  {
+    "idCiiu": "2920",
+    "descripcion": "Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques"
+  },
+  {
+    "idCiiu": "2930",
+    "descripcion": "Fabricación de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores"
+  },
+  {
+    "idCiiu": "3011",
+    "descripcion": "Construcción de barcos y de estructuras flotantes"
+  },
+  {
+    "idCiiu": "3012",
+    "descripcion": "Construcción de embarcaciones de recreo y deporte"
+  },
+  {
+    "idCiiu": "3020",
+    "descripcion": "Fabricación de locomotoras y de material rodante para ferrocarriles"
+  },
+  {
+    "idCiiu": "3030",
+    "descripcion": "Fabricación de aeronaves, naves espaciales y de maquinaria conexa"
+  },
+  {
+    "idCiiu": "3040",
+    "descripcion": "Fabricación de vehículos militares de combate"
+  },
+  {
+    "idCiiu": "3091",
+    "descripcion": "Fabricación de motocicletas"
+  },
+  {
+    "idCiiu": "3092",
+    "descripcion": "Fabricación de bicicletas y de sillas de ruedas para personas con discapacidad"
+  },
+  {
+    "idCiiu": "3099",
+    "descripcion": "Fabricación de otros tipos de equipo de transporte n.c.p."
+  },
+  {
+    "idCiiu": "3110",
+    "descripcion": "Fabricación de muebles"
+  },
+  {
+    "idCiiu": "3120",
+    "descripcion": "Fabricación de colchones y somieres"
+  },
+  {
+    "idCiiu": "3210",
+    "descripcion": "Fabricación de joyas, bisutería y artículos conexos"
+  },
+  {
+    "idCiiu": "3220",
+    "descripcion": "Fabricación de instrumentos musicales"
+  },
+  {
+    "idCiiu": "3230",
+    "descripcion": "Fabricación de artículos y equipo para la práctica del deporte"
+  },
+  {
+    "idCiiu": "3240",
+    "descripcion": "Fabricación de juegos, juguetes y rompecabezas"
+  },
+  {
+    "idCiiu": "3250",
+    "descripcion": "Fabricación de instrumentos, aparatos y materiales médicos y odontológicos (incluido mobiliario)"
+  },
+  {
+    "idCiiu": "3290",
+    "descripcion": "Otras industrias manufactureras n.c.p."
+  },
+  {
+    "idCiiu": "3311",
+    "descripcion": "Mantenimiento y reparación especializado de productos elaborados en metal"
+  },
+  {
+    "idCiiu": "3312",
+    "descripcion": "Mantenimiento y reparación especializado de maquinaria y equipo"
+  },
+  {
+    "idCiiu": "3313",
+    "descripcion": "Mantenimiento y reparación especializado de equipo electrónico y óptico"
+  },
+  {
+    "idCiiu": "3314",
+    "descripcion": "Mantenimiento y reparación especializado de equipo eléctrico"
+  },
+  {
+    "idCiiu": "3315",
+    "descripcion": "Mantenimiento y reparación especializado de equipo de transporte, excepto los vehículos automotores, motocicletas y bicicletas"
+  },
+  {
+    "idCiiu": "3319",
+    "descripcion": "Mantenimiento y reparación de otros tipos de equipos y sus componentes n.c.p."
+  },
+  {
+    "idCiiu": "3320",
+    "descripcion": "Instalación especializada de maquinaria y equipo industrial"
+  },
+  {
+    "idCiiu": "3511",
+    "descripcion": "Generación de energía eléctrica"
+  },
+  {
+    "idCiiu": "3512",
+    "descripcion": "Transmisión de energía eléctrica"
+  },
+  {
+    "idCiiu": "3513",
+    "descripcion": "Distribución de energía eléctrica"
+  },
+  {
+    "idCiiu": "3514",
+    "descripcion": "Comercialización de energía eléctrica"
+  },
+  {
+    "idCiiu": "3520",
+    "descripcion": "Producción de gas; distribución de combustibles gaseosos por tuberías"
+  },
+  {
+    "idCiiu": "3530",
+    "descripcion": "Suministro de vapor y aire acondicionado"
+  },
+  {
+    "idCiiu": "3600",
+    "descripcion": "Captación, tratamiento y distribución de agua"
+  },
+  {
+    "idCiiu": "3700",
+    "descripcion": "Evacuación y tratamiento de aguas residuales"
+  },
+  {
+    "idCiiu": "3811",
+    "descripcion": "Recolección de desechos no peligrosos"
+  },
+  {
+    "idCiiu": "3812",
+    "descripcion": "Recolección de desechos peligrosos"
+  },
+  {
+    "idCiiu": "3821",
+    "descripcion": "Tratamiento y disposición de desechos no peligrosos"
+  },
+  {
+    "idCiiu": "3822",
+    "descripcion": "Tratamiento y disposición de desechos peligrosos"
+  },
+  {
+    "idCiiu": "3830",
+    "descripcion": "Recuperación de materiales"
+  },
+  {
+    "idCiiu": "3900",
+    "descripcion": "Actividades de saneamiento ambiental y otros servicios de gestión de desechos"
+  },
+  {
+    "idCiiu": "4111",
+    "descripcion": "Construcción de edificios residenciales"
+  },
+  {
+    "idCiiu": "4112",
+    "descripcion": "Construcción de edificios no residenciales"
+  },
+  {
+    "idCiiu": "4210",
+    "descripcion": "Construcción de carreteras y vías de ferrocarril"
+  },
+  {
+    "idCiiu": "4220",
+    "descripcion": "Construcción de proyectos de servicio público"
+  },
+  {
+    "idCiiu": "4290",
+    "descripcion": "Construcción de otras obras de ingeniería civil"
+  },
+  {
+    "idCiiu": "4311",
+    "descripcion": "Demolición"
+  },
+  {
+    "idCiiu": "4312",
+    "descripcion": "Preparación del terreno"
+  },
+  {
+    "idCiiu": "4321",
+    "descripcion": "Instalaciones eléctricas"
+  },
+  {
+    "idCiiu": "4322",
+    "descripcion": "Instalaciones de fontanería, calefacción y aire acondicionado"
+  },
+  {
+    "idCiiu": "4329",
+    "descripcion": "Otras instalaciones especializadas"
+  },
+  {
+    "idCiiu": "4330",
+    "descripcion": "Terminación y acabado de edificios y obras de ingeniería civil"
+  },
+  {
+    "idCiiu": "4390",
+    "descripcion": "Otras actividades especializadas para la construcción de edificios y obras de ingeniería civil"
+  },
+  {
+    "idCiiu": "4511",
+    "descripcion": "Comercio de vehículos automotores nuevos"
+  },
+  {
+    "idCiiu": "4512",
+    "descripcion": "Comercio de vehículos automotores usados"
+  },
+  {
+    "idCiiu": "4520",
+    "descripcion": "Mantenimiento y reparación de vehículos automotores"
+  },
+  {
+    "idCiiu": "4530",
+    "descripcion": "Comercio de partes, piezas (autopartes) y accesorios (lujos) para vehículos automotores"
+  },
+  {
+    "idCiiu": "4541",
+    "descripcion": "Comercio de motocicletas y de sus partes, piezas y accesorios"
+  },
+  {
+    "idCiiu": "4542",
+    "descripcion": "Mantenimiento y reparación de motocicletas y de sus partes y piezas"
+  },
+  {
+    "idCiiu": "4610",
+    "descripcion": "Comercio al por mayor a cambio de una retribución o por contrata"
+  },
+  {
+    "idCiiu": "4620",
+    "descripcion": "Comercio al por mayor de materias primas agropecuarias; animales vivos"
+  },
+  {
+    "idCiiu": "4631",
+    "descripcion": "Comercio al por mayor de productos alimenticios"
+  },
+  {
+    "idCiiu": "4632",
+    "descripcion": "Comercio al por mayor de bebidas y tabaco"
+  },
+  {
+    "idCiiu": "4641",
+    "descripcion": "Comercio al por mayor de productos textiles, productos confeccionados para uso doméstico"
+  },
+  {
+    "idCiiu": "4642",
+    "descripcion": "Comercio al por mayor de prendas de vestir"
+  },
+  {
+    "idCiiu": "4643",
+    "descripcion": "Comercio al por mayor de calzado"
+  },
+  {
+    "idCiiu": "4644",
+    "descripcion": "Comercio al por mayor de aparatos y equipo de uso doméstico"
+  },
+  {
+    "idCiiu": "4645",
+    "descripcion": "Comercio al por mayor de productos farmacéuticos, medicinales, cosméticos y de tocador"
+  },
+  {
+    "idCiiu": "4649",
+    "descripcion": "Comercio al por mayor de otros utensilios domésticos n.c.p."
+  },
+  {
+    "idCiiu": "4651",
+    "descripcion": "Comercio al por mayor de computadores, equipo periférico y programas de informática"
+  },
+  {
+    "idCiiu": "4652",
+    "descripcion": "Comercio al por mayor de equipo, partes y piezas electrónicos y de telecomunicaciones"
+  },
+  {
+    "idCiiu": "4653",
+    "descripcion": "Comercio al por mayor de maquinaria y equipo agropecuarios"
+  },
+  {
+    "idCiiu": "4659",
+    "descripcion": "Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p."
+  },
+  {
+    "idCiiu": "4661",
+    "descripcion": "Comercio al por mayor de combustibles sólidos, líquidos, gaseosos y productos conexos"
+  },
+  {
+    "idCiiu": "4662",
+    "descripcion": "Comercio al por mayor de metales y productos metalíferos"
+  },
+  {
+    "idCiiu": "4663",
+    "descripcion": "Comercio al por mayor de materiales de construcción, artículos de ferretería, pinturas, productos de vidrio, equipo y materiales de fontanería y calefacción"
+  },
+  {
+    "idCiiu": "4664",
+    "descripcion": "Comercio al por mayor de productos químicos básicos, cauchos y plásticos en formas primarias y productos químicos de uso agropecuario"
+  },
+  {
+    "idCiiu": "4665",
+    "descripcion": "Comercio al por mayor de desperdicios, desechos y chatarra"
+  },
+  {
+    "idCiiu": "4669",
+    "descripcion": "Comercio al por mayor de otros productos n.c.p."
+  },
+  {
+    "idCiiu": "4690",
+    "descripcion": "Comercio al por mayor no especializado"
+  },
+  {
+    "idCiiu": "4711",
+    "descripcion": "Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco"
+  },
+  {
+    "idCiiu": "4719",
+    "descripcion": "Comercio al por menor en establecimientos no especializados, con surtido compuesto principalmente por productos diferentes de alimentos (víveres en general), bebidas y tabaco"
+  },
+  {
+    "idCiiu": "4721",
+    "descripcion": "Comercio al por menor de productos agrícolas para el consumo en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4722",
+    "descripcion": "Comercio al por menor de leche, productos lácteos y huevos, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4723",
+    "descripcion": "Comercio al por menor de carnes (incluye aves de corral), productos cárnicos, pescados y productos de mar, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4724",
+    "descripcion": "Comercio al por menor de bebidas y productos del tabaco, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4729",
+    "descripcion": "Comercio al por menor de otros productos alimenticios n.c.p., en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4731",
+    "descripcion": "Comercio al por menor de combustible para automotores"
+  },
+  {
+    "idCiiu": "4732",
+    "descripcion": "Comercio al por menor de lubricantes (aceites, grasas), aditivos y productos de limpieza para vehículos automotores"
+  },
+  {
+    "idCiiu": "4741",
+    "descripcion": "Comercio al por menor de computadores, equipos periféricos, programas de informática y equipos de telecomunicaciones en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4742",
+    "descripcion": "Comercio al por menor de equipos y aparatos de sonido y de video, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4751",
+    "descripcion": "Comercio al por menor de productos textiles en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4752",
+    "descripcion": "Comercio al por menor de artículos de ferretería, pinturas y productos de vidrio en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4753",
+    "descripcion": "Comercio al por menor de tapices, alfombras y cubrimientos para paredes y pisos en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4754",
+    "descripcion": "Comercio al por menor de electrodomésticos y gasodomésticos de uso doméstico, muebles y equipos de iluminación"
+  },
+  {
+    "idCiiu": "4755",
+    "descripcion": "Comercio al por menor de artículos y utensilios de uso doméstico"
+  },
+  {
+    "idCiiu": "4759",
+    "descripcion": "Comercio al por menor de otros artículos domésticos en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4761",
+    "descripcion": "Comercio al por menor de libros, periódicos, materiales y artículos de papelería y escritorio, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4762",
+    "descripcion": "Comercio al por menor de artículos deportivos, en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4769",
+    "descripcion": "Comercio al por menor de otros artículos culturales y de entretenimiento n.c.p. en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4771",
+    "descripcion": "Comercio al por menor de prendas de vestir y sus accesorios (incluye artículos de piel) en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4772",
+    "descripcion": "Comercio al por menor de todo tipo de calzado y artículos de cuero y sucedáneos del cuero en establecimientos especializados."
+  },
+  {
+    "idCiiu": "4773",
+    "descripcion": "Comercio al por menor de productos farmacéuticos y medicinales, cosméticos y artículos de tocador en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4774",
+    "descripcion": "Comercio al por menor de otros productos nuevos en establecimientos especializados"
+  },
+  {
+    "idCiiu": "4775",
+    "descripcion": "Comercio al por menor de artículos de segunda mano"
+  },
+  {
+    "idCiiu": "4781",
+    "descripcion": "Comercio al por menor de alimentos, bebidas y tabaco, en puestos de venta móviles"
+  },
+  {
+    "idCiiu": "4782",
+    "descripcion": "Comercio al por menor de productos textiles, prendas de vestir y calzado, en puestos de venta móviles"
+  },
+  {
+    "idCiiu": "4789",
+    "descripcion": "Comercio al por menor de otros productos en puestos de venta móviles"
+  },
+  {
+    "idCiiu": "4791",
+    "descripcion": "Comercio al por menor realizado a través de Internet"
+  },
+  {
+    "idCiiu": "4792",
+    "descripcion": "Comercio al por menor realizado a través de casas de venta o por correo"
+  },
+  {
+    "idCiiu": "4799",
+    "descripcion": "Otros tipos de comercio al por menor no realizado en establecimientos, puestos de venta o mercados."
+  },
+  {
+    "idCiiu": "4911",
+    "descripcion": "Transporte férreo de pasajeros"
+  },
+  {
+    "idCiiu": "4912",
+    "descripcion": "Transporte férreo de carga"
+  },
+  {
+    "idCiiu": "4921",
+    "descripcion": "Transporte de pasajeros"
+  },
+  {
+    "idCiiu": "4922",
+    "descripcion": "Transporte mixto"
+  },
+  {
+    "idCiiu": "4923",
+    "descripcion": "Transporte de carga por carretera"
+  },
+  {
+    "idCiiu": "4930",
+    "descripcion": "Transporte por tuberías"
+  },
+  {
+    "idCiiu": "5011",
+    "descripcion": "Transporte de pasajeros marítimo y de cabotaje"
+  },
+  {
+    "idCiiu": "5012",
+    "descripcion": "Transporte de carga marítimo y de cabotaje"
+  },
+  {
+    "idCiiu": "5021",
+    "descripcion": "Transporte fluvial de pasajeros"
+  },
+  {
+    "idCiiu": "5022",
+    "descripcion": "Transporte fluvial de carga"
+  },
+  {
+    "idCiiu": "5111",
+    "descripcion": "Transporte aéreo nacional de pasajeros"
+  },
+  {
+    "idCiiu": "5112",
+    "descripcion": "Transporte aéreo internacional de pasajeros"
+  },
+  {
+    "idCiiu": "5121",
+    "descripcion": "Transporte aéreo nacional de carga"
+  },
+  {
+    "idCiiu": "5122",
+    "descripcion": "Transporte aéreo internacional de carga"
+  },
+  {
+    "idCiiu": "5210",
+    "descripcion": "Almacenamiento y depósito"
+  },
+  {
+    "idCiiu": "5221",
+    "descripcion": "Actividades de estaciones, vías y servicios complementarios para el transporte terrestre"
+  },
+  {
+    "idCiiu": "5222",
+    "descripcion": "Actividades de puertos y servicios complementarios para el transporte acuático"
+  },
+  {
+    "idCiiu": "5223",
+    "descripcion": "Actividades de aeropuertos, servicios de navegación aérea y demás actividades conexas al transporte aéreo"
+  },
+  {
+    "idCiiu": "5224",
+    "descripcion": "Manipulación de carga"
+  },
+  {
+    "idCiiu": "5229",
+    "descripcion": "Otras actividades complementarias al transporte"
+  },
+  {
+    "idCiiu": "5310",
+    "descripcion": "Actividades postales nacionales"
+  },
+  {
+    "idCiiu": "5320",
+    "descripcion": "Actividades de mensajería"
+  },
+  {
+    "idCiiu": "5511",
+    "descripcion": "Alojamiento en hoteles"
+  },
+  {
+    "idCiiu": "5512",
+    "descripcion": "Alojamiento en apartahoteles"
+  },
+  {
+    "idCiiu": "5513",
+    "descripcion": "Alojamiento en centros vacacionales"
+  },
+  {
+    "idCiiu": "5514",
+    "descripcion": "Alojamiento rural"
+  },
+  {
+    "idCiiu": "5519",
+    "descripcion": "Otros tipos de alojamientos para visitantes"
+  },
+  {
+    "idCiiu": "5520",
+    "descripcion": "Actividades de zonas de camping y parques para vehículos recreacionales"
+  },
+  {
+    "idCiiu": "5530",
+    "descripcion": "Servicio por horas"
+  },
+  {
+    "idCiiu": "5590",
+    "descripcion": "Otros tipos de alojamiento n.c.p."
+  },
+  {
+    "idCiiu": "5611",
+    "descripcion": "Expendio a la mesa de comidas preparadas"
+  },
+  {
+    "idCiiu": "5612",
+    "descripcion": "Expendio por autoservicio de comidas preparadas"
+  },
+  {
+    "idCiiu": "5613",
+    "descripcion": "Expendio de comidas preparadas en cafeterías"
+  },
+  {
+    "idCiiu": "5619",
+    "descripcion": "Otros tipos de expendio de comidas preparadas n.c.p."
+  },
+  {
+    "idCiiu": "5621",
+    "descripcion": "Catering para eventos"
+  },
+  {
+    "idCiiu": "5629",
+    "descripcion": "Actividades de otros servicios de comidas"
+  },
+  {
+    "idCiiu": "5630",
+    "descripcion": "Expendio de bebidas alcohólicas para el consumo dentro del establecimiento"
+  },
+  {
+    "idCiiu": "5811",
+    "descripcion": "Edición de libros"
+  },
+  {
+    "idCiiu": "5812",
+    "descripcion": "Edición de directorios y listas de correo"
+  },
+  {
+    "idCiiu": "5813",
+    "descripcion": "Edición de periódicos, revistas y otras publicaciones periódicas"
+  },
+  {
+    "idCiiu": "5819",
+    "descripcion": "Otros trabajos de edición"
+  },
+  {
+    "idCiiu": "5820",
+    "descripcion": "Edición de programas de informática (software)"
+  },
+  {
+    "idCiiu": "5911",
+    "descripcion": "Actividades de producción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+  },
+  {
+    "idCiiu": "5912",
+    "descripcion": "Actividades de posproducción de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+  },
+  {
+    "idCiiu": "5913",
+    "descripcion": "Actividades de distribución de películas cinematográficas, videos, programas, anuncios y comerciales de televisión"
+  },
+  {
+    "idCiiu": "5914",
+    "descripcion": "Actividades de exhibición de películas cinematográficas y videos"
+  },
+  {
+    "idCiiu": "5920",
+    "descripcion": "Actividades de grabación de sonido y edición de música"
+  },
+  {
+    "idCiiu": "6010",
+    "descripcion": "Actividades de programación y transmisión en el servicio de radiodifusión sonora"
+  },
+  {
+    "idCiiu": "6020",
+    "descripcion": "Actividades de programación y transmisión de televisión"
+  },
+  {
+    "idCiiu": "6110",
+    "descripcion": "Actividades de telecomunicaciones alámbricas"
+  },
+  {
+    "idCiiu": "6120",
+    "descripcion": "Actividades de telecomunicaciones inalámbricas"
+  },
+  {
+    "idCiiu": "6130",
+    "descripcion": "Actividades de telecomunicación satelital"
+  },
+  {
+    "idCiiu": "6190",
+    "descripcion": "Otras actividades de telecomunicaciones"
+  },
+  {
+    "idCiiu": "6201",
+    "descripcion": "Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas)"
+  },
+  {
+    "idCiiu": "6202",
+    "descripcion": "Actividades de consultoría informática y actividades de administración de instalaciones informáticas"
+  },
+  {
+    "idCiiu": "6209",
+    "descripcion": "Otras actividades de tecnologías de información y actividades de servicios informáticos"
+  },
+  {
+    "idCiiu": "6311",
+    "descripcion": "Procesamiento de datos, alojamiento (hosting) y actividades relacionadas"
+  },
+  {
+    "idCiiu": "6312",
+    "descripcion": "Portales web"
+  },
+  {
+    "idCiiu": "6391",
+    "descripcion": "Actividades de agencias de noticias"
+  },
+  {
+    "idCiiu": "6399",
+    "descripcion": "Otras actividades de servicio de información n.c.p."
+  },
+  {
+    "idCiiu": "6411",
+    "descripcion": "Banco Central"
+  },
+  {
+    "idCiiu": "6412",
+    "descripcion": "Bancos comerciales"
+  },
+  {
+    "idCiiu": "6421",
+    "descripcion": "Actividades de las corporaciones financieras"
+  },
+  {
+    "idCiiu": "6422",
+    "descripcion": "Actividades de las compañías de financiamiento"
+  },
+  {
+    "idCiiu": "6423",
+    "descripcion": "Banca de segundo piso"
+  },
+  {
+    "idCiiu": "6424",
+    "descripcion": "Actividades de las cooperativas financieras"
+  },
+  {
+    "idCiiu": "6431",
+    "descripcion": "Fideicomisos, fondos y entidades financieras similares"
+  },
+  {
+    "idCiiu": "6432",
+    "descripcion": "Fondos de cesantías"
+  },
+  {
+    "idCiiu": "6491",
+    "descripcion": "Leasing financiero (arrendamiento financiero)"
+  },
+  {
+    "idCiiu": "6492",
+    "descripcion": "Actividades financieras de fondos de empleados y otras formas asociativas del sector solidario"
+  },
+  {
+    "idCiiu": "6493",
+    "descripcion": "Actividades de compra de cartera o factoring"
+  },
+  {
+    "idCiiu": "6494",
+    "descripcion": "Otras actividades de distribución de fondos"
+  },
+  {
+    "idCiiu": "6495",
+    "descripcion": "Instituciones especiales oficiales"
+  },
+  {
+    "idCiiu": "6499",
+    "descripcion": "Otras actividades de servicio financiero, excepto las de seguros y pensiones n.c.p."
+  },
+  {
+    "idCiiu": "6511",
+    "descripcion": "Seguros generales"
+  },
+  {
+    "idCiiu": "6512",
+    "descripcion": "Seguros de vida"
+  },
+  {
+    "idCiiu": "6513",
+    "descripcion": "Reaseguros"
+  },
+  {
+    "idCiiu": "6514",
+    "descripcion": "Capitalización"
+  },
+  {
+    "idCiiu": "6521",
+    "descripcion": "Servicios de seguros sociales de salud"
+  },
+  {
+    "idCiiu": "6522",
+    "descripcion": "Servicios de seguros sociales de riesgos profesionales"
+  },
+  {
+    "idCiiu": "6531",
+    "descripcion": "Régimen de prima media con prestación definida (RPM)"
+  },
+  {
+    "idCiiu": "6532",
+    "descripcion": "Régimen de ahorro individual (RAI)"
+  },
+  {
+    "idCiiu": "6611",
+    "descripcion": "Administración de mercados financieros"
+  },
+  {
+    "idCiiu": "6612",
+    "descripcion": "Corretaje de valores y de contratos de productos básicos"
+  },
+  {
+    "idCiiu": "6613",
+    "descripcion": "Otras actividades relacionadas con el mercado de valores"
+  },
+  {
+    "idCiiu": "6614",
+    "descripcion": "Actividades de las casas de cambio"
+  },
+  {
+    "idCiiu": "6615",
+    "descripcion": "Actividades de los profesionales de compra y venta de divisas"
+  },
+  {
+    "idCiiu": "6619",
+    "descripcion": "Otras actividades auxiliares de las actividades de servicios financieros n.c.p."
+  },
+  {
+    "idCiiu": "6621",
+    "descripcion": "Actividades de agentes y corredores de seguros"
+  },
+  {
+    "idCiiu": "6629",
+    "descripcion": "Evaluación de riesgos y daños, y otras actividades de servicios auxiliares"
+  },
+  {
+    "idCiiu": "6630",
+    "descripcion": "Actividades de administración de fondos"
+  },
+  {
+    "idCiiu": "6810",
+    "descripcion": "Actividades inmobiliarias realizadas con bienes propios o arrendados"
+  },
+  {
+    "idCiiu": "6820",
+    "descripcion": "Actividades inmobiliarias realizadas a cambio de una retribución o por contrata"
+  },
+  {
+    "idCiiu": "6910",
+    "descripcion": "Actividades jurídicas"
+  },
+  {
+    "idCiiu": "6920",
+    "descripcion": "Actividades de contabilidad, teneduría de libros, auditoría financiera y asesoría tributaria"
+  },
+  {
+    "idCiiu": "7010",
+    "descripcion": "Actividades de administración empresarial"
+  },
+  {
+    "idCiiu": "7020",
+    "descripcion": "Actividades de consultaría de gestión"
+  },
+  {
+    "idCiiu": "7110",
+    "descripcion": "Actividades de arquitectura e ingeniería y otras actividades conexas de consultoría técnica"
+  },
+  {
+    "idCiiu": "7120",
+    "descripcion": "Ensayos y análisis técnicos"
+  },
+  {
+    "idCiiu": "7210",
+    "descripcion": "Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería"
+  },
+  {
+    "idCiiu": "7220",
+    "descripcion": "Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades"
+  },
+  {
+    "idCiiu": "7310",
+    "descripcion": "Publicidad"
+  },
+  {
+    "idCiiu": "7320",
+    "descripcion": "Estudios de mercado y realización de encuestas de opinión pública"
+  },
+  {
+    "idCiiu": "7410",
+    "descripcion": "Actividades especializadas de diseño"
+  },
+  {
+    "idCiiu": "7420",
+    "descripcion": "Actividades de fotografía"
+  },
+  {
+    "idCiiu": "7490",
+    "descripcion": "Otras actividades profesionales, científicas y técnicas n.c.p."
+  },
+  {
+    "idCiiu": "7500",
+    "descripcion": "Actividades veterinarias"
+  },
+  {
+    "idCiiu": "7710",
+    "descripcion": "Alquiler y arrendamiento de vehículos automotores"
+  },
+  {
+    "idCiiu": "7721",
+    "descripcion": "Alquiler y arrendamiento de equipo recreativo y deportivo"
+  },
+  {
+    "idCiiu": "7722",
+    "descripcion": "Alquiler de videos y discos"
+  },
+  {
+    "idCiiu": "7729",
+    "descripcion": "Alquiler y arrendamiento de otros efectos personales y enseres domésticos n.c.p."
+  },
+  {
+    "idCiiu": "7730",
+    "descripcion": "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p."
+  },
+  {
+    "idCiiu": "7740",
+    "descripcion": "Arrendamiento de propiedad intelectual y productos similares, excepto obras protegidas por derechos de autor"
+  },
+  {
+    "idCiiu": "7810",
+    "descripcion": "Actividades de agencias de empleo"
+  },
+  {
+    "idCiiu": "7820",
+    "descripcion": "Actividades de agencias de empleo temporal"
+  },
+  {
+    "idCiiu": "7830",
+    "descripcion": "Otras actividades de suministro de recurso humano"
+  },
+  {
+    "idCiiu": "7911",
+    "descripcion": "Actividades de las agencias de viaje"
+  },
+  {
+    "idCiiu": "7912",
+    "descripcion": "Actividades de operadores turísticos"
+  },
+  {
+    "idCiiu": "7990",
+    "descripcion": "Otros servicios de reserva y actividades relacionadas"
+  },
+  {
+    "idCiiu": "8010",
+    "descripcion": "Actividades de seguridad privada"
+  },
+  {
+    "idCiiu": "8020",
+    "descripcion": "Actividades de servicios de sistemas de seguridad"
+  },
+  {
+    "idCiiu": "8030",
+    "descripcion": "Actividades de detectives e investigadores privados"
+  },
+  {
+    "idCiiu": "8110",
+    "descripcion": "Actividades combinadas de apoyo a instalaciones"
+  },
+  {
+    "idCiiu": "8121",
+    "descripcion": "Limpieza general interior de edificios"
+  },
+  {
+    "idCiiu": "8129",
+    "descripcion": "Otras actividades de limpieza de edificios e instalaciones industriales"
+  },
+  {
+    "idCiiu": "8130",
+    "descripcion": "Actividades de paisajismo y servicios de mantenimiento conexos"
+  },
+  {
+    "idCiiu": "8211",
+    "descripcion": "Actividades combinadas de servicios administrativos de oficina"
+  },
+  {
+    "idCiiu": "8219",
+    "descripcion": "Fotocopiado, preparación de documentos y otras actividades especializadas de apoyo a oficina"
+  },
+  {
+    "idCiiu": "8220",
+    "descripcion": "Actividades de centros de llamadas (Call center)"
+  },
+  {
+    "idCiiu": "8230",
+    "descripcion": "Organización de convenciones y eventos comerciales"
+  },
+  {
+    "idCiiu": "8291",
+    "descripcion": "Actividades de agencias de cobranza y oficinas de calificación crediticia"
+  },
+  {
+    "idCiiu": "8292",
+    "descripcion": "Actividades de envase y empaque"
+  },
+  {
+    "idCiiu": "8299",
+    "descripcion": "Otras actividades de servicio de apoyo a las empresas n.c.p."
+  },
+  {
+    "idCiiu": "8411",
+    "descripcion": "Actividades legislativas de la administración pública"
+  },
+  {
+    "idCiiu": "8412",
+    "descripcion": "Actividades ejecutivas de la administración pública"
+  },
+  {
+    "idCiiu": "8413",
+    "descripcion": "Regulación de las actividades de organismos que prestan servicios de salud, educativos, culturales y otros servicios sociales, excepto servicios de seguridad social"
+  },
+  {
+    "idCiiu": "8414",
+    "descripcion": "Actividades reguladoras y facilitadoras de la actividad económica"
+  },
+  {
+    "idCiiu": "8415",
+    "descripcion": "Actividades de los otros órganos de control"
+  },
+  {
+    "idCiiu": "8421",
+    "descripcion": "Relaciones exteriores"
+  },
+  {
+    "idCiiu": "8422",
+    "descripcion": "Actividades de defensa"
+  },
+  {
+    "idCiiu": "8423",
+    "descripcion": "Orden público y actividades de seguridad"
+  },
+  {
+    "idCiiu": "8424",
+    "descripcion": "Administración de justicia"
+  },
+  {
+    "idCiiu": "8430",
+    "descripcion": "Actividades de planes de seguridad social de afiliación obligatoria"
+  },
+  {
+    "idCiiu": "8511",
+    "descripcion": "Educación de la primera infancia"
+  },
+  {
+    "idCiiu": "8512",
+    "descripcion": "Educación preescolar"
+  },
+  {
+    "idCiiu": "8513",
+    "descripcion": "Educación básica primaria"
+  },
+  {
+    "idCiiu": "8521",
+    "descripcion": "Educación básica secundaria"
+  },
+  {
+    "idCiiu": "8522",
+    "descripcion": "Educación media académica"
+  },
+  {
+    "idCiiu": "8523",
+    "descripcion": "Educación media técnica y de formación laboral"
+  },
+  {
+    "idCiiu": "8530",
+    "descripcion": "Establecimientos que combinan diferentes niveles de educación"
+  },
+  {
+    "idCiiu": "8541",
+    "descripcion": "Educación técnica profesional"
+  },
+  {
+    "idCiiu": "8542",
+    "descripcion": "Educación tecnológica"
+  },
+  {
+    "idCiiu": "8543",
+    "descripcion": "Educación de instituciones universitarias o de escuelas tecnológicas"
+  },
+  {
+    "idCiiu": "8544",
+    "descripcion": "Educación de universidades"
+  },
+  {
+    "idCiiu": "8551",
+    "descripcion": "Formación académica no formal"
+  },
+  {
+    "idCiiu": "8552",
+    "descripcion": "Enseñanza deportiva y recreativa"
+  },
+  {
+    "idCiiu": "8553",
+    "descripcion": "Enseñanza cultural"
+  },
+  {
+    "idCiiu": "8559",
+    "descripcion": "Otros tipos de educación n.c.p."
+  },
+  {
+    "idCiiu": "8560",
+    "descripcion": "Actividades de apoyo a la educación"
+  },
+  {
+    "idCiiu": "8610",
+    "descripcion": "Actividades de hospitales y clínicas, con internación"
+  },
+  {
+    "idCiiu": "8621",
+    "descripcion": "Actividades de la práctica médica, sin internación"
+  },
+  {
+    "idCiiu": "8622",
+    "descripcion": "Actividades de la práctica odontológica"
+  },
+  {
+    "idCiiu": "8691",
+    "descripcion": "Actividades de apoyo diagnóstico"
+  },
+  {
+    "idCiiu": "8692",
+    "descripcion": "Actividades de apoyo terapéutico"
+  },
+  {
+    "idCiiu": "8699",
+    "descripcion": "Otras actividades de atención de la salud humana"
+  },
+  {
+    "idCiiu": "8710",
+    "descripcion": "Actividades de atención residencial medicalizada de tipo general"
+  },
+  {
+    "idCiiu": "8720",
+    "descripcion": "Actividades de atención residencial, para el cuidado de pacientes con retardo mental, enfermedad mental y consumo de sustancias psicoactivas"
+  },
+  {
+    "idCiiu": "8730",
+    "descripcion": "Actividades de atención en instituciones para el cuidado de personas mayores y/o discapacitadas"
+  },
+  {
+    "idCiiu": "8790",
+    "descripcion": "Otras actividades de atención en instituciones con alojamiento"
+  },
+  {
+    "idCiiu": "8810",
+    "descripcion": "Actividades de asistencia social sin alojamiento para personas mayores y discapacitadas"
+  },
+  {
+    "idCiiu": "8890",
+    "descripcion": "Otras actividades de asistencia social sin alojamiento"
+  },
+  {
+    "idCiiu": "9001",
+    "descripcion": "Creación literaria"
+  },
+  {
+    "idCiiu": "9002",
+    "descripcion": "Creación musical"
+  },
+  {
+    "idCiiu": "9003",
+    "descripcion": "Creación teatral"
+  },
+  {
+    "idCiiu": "9004",
+    "descripcion": "Creación audiovisual"
+  },
+  {
+    "idCiiu": "9005",
+    "descripcion": "Artes plásticas y visuales"
+  },
+  {
+    "idCiiu": "9006",
+    "descripcion": "Actividades teatrales"
+  },
+  {
+    "idCiiu": "9007",
+    "descripcion": "Actividades de espectáculos musicales en vivo"
+  },
+  {
+    "idCiiu": "9008",
+    "descripcion": "Otras actividades de espectáculos en vivo"
+  },
+  {
+    "idCiiu": "9101",
+    "descripcion": "Actividades de bibliotecas y archivos"
+  },
+  {
+    "idCiiu": "9102",
+    "descripcion": "Actividades y funcionamiento de museos, conservación de edificios y sitios históricos"
+  },
+  {
+    "idCiiu": "9103",
+    "descripcion": "Actividades de jardines botánicos, zoológicos y reservas naturales"
+  },
+  {
+    "idCiiu": "9200",
+    "descripcion": "Actividades de juegos de azar y apuestas"
+  },
+  {
+    "idCiiu": "9311",
+    "descripcion": "Gestión de instalaciones deportivas"
+  },
+  {
+    "idCiiu": "9312",
+    "descripcion": "Actividades de clubes deportivos"
+  },
+  {
+    "idCiiu": "9319",
+    "descripcion": "Otras actividades deportivas"
+  },
+  {
+    "idCiiu": "9321",
+    "descripcion": "Actividades de parques de atracciones y parques temáticos"
+  },
+  {
+    "idCiiu": "9329",
+    "descripcion": "Otras actividades recreativas y de esparcimiento n.c.p."
+  },
+  {
+    "idCiiu": "9411",
+    "descripcion": "Actividades de asociaciones empresariales y de empleadores"
+  },
+  {
+    "idCiiu": "9412",
+    "descripcion": "Actividades de asociaciones profesionales"
+  },
+  {
+    "idCiiu": "9420",
+    "descripcion": "Actividades de sindicatos de empleados"
+  },
+  {
+    "idCiiu": "9491",
+    "descripcion": "Actividades de asociaciones religiosas"
+  },
+  {
+    "idCiiu": "9492",
+    "descripcion": "Actividades de asociaciones políticas"
+  },
+  {
+    "idCiiu": "9499",
+    "descripcion": "Actividades de otras asociaciones n.c.p."
+  },
+  {
+    "idCiiu": "9511",
+    "descripcion": "Mantenimiento y reparación de computadores y de equipo periférico"
+  },
+  {
+    "idCiiu": "9512",
+    "descripcion": "Mantenimiento y reparación de equipos de comunicación"
+  },
+  {
+    "idCiiu": "9521",
+    "descripcion": "Mantenimiento y reparación de aparatos electrónicos de consumo"
+  },
+  {
+    "idCiiu": "9522",
+    "descripcion": "Mantenimiento y reparación de aparatos y equipos domésticos y de jardinería"
+  },
+  {
+    "idCiiu": "9523",
+    "descripcion": "Reparación de calzado y artículos de cuero"
+  },
+  {
+    "idCiiu": "9524",
+    "descripcion": "Reparación de muebles y accesorios para el hogar"
+  },
+  {
+    "idCiiu": "9529",
+    "descripcion": "Mantenimiento y reparación de otros efectos personales y enseres domésticos"
+  },
+  {
+    "idCiiu": "9601",
+    "descripcion": "Lavado y limpieza, incluso la limpieza en seco, de productos textiles y de piel"
+  },
+  {
+    "idCiiu": "9602",
+    "descripcion": "Peluquería y otros tratamientos de belleza"
+  },
+  {
+    "idCiiu": "9603",
+    "descripcion": "Pompas fúnebres y actividades relacionadas"
+  },
+  {
+    "idCiiu": "9609",
+    "descripcion": "Otras actividades de servicios personales n.c.p."
+  },
+  {
+    "idCiiu": "9700",
+    "descripcion": "Actividades de los hogares individuales como empleadores de personal doméstico"
+  },
+  {
+    "idCiiu": "9810",
+    "descripcion": "Actividades no diferenciadas de los hogares individuales como productores de bienes para uso propio"
+  },
+  {
+    "idCiiu": "9820",
+    "descripcion": "Actividades no diferenciadas de los hogares individuales como productores de servicios para uso propio"
+  },
+  {
+    "idCiiu": "9900",
+    "descripcion": "Actividades de organizaciones y entidades extraterritoriales"
+  },
+  {
+    "idCiiu": "0010",
+    "descripcion": "Asalariados"
+  },
+  {
+    "idCiiu": "0081",
+    "descripcion": "Personas Naturales sin Actividad Económica"
+  },
+  {
+    "idCiiu": "0082",
+    "descripcion": "Personas Naturales Subsidiadas por Terceros"
+  },
+  {
+    "idCiiu": "0090",
+    "descripcion": "Rentistas de Capital, solo para personas naturales"
+  }
+]

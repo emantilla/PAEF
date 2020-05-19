@@ -1,0 +1,134 @@
+[
+  {
+    "idDepartamento": "05",
+    "nombreDepartamento": "Antioquia"
+  },
+  {
+    "idDepartamento": "41",
+    "nombreDepartamento": "Huila"
+  },
+  {
+    "idDepartamento": "99",
+    "nombreDepartamento": "Vichada"
+  },
+  {
+    "idDepartamento": "20",
+    "nombreDepartamento": "Cesar"
+  },
+  {
+    "idDepartamento": "70",
+    "nombreDepartamento": "Sucre"
+  },
+  {
+    "idDepartamento": "17",
+    "nombreDepartamento": "Caldas"
+  },
+  {
+    "idDepartamento": "15",
+    "nombreDepartamento": "Boyacá"
+  },
+  {
+    "idDepartamento": "44",
+    "nombreDepartamento": "La Guajira"
+  },
+  {
+    "idDepartamento": "47",
+    "nombreDepartamento": "Magdalena"
+  },
+  {
+    "idDepartamento": "19",
+    "nombreDepartamento": "Cauca"
+  },
+  {
+    "idDepartamento": "97",
+    "nombreDepartamento": "Vaupés"
+  },
+  {
+    "idDepartamento": "25",
+    "nombreDepartamento": "Cundinamarca"
+  },
+  {
+    "idDepartamento": "27",
+    "nombreDepartamento": "Chocó"
+  },
+  {
+    "idDepartamento": "18",
+    "nombreDepartamento": "Caquetá"
+  },
+  {
+    "idDepartamento": "13",
+    "nombreDepartamento": "Bolívar"
+  },
+  {
+    "idDepartamento": "23",
+    "nombreDepartamento": "Córdoba"
+  },
+  {
+    "idDepartamento": "95",
+    "nombreDepartamento": "Guaviare"
+  },
+  {
+    "idDepartamento": "08",
+    "nombreDepartamento": "Atlántico"
+  },
+  {
+    "idDepartamento": "94",
+    "nombreDepartamento": "Guainía"
+  },
+  {
+    "idDepartamento": "50",
+    "nombreDepartamento": "Meta"
+  },
+  {
+    "idDepartamento": "68",
+    "nombreDepartamento": "Santander"
+  },
+  {
+    "idDepartamento": "91",
+    "nombreDepartamento": "Amazonas"
+  },
+  {
+    "idDepartamento": "88",
+    "nombreDepartamento": "Archipiélago de San Andrés Providencia y Santa Catalina"
+  },
+  {
+    "idDepartamento": "86",
+    "nombreDepartamento": "Putumayo"
+  },
+  {
+    "idDepartamento": "85",
+    "nombreDepartamento": "Casanare"
+  },
+  {
+    "idDepartamento": "81",
+    "nombreDepartamento": "Arauca"
+  },
+  {
+    "idDepartamento": "11",
+    "nombreDepartamento": "Bogotá d C."
+  },
+  {
+    "idDepartamento": "76",
+    "nombreDepartamento": "Valle del Cauca"
+  },
+  {
+    "idDepartamento": "66",
+    "nombreDepartamento": "Risaralda"
+  },
+  {
+    "idDepartamento": "63",
+    "nombreDepartamento": "Quindio"
+  },
+  {
+    "idDepartamento": "54",
+    "nombreDepartamento": "Norte de Santander"
+  },
+  {
+    "idDepartamento": "73",
+    "nombreDepartamento": "Tolima"
+  },
+  {
+    "idDepartamento": "52",
+    "nombreDepartamento": "Nariño"
+  }
+]

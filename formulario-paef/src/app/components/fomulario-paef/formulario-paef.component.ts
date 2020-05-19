@@ -18,6 +18,7 @@ export class FormularioPaefComponent implements OnInit {
   endDatePlaceholder = '';
   hasErrorDates = false;
   url = environment.urlBack;
+  departametos: Array<any>;
 
   competitionView: {
     id: number, end_date: string, image: string, owner: string,
@@ -28,6 +29,7 @@ export class FormularioPaefComponent implements OnInit {
 
   ngOnInit() {
     this.initUserDetailsForm();
+    console.log(this.service.getDepartamentos());
   }
 
   private initUserDetailsForm() {
