@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "abcEvents": {
+    "PAEF": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/abcEvents",
+            "outputPath": "dist/PAEF",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "abcEvents:build"
+            "browserTarget": "PAEF:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "abcEvents:build:production"
+              "browserTarget": "PAEF:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "abcEvents:build"
+            "browserTarget": "PAEF:build"
           }
         },
         "test": {
@@ -111,15 +111,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "abcEvents:serve"
+            "devServerTarget": "PAEF:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "abcEvents:serve:production"
+              "devServerTarget": "PAEF:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "abcEvents"
+  "defaultProject": "PAEF"
 }

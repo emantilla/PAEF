@@ -79,10 +79,10 @@
                 <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                   <label class="radio-btn" for="personaJuridica">Persona Jurídica:</label>
                   <input type="radio" formControlName="tipoPersona"
-                    (keyup)="setValueField('tipoPersona', $event.target.value);" id="personaJuridica" name="tipoPersona"
+                    (click)="setValueField('tipoPersona', $event.target.value);" id="personaJuridica" name="tipoPersona"
                     value="personaJuridica">
                 </div>
-                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                <div *ngIf="showNit" class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                   <label for="NIT">NIT <span class="legales">(sin dígito de verificación):
                     </span></label>
                   <input type="text" id="NIT" formControlName="numeroEmpresa" name="NIT"
@@ -95,16 +95,16 @@
                     <label class="radio-btn" for="entidadSinLucro">Entidad sin ánimo de
                       lucro:</label>
                     <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
-                      value="entidadSinLucro" (keyup)="setValueField('tipoPersona', $event.target.value);">
+                      value="entidadSinLucro" (click)="setValueField('tipoPersona', $event.target.value);">
                   </div>
                   <div class="colForm-6 colForm-md-6 campo-form">
                     <label class="radio-btn" for="entidadSinLucro">Consorcio o Unión
                       Temporal</label>
-                    <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
-                      value="entidadSinLucro" (keyup)="setValueField('tipoPersona', $event.target.value);">
+                    <input type="radio" id="consorcio" formControlName="tipoPersona" name="tipoPersona"
+                      value="consorcio" (click)="setValueField('tipoPersona', $event.target.value);">
                   </div>
                 </div>
-                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                <div *ngIf="showRut" class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                   <label for="RUT">RUT <span class="legales">(sin dígito de verificación):
                     </span></label>
                   <input type="text" id="RUT" formControlName="numeroEmpresa" name="numeroEmpresa"
@@ -116,7 +116,7 @@
               <div class="colForm-3 colForm-sm-12 campo-form">
                 <label for="personaNatural">Persona Natural:</label>
                 <input type="radio" id="personaNatural" name="tipoPersona" formControlName="tipoPersona"
-                  value="personaNatural" (keyup)="setValueField('tipoPersona', $event.target.value);">
+                  value="personaNatural" (click)="setValueField('tipoPersona', $event.target.value);">
               </div>
               <div class="colForm-3 colForm-sm-12 campo-form">
                 <label for="personaJuridica">Tipo de Documento</label>
@@ -140,16 +140,17 @@
               <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
                 <label for="direccion">Dirección:</label>
                 <input type="text" formControlName="direccionEmpresa" id="direccion" name="direccion"
-                (keyup)="setValueField('direccion', $event.target.value);">
+                (keyup)="setValueField('direccionEmpresa', $event.target.value);">
               </div>
               <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
                 <label for="departamento">Departamento:</label>
-                <select id="departamento" formControlName="departamento" class="select-form">
-                  <option *ngFor="let dept of departamentos" value="dept.idDepartamento">{{dept.nombreDepartamento}}
+                <select id="departamento" formControlName="departamento" class="select-form"
+                (change)="setValueField('departamento', $event.target.value);">
+                  <option *ngFor="let dept of departamentos" value="{{dept.idDepartamento}},{{dept.nombreDepartamento}}">{{dept.nombreDepartamento}}
                   </option>
                 </select>
               </div>
-              <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
+              <div *ngIf="showCities" class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
                 <label for="ciudad">Ciudad:</label>
                 <select id="ciudad" formControlName="ciudad" class="select-form">
                   <option *ngFor="let ciudad of ciudades" value="ciudad.idCiudad">{{ciudad.nombreCiudad}}</option>
@@ -163,9 +164,9 @@
                 (keyup)="setValueField('telefonoFijo', $event.target.value);">
               </div>
               <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
-                <label for="telefonoMov">Teléfono Móvil:</label>
-                <input type="text" formControlName="celular" id="telefonoMov" name="telefonoMov"
-                (keyup)="setValueField('telefonoMov', $event.target.value);">
+                <label for="celular">Teléfono Móvil:</label>
+                <input type="text" formControlName="celular" id="celular" name="celular"
+                (keyup)="setValueField('celular', $event.target.value);">
               </div>
               <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
                 <label for="correoElectronico">Correo electrónico:</label>
@@ -194,12 +195,12 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                   <label class="radio-btn" for="beneficiarioSi">Si</label>
                   <input type="radio" formControlName="prFng" id="beneficiarioSi" name="prFng" value="1"
-                  (keyup)="setValueField('prFng', $event.target.value);">
+                  (click)="setValueField('prFng', $event.target.value);">
                 </div>
                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                   <label class="radio-btn" for="beneficiarioNo">No </label>
                   <input type="radio" formControlName="prFng" id="beneficiarioNo" name="prFng" value="0"
-                  (keyup)="setValueField('prFng', $event.target.value);">
+                  (click)="setValueField('prFng', $event.target.value);">
                 </div>
               </div>
             </div>
@@ -304,12 +305,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="1"
-                    (keyup)="setValueField('prDeposito', $event.target.value);">
+                    (click)="setValueField('prDeposito', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="0"
-                    (keyup)="setValueField('prDeposito', $event.target.value);">
+                    (click)="setValueField('prDeposito', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -321,12 +322,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
-                      value="1" (keyup)="setValueField('prConstitucion', $event.target.value);">
+                      value="1" (click)="setValueField('prConstitucion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
-                      value="0" (keyup)="setValueField('prConstitucion', $event.target.value);">
+                      value="0" (click)="setValueField('prConstitucion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -349,12 +350,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
-                      value="1" (keyup)="setValueField('prDisminucionAno', $event.target.value);">
+                      value="1" (click)="setValueField('prDisminucionAno', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
-                      value="0" (keyup)="setValueField('prDisminucionAno', $event.target.value);">
+                      value="0" (click)="setValueField('prDisminucionAno', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -368,12 +369,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
-                      value="1"  (keyup)="setValueField('prDisminucion', $event.target.value);">
+                      value="1"  (click)="setValueField('prDisminucion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
-                      value="0"  (keyup)="setValueField('prDisminucion', $event.target.value);">
+                      value="0"  (click)="setValueField('prDisminucion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -387,12 +388,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="1" (keyup)="setValueField('prParticipacion', $event.target.value);">
+                      value="1" (click)="setValueField('prParticipacion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="0" (keyup)="setValueField('prParticipacion', $event.target.value);">
+                      value="0" (click)="setValueField('prParticipacion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -404,12 +405,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prSolicitud" id="prSolicitud" name="prSolicitud"
-                      value="1" (keyup)="setValueField('prSolicitud', $event.target.value);">
+                      value="1" (click)="setValueField('prSolicitud', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prSolicitud" id="prSolicitud" name="prSolicitud"
-                      value="0" (keyup)="setValueField('prSolicitud', $event.target.value);">
+                      value="0" (click)="setValueField('prSolicitud', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -430,12 +431,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
-                      value="1" (keyup)="setValueField('prCumplimiento', $event.target.value);">
+                      value="1" (click)="setValueField('prCumplimiento', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
-                      value="0" (keyup)="setValueField('prCumplimiento', $event.target.value);">
+                      value="0" (click)="setValueField('prCumplimiento', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -470,12 +471,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="1"
-                    (keyup)="setValueField('prEmpleados', $event.target.value);">
+                    (click)="setValueField('prEmpleados', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="0"
-                    (keyup)="setValueField('prEmpleados', $event.target.value);">
+                    (click)="setValueField('prEmpleados', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -490,12 +491,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="1"
-                    (keyup)="setValueField('prPEP', $event.target.value);">
+                    (click)="setValueField('prPEP', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="0"
-                    (keyup)="setValueField('prPEP', $event.target.value);">
+                    (click)="setValueField('prPEP', $event.target.value);">
                   </div>
                 </div>
               </div>

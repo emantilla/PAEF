@@ -13,14 +13,19 @@ export class FormularioPaefComponent implements OnInit {
 
   createForm: FormGroup;
   activeBtn = false;
-  showDate = false;
+  showPersona = false;
+  showConsorcio = false;
   startDatePlaceholder = '';
   endDatePlaceholder = '';
   hasErrorDates = false;
   url = environment.urlBack;
+  captchaKey = environment.CaptchaKey;
   departamentos: Array<any>;
   ciudades: Array<any>;
   actividadesEconomica: Array<any>;
+  showRut = false;
+  showNit = false;
+  showCities = false;
 
   competitionView: {
     id: number, end_date: string, image: string, owner: string,
@@ -35,10 +40,6 @@ export class FormularioPaefComponent implements OnInit {
       this.departamentos = data;
     });
 
-    this.service.getCiudades().subscribe(data => {
-      this.ciudades = data;
-    });
-
     this.service.getCiuu().subscribe(data => {
       this.actividadesEconomica = data;
     });
@@ -46,28 +47,28 @@ export class FormularioPaefComponent implements OnInit {
 
   private initUserDetailsForm() {
     this.createForm = this.fb.group({
-      nombreEmpresa: ['', Validators.compose([Validators.required])],
+      nombreEmpresa: ['', Validators.compose([Validators.required, Validators.maxLength(150)])],
       solicitud: ['', Validators.compose([Validators.required])],
       razonSocial: ['', Validators.compose([Validators.required])],
       tipoPersona: ['', Validators.compose([Validators.required])],
       tipoIdPersona: [''],
-      numeroEmpresa: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
-      direccionEmpresa: ['', Validators.compose([Validators.required])],
+      numeroEmpresa: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$'), Validators.maxLength(13)])],
+      direccionEmpresa: ['', Validators.compose([Validators.required, Validators.maxLength(150)])],
       departamento: ['', Validators.compose([Validators.required])],
       ciudad: ['', Validators.compose([Validators.required])],
-      telefonoFijo: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
-      celular: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
-      correoElectronico: ['', Validators.compose([Validators.required, Validators.email])],
+      telefonoFijo: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$'), Validators.maxLength(7)])],
+      celular: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$'), Validators.maxLength(10)])],
+      correoElectronico: ['', Validators.compose([Validators.required, Validators.email, Validators.maxLength(150)])],
       ciuu: ['', Validators.compose([Validators.required])],
       entidadFinaciera: ['', Validators.compose([Validators.required])],
       tipoCuenta: ['', Validators.compose([Validators.required])],
       numeroCuenta: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
-      nombres: ['', Validators.compose([Validators.required])],
-      apellidos: ['', Validators.compose([Validators.required])],
+      nombres: ['', Validators.compose([Validators.required, Validators.maxLength(75)])],
+      apellidos: ['', Validators.compose([Validators.required, Validators.maxLength(75)])],
       tipoIdentificacionRep: ['', Validators.compose([Validators.required])],
-      numeroDocumentoRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
-      correoElectronicoRep: ['', Validators.compose([Validators.required, Validators.email])],
-      celularRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
+      numeroDocumentoRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$'), Validators.maxLength(13)])],
+      correoElectronicoRep: ['', Validators.compose([Validators.required, Validators.email, Validators.maxLength(150)])],
+      celularRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$'), Validators.maxLength(10)])],
       prFng: ['', Validators.compose([Validators.required])],
       prDeposito: ['', Validators.compose([Validators.required])],
       prConstitucion: ['', Validators.compose([Validators.required])],
@@ -81,24 +82,41 @@ export class FormularioPaefComponent implements OnInit {
       prPEP: [''],
       plAbril: [''],
       plMayo: [''],
-      plJunio: ['']
+      plJunio: [''],
+      recaptcha: ['', Validators.compose([Validators.required])]
     });
   }
 
   setValueField(field, value) {
-    console.log(field, '->', value);
+    if (field === 'tipoPersona') {
+      if (value === 'personaJuridica') {
+        this.showNit = true;
+        this.showRut = false;
+      } else {
+        this.showNit = false;
+        this.showRut = true;
+      }
+    }
+    if (field === 'departamento') {
+      this.getCities();
+    }
+
+    console.log(field, ' -> ', value);
     this.createForm.get(field).setValue(value);
     console.log('estado -> ', this.createForm.status);
+    console.log('estado -> ', this.createForm);
 
   }
 
 
   create() {
     this.service.saveFormulario(this.setRequest()).subscribe(
-      response => {
-        alert('Formulario creado exitosamente');
+      data => {
+        alert('Registro creado satisfactoriamente');
+        this.showPdf('');
       }, error => {
         alert('Error guardando formulario');
+        console.log('error: ', error);
       }
     );
     console.log(this.createForm);
@@ -150,6 +168,25 @@ export class FormularioPaefComponent implements OnInit {
       tipoPersona: '2',
       prDisminucion: true
     };
+  }
+
+  showPdf(file: string) {
+    window.open('data:application/pdf;base64,' + file);
+  }
+
+  getCities() {
+    const idDep = this.createForm.get('departamento').value.split(',');
+    console.log('aqui', idDep[0]);
+    this.showCities = true;
+    this.service.getCiudades().subscribe(data => {
+      this.ciudades = data;
+      const filter = this.ciudades.forEach(x =>
+        {
+          x.idDepartamento === idDep
+          this
+        });
+      console.log('filter ', filter);
+    });
   }
 
 }

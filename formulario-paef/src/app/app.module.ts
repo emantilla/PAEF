@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RecaptchaModule, RecaptchaFormsModule } from 'ng-recaptcha';
 
 import { AppComponent } from './app.component';
 import {
@@ -31,7 +32,9 @@ import { FormularioPaefComponent } from './components/fomulario-paef/formulario-
     MatNativeDateModule,
     MatInputModule,
     BrowserAnimationsModule,
-    SweetAlert2Module
+    SweetAlert2Module,
+    RecaptchaModule,
+    RecaptchaFormsModule
   ],
   providers: [
     MatDatepickerModule,
