@@ -2,600 +2,626 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
 </head>
 
 <body>
-        <section class="contenedor-form-fluido formulario-apoyo-paef">
-            <header>
-                <div class="contenedor-form">
-                    <div class="colForm-12">
-                        <div class="colForm-6 logo">
-                            <img src="../../../img/logo.png" alt="">
-                        </div>
-                        <div class="colForm-6 fecha">
-                            <p class="fecha">12 de Mayo de 2020</p>
-                        </div>
-                    </div>
+  <section class="contenedor-form-fluido formulario-apoyo-paef">
+    <header>
+      <div class="contenedor-form">
+        <div class="colForm-12">
+          <div class="colForm-6 logo">
+            <img src="../../../img/logo.png" alt="">
+          </div>
+          <div class="colForm-6 fecha">
+            <p class="fecha">12 de Mayo de 2020</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="contenedor-form">
+      <div class="titulo-paef">
+        <div class="logo-minhacienda"><img src="../../../assets/img/minhacienda.jpg"></div>
+        <h1>Formulario de Postulación al<br>Programa de Apoyo al Empleo Formal – PAEF</h1>
+      </div>
+      <form [formGroup]="createForm">
+        <div class="cumplimiento-requisitos">
+          <div class="titulo-seccion">
+            <p>Postulante al Programa de apoyo al empleo formal – PAEF</p>
+          </div>
+          <div class="info-formulario">
+            <p>En los términos establecidos por el Decreto Ley 639 del 8 de mayo de 2020 modificado por
+              el
+              Decreto Ley XX del 1X de mayo de 2020 y sus normas reglamentarias, presento, bajo la
+              gravedad del juramento, la postulación al programa de apoyo al empleo formal – PAEF,
+              bajo el
+              cual, previo cumplimiento de requisitos, se otorgará un aporte monetario de naturaleza
+              estatal, mensualmente y hasta por tres veces, con el objeto de proteger el empleo formal
+              del
+              país durante la pandemia del COVID-19.</p>
+            <div class="completar">
+              <div class="colForm-12">
+                <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
+                  <label class="radio-btn" for="aporteUno">Primer aporte</label>
+                  <input type="radio" formControlName="solicitud" id="solicitud"
+                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="1">
                 </div>
-            </header>
-            <div class="contenedor-form">
-                <div class="titulo-paef">
-                    <div class="logo-minhacienda"><img src="../../../assets/img/minhacienda.jpg"></div>
-                    <h1>Formulario de Postulación al<br>Programa de Apoyo al Empleo Formal – PAEF</h1>
+                <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
+                  <label class="radio-btn" for="aporteDos">Segundo Aporte</label>
+                  <input type="radio" formControlName="solicitud" id="solicitud"
+                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="2">
                 </div>
-                <form [formGroup]="createForm">
-                    <div class="cumplimiento-requisitos">
-                        <div class="titulo-seccion">
-                            <p>Postulante al Programa de apoyo al empleo formal – PAEF</p>
-                        </div>
-                        <div class="info-formulario">
-                            <p>En los términos establecidos por el Decreto Ley 639 del 8 de mayo de 2020 modificado por
-                                el
-                                Decreto Ley XX del 1X de mayo de 2020 y sus normas reglamentarias, presento, bajo la
-                                gravedad del juramento, la postulación al programa de apoyo al empleo formal – PAEF,
-                                bajo el
-                                cual, previo cumplimiento de requisitos, se otorgará un aporte monetario de naturaleza
-                                estatal, mensualmente y hasta por tres veces, con el objeto de proteger el empleo formal
-                                del
-                                país durante la pandemia del COVID-19.</p>
-                            <div class="completar">
-                                <div class="colForm-12">
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
-                                        <label class="radio-btn" for="aporteUno">Primer aporte</label>
-                                        <input type="radio" formControlName="solicitud" id="solicitud" (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="1">
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
-                                        <label class="radio-btn" for="aporteDos">Segundo Aporte</label>
-                                        <input type="radio" formControlName="solicitud" id="solicitud" (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="2">
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
-                                        <label class="radio-btn" for="aporteTres">Tercer aporte </label>
-                                        <input type="radio" formControlName="solicitud" id="solicitud" (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="3">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="información-empresa">
-                        <div class="titulo-seccion">
-                            <p>Información de la empresa</p>
-                        </div>
-                        <div class="completar">
-                            <div class="colForm-12">
-                                <div class="colForm-12 campo-form">
-                                    <label for="RazonSocial">Nombre o Razón Social:</label>
-                                    <input type="text" formControlName="nombreEmpresa" id="nombreEmpresa" name="nombreEmpresa">
-                                </div>
-                            </div>
-                            <div class="margen-top borde-superior">
-                                <div class="colForm-4 colForm-md-12">
-                                    <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
-                                        <label class="radio-btn" for="personaJuridica">Persona Jurídica:</label>
-                                        <input type="radio" formControlName="tipoPersona" (click)="setValueField('solicitud', $event.target.value);" id="personaJuridica" name="tipoPersona"
-                                            value="personaJuridica">
-                                    </div>
-                                    <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
-                                        <label for="NIT">NIT <span class="legales">(sin dígito de verificación):
-                                            </span></label>
-                                        <input type="text" id="NIT" formControlName="numeroEmpresa" name="NIT">
-                                    </div>
-                                </div>
-                                <div class="colForm-8 colForm-md-12 colForm-sm-12">
-                                    <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
-                                        <div class="colForm-6 colForm-md-6 campo-form">
-                                            <label class="radio-btn" for="entidadSinLucro">Entidad sin ánimo de
-                                                lucro:</label>
-                                            <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
-                                                value="entidadSinLucro">
-                                        </div>
-                                        <div class="colForm-6 colForm-md-6 campo-form">
-                                            <label class="radio-btn" for="entidadSinLucro">Consorcio o Unión
-                                                Temporal</label>
-                                            <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
-                                                value="entidadSinLucro">
-                                        </div>
-                                    </div>
-                                    <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
-                                        <label for="RUT">RUT <span class="legales">(sin dígito de verificación):
-                                            </span></label>
-                                        <input type="text" id="RUT" formControlName="numeroEmpresa" name="RUT">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="margen-top borde-superior">
-                                <div class="colForm-3 colForm-sm-12 campo-form">
-                                    <label for="personaJuridica">Persona Natural:</label>
-                                    <input type="radio" id="personaJuridica" name="tipoPersona" formControlName="tipoPersona" value="personaJuridica">
-                                </div>
-                                <div class="colForm-3 colForm-sm-12 campo-form">
-                                    <label for="personaJuridica">Tipo de Documento</label>
-                                    <select id="cars" formControlName="tipoIdPersona" class="select-form">
-                                        <option value="CC">Cedula Ciudadania</option>
-                                        <option value="PA">Pasaporte</option>
-                                        <option value="CE">Cedula Extranjeria</option>
-                                        <option value="SC">Cedula Extranjeria</option>
-                                        <option value="CD">Cedula Extranjeria</option>
-                                    </select>
-                                </div>
-
-                                <div class="colForm-6 colForm-sm-12 campo-form">
-                                    <label for="numeroDoc">N°:</label>
-                                    <input type="number" formControlName="numeroEmpresa" id="numeroDoc" name="numeroDoc">
-                                </div>
-                            </div>
-
-                            <div class="colForm-12 colForm-md-12 colForm-sm-12 margen-top borde-superior">
-                                <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="direccion">Dirección:</label>
-                                    <input type="text" formControlName="direccionEmpresa" id="direccion" name="direccion">
-                                </div>
-                                <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="departamento">Departamento:</label>
-                                    <select id="departamento" formControlName="departamento" class="select-form">
-                                        <option value="CC">Cedula Ciudadania</option>
-                                    </select>
-                                </div>
-                                <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="ciudad">Ciudad:</label>
-                                    <select id="ciudad" formControlName="ciudad" class="select-form">
-                                        <option value="CC">Cedula Ciudadania</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="colForm-12 colForm-md-12 colForm-sm-12">
-                                <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="telefonoFijo">Teléfono Fijo:</label>
-                                    <input type="text" formControlName="telefonoFijo" id="telefonoFijo" name="telefonoFijo">
-                                </div>
-                                <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="telefonoMov">Teléfono Móvil:</label>
-                                    <input type="text" formControlName="celular" id="telefonoMov" name="telefonoMov">
-                                </div>
-                                <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="correoEmpresa">Correo electrónico:</label>
-                                    <input type="text" formControlName="correoElectronico" id="correoEmpresa" name="correoEmpresa">
-                                </div>
-                            </div>
-
-                            <div class="colForm-12 colForm-md-12 colForm-sm-12">
-                                <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="actividad">Actividad económica principal:</label>
-                                    <select id="ciuu" formControlName="ciuu" class="select-form">
-                                        <option value="CC">Cedula Ciudadania</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cumplimiento-requisitos">
-                        <div class="info-formulario margen-top">
-                            <p>¿Es beneficiario del crédito para nómina garantizado por el Fondo Nacional de Garantías
-                                –FNG?
-                            </p>
-                            <div class="completar">
-                                <div class="colForm-12">
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
-                                        <label class="radio-btn" for="beneficiarioSi">Si</label>
-                                        <input type="radio" formControlName="prFng" id="beneficiarioSi" name="prFng"
-                                            value="1">
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
-                                        <label class="radio-btn" for="beneficiarioNo">No </label>
-                                        <input type="radio" formControlName="prFng" id="beneficiarioNo" name="prFng"
-                                            value="0">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="completar">
-                            <div class="colForm-12">
-                                <div class="info-formulario">
-                                    <p>Si su respuesta es SI, recuerde que de acuerdo con lo dispuesto en el Artículo XX
-                                        de
-                                        la Resolución XX, debe presentar su solicitud de subsidio del PAEF en la misma
-                                        entidad financiera en la que tramitó dicho crédito. </p>
-                                </div>
-                                <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
-                                    <label for="entidadFinanciera">Entidad Financiera:</label>
-                                    <select id="entidadCuenta"  formControlName="entidadFinaciera" class="select-form">
-                                        <option value="54">BAVV</option>
-                                        <option value="50">BDB</option>
-                                    </select>
-                                </div>
-                                <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="CuentaBan">Tipo de Cuenta Bancaria:</label>
-                                    <select id="tipoCuenta" formControlName="tipoCuenta" class="select-form">
-                                        <option value="1">Ahorros</option>
-                                        <option value="2">Corriente</option>
-                                    </select>
-                                </div>
-                                <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="numCuentaBan"> No. Cuenta:</label>
-                                    <input type="text" formControlName="numeroCuenta" id="numCuentaBan" name="numCuentaBan">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="información-representante">
-                        <div class="titulo-seccion">
-                            <p>Información del representante legal</p>
-                            <p class="legales">No aplica para personas naturales</p>
-                        </div>
-                        <div class="completar">
-                            <div class="colForm-12 colForm-md-12 colForm-sm-12">
-                                <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                                    <label for="nombres">Nombres:</label>
-                                    <input type="text" formControlName="nombres" id="nombres" name="nombres">
-                                </div>
-                                <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                                    <label for="Apellidos">Apellidos:</label>
-                                    <input type="text" formControlName="apellidos" id="Apellidos" name="Apellidos">
-                                </div>
-                                <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                                    <label for="Apellidos">Tipo de Documento:</label>
-                                    <select id="TipoDocumento" formControlName="tipoIdentificacionRep" class="select-form">
-                                        <option value="CC">Cedula Ciudadania</option>
-                                        <option value="PA">Pasaporte</option>
-                                        <option value="CE">Cedula Extranjeria</option>
-                                        <option value="SC">Cedula Extranjeria</option>
-                                        <option value="CD">Cedula Extranjeria</option>
-                                    </select>
-                                </div>
-                                <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                                    <label for="numeroDoc">N°:</label>
-                                    <input type="number" formControlName="numeroDocumentoRep" id="numeroDoc" name="numeroDoc">
-                                </div>
-                            </div>
-                            <div class="colForm-12 colForm-md-12 colForm-sm-12">
-                                <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="correo">Correo electrónico:</label>
-                                    <input type="text" formControlName="correoElectronicoRep" id="correo" name="correo">
-                                </div>
-                                <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
-                                    <label for="celular">Celular:</label>
-                                    <input type="text" formControlName="celularRep" id="celular" name="celular">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uso-subsidio">
-                        <div class="titulo-seccion">
-                            <p>Manifestación del cumplimiento de requisitos</p>
-                        </div>
-                        <div class="info-formulario margen-top">
-                            <div class="colForm-12">
-                                <p>De acuerdo con lo establecido en el Decreto XX Artículo XX, los requisitos
-                                    manifestados a
-                                    continuación son habilitantes para continuar con la postulación al beneficio PAEF
-                                </p>
-                            </div>
-                        </div>
-                        <div class="info-formulario margen-top contenedor-requisitos colForm-10 colForm-sm-12">
-                            <div class="completar">
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Cuenta con un producto de depósito en una entidad financiera vigilada por la
-                                            Superintendencia Financiera de Colombia </p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Fue constituida antes del 1º de enero de 2020 (Anexo)</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-formulario margen-top borde-superior">
-                                    <div class="colForm-12">
-                                        <p class="subtitulo">Tuvo una disminución del veinte por ciento (20%) o más en
-                                            sus
-                                            ingresos, en los términos descritos en la Resolución XXXX, Artículo XXX
-                                            (Anexo)
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Al comparar los ingresos del mes inmediatamente anterior al de la solicitud
-                                            del
-                                            aporte con los ingresos del mismo mes del año 2019</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno" value="">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno" value="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Al comparar los ingresos del mes inmediatamente anterior al de la solicitud
-                                            del
-                                            aporte con con el promedio de ingresos de enero y febrero de 2020</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Tiene participación de la nación y/o sus entidades descentralizadas por un
-                                            monto
-                                            superior al 50% de su capital (No aplica para personas naturales)</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Ha presentado esta misma solicitud ante otra entidad financiera </p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-formulario margen-top borde-superior">
-                                    <div class="colForm-12">
-                                        <p class="subtitulo">Si usted es un consorcio, unión temporal o una persona
-                                            natural
-                                            o jurídica que haga parte de alguna de estas figuras</p>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Cumplo con lo dispuesto en el parágrafo 8 del Artículo 2 del Decreto XX del
-                                            XX de
-                                            mayo de 2020</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="completar">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p class="subtitulo">Si usted es un consorcio o unión temporal, relacione los
-                                            números de identificación de las personas jurídicas o naturales de los que
-                                            hacen
-                                            del o la misma</p>
-                                    </div>
-                                    <div class="colForm-12 colForm-md-12 colForm-sm-12">
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
-                                            <label for="doc01">N° Documento</label>
-                                            <input type="text" formControlName="documentosUnion" id="doc01" name="doc01">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="info-formulario margen-top borde-superior">
-                                    <div class="colForm-12">
-                                        <p class="subtitulo">Si usted es persona natural</p>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Tengo por lo menos tres (3) empleados reportados en la Planilla Integrada de
-                                            Liquidación de Aportes (PILA) correspondiente al período de cotización del
-                                            mes
-                                            de febrero de 2020, en las condiciones establecidas en el XXXXXXXX:</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio"  formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-9 colForm-sm-12">
-                                        <p>Soy una Persona Expuesta Políticamente (PEP) o soy cónyuge, compañero(a)
-                                            permanente o pariente en el segundo grado de consanguinidad, primero de
-                                            afinidad
-                                            o único civil de una PEP</p>
-                                    </div>
-                                    <div class="colForm-2 colForm-md-3 colForm-sm-12">
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">Si</label>
-                                            <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="1">
-                                        </div>
-                                        <div class="colForm-6 campo-form">
-                                            <label class="radio-btn" for="">No </label>
-                                            <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="0">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uso-subsidio">
-                        <div class="titulo-seccion">
-                            <p>Empleados sobre los que se reconoce el subsidio</p>
-                        </div>
-                        <div class="info-formulario">
-                            <p>En desarrollo de lo establecido en el Artículo XX del Decreto XX, los empleados sobre los
-                                que
-                                se reconoce el presente subsidio, corresponden a aquellos que, en el mes anterior a la
-                                presente solicitud, cumplieron con lo señalado en el artículo XX de la Resolución XXX de
-                                2020. </p>
-                        </div>
-                    </div>
-
-                    <div class="uso-subsidio">
-                        <div class="titulo-seccion">
-                            <p>Uso del subsidio</p>
-                        </div>
-                        <div class="info-formulario">
-                            <p>Con el objetivo de que la UGPP pueda adelantar la verificación de requisitos señalada en
-                                el
-                                Artículo XX de la Resolución XX, certifico que se encuentran pagados los aportes en
-                                la(s)
-                                Planilla Integrada de Liquidación de Aportes (PILA) tipo E, de los trabajadores objeto
-                                del
-                                subsidio, así:</p>
-                            <div class="completar">
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <label class="fechas" for="">del periodo de mayo N°<br>
-                                                <span>(diligenciar únicamente para la solicitud de Junio)</span>
-                                            </label>
-                                        </div>
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <input class="fechas" formControlName="plAbril" type="text" id="" name="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <label class="fechas" for="">del periodo de junio N°<br>
-                                                <span>(diligenciar únicamente para para solicitud de Julio)</span>
-                                            </label>
-                                        </div>
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <input class="fechas" formControlName="plMayo"  type="text" id="" name="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colForm-12">
-                                    <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <label class="fechas" for="">del periodo de julio N°<br>
-                                                <span>(diligenciar únicamente para para solicitud de Agosto – Solo para
-                                                    quienes seleccionaron SI en beneficiario de crédito</span>
-                                            </label>
-                                        </div>
-                                        <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                                            <input class="fechas" formControlName="plJunio"  type="text" id="" name="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="margen-top">
-                                <p>De acuerdo con lo establecido en el Decreto Ley 639 de 2020, modificado por el
-                                    Decreto
-                                    Ley XXX de 2020, expreso mi consentimiento y certifico el cumplimiento de los
-                                    requisitos
-                                    establecidos en la norma, los cuales he declarado bajo la gravedad del juramento y
-                                    asumo
-                                    la responsabilidad derivada de cualquier inexactitud o incumplimiento de las
-                                    disposiciones pertinentes</p>
-                            </div>
-
-                            <div class="colForm-12 firma">
-                                <div class="colForm-6 colForm-sm-12">
-                                    <p>Firma del Representante Legal<br>CC N°</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="anexos">
-                        <div class="titulo-seccion">
-                            <p>Favor Anexar:</p>
-                        </div>
-
-                        <div class="completar check-docs">
-                            <div class="colForm-12">
-                                <div class="colForm-12 campo-form">
-                                    <label for="vehicle2">Formato Certificación “Primera solicitud” (Numeral 3, artículo
-                                        4,
-                                        Decreto 639 de 2020). <br>
-                                        <span>(Firmada por el representante legal y el revisor fiscal, o por contador
-                                            público en los casos en los que la empresa no esté obligada a tener revisor
-                                            fiscal).</span></label><br>
-                                </div>
-                            </div>
-
-                            <div class="info-formulario">
-                                <p class="tips">Cuando se postule por segunda o tercera vez a este programa de apoyo,
-                                    también deberá incluir los siguientes documentos: </p>
-                            </div>
-
-                            <div class="colForm-12">
-                                <div class="colForm-12 campo-form">
-                                    <label for="vehicle1"> Formato Certificación “Segunda y tercera solicitud” <br>
-                                        <span> (Numeral 3, artículo 4, Decreto 639 de 2020 y numeral 1 Parágrafo 5
-                                            Artículo
-                                            4 Decreto 639 de 2020).<br>(Firmada por el representante legal y el revisor
-                                            fiscal, o por contador público en los casos en los que la empresa no esté
-                                            obligada a tener revisor fiscal).</span></label><br>
-                                </div>
-                                <div class="colForm-12 campo-form">
-                                    <label for="vehicle2"> Formato Cuando aplique, Certificación “Restitución aporte
-                                        estatal”, expedida por la entidad financiera correspondiente, de la restitución
-                                        de
-                                        los recursos, en los términos del numeral 4 del artículo 8 del Decreto
-                                        Legislativo
-                                        639 de 2020. </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="captcha">
-                        <div class="colForm-12 contenedor-captcha">
-                            <!-- poner aqui el captcha-->
-                        </div>
-                    </div>
-                    <button class="btn-form" (click)="create()" type="button">Descargar Documento</button>
-                </form>
+                <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
+                  <label class="radio-btn" for="aporteTres">Tercer aporte </label>
+                  <input type="radio" formControlName="solicitud" id="solicitud"
+                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="3">
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="información-empresa">
+          <div class="titulo-seccion">
+            <p>Información de la empresa</p>
+          </div>
+          <div class="completar">
+            <div class="colForm-12">
+              <div class="colForm-12 campo-form">
+                <label for="RazonSocial">Nombre o Razón Social:</label>
+                <input type="text" formControlName="nombreEmpresa" id="nombreEmpresa" name="nombreEmpresa"
+                  (keyup)="setValueField('nombreEmpresa  ', $event.target.value);">
+              </div>
+            </div>
+            <div class="margen-top borde-superior">
+              <div class="colForm-4 colForm-md-12">
+                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                  <label class="radio-btn" for="personaJuridica">Persona Jurídica:</label>
+                  <input type="radio" formControlName="tipoPersona"
+                    (keyup)="setValueField('tipoPersona', $event.target.value);" id="personaJuridica" name="tipoPersona"
+                    value="personaJuridica">
+                </div>
+                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                  <label for="NIT">NIT <span class="legales">(sin dígito de verificación):
+                    </span></label>
+                  <input type="text" id="NIT" formControlName="numeroEmpresa" name="NIT"
+                  (keyup)="setValueField('numeroEmpresa', $event.target.value);">
+                </div>
+              </div>
+              <div class="colForm-8 colForm-md-12 colForm-sm-12">
+                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                  <div class="colForm-6 colForm-md-6 campo-form">
+                    <label class="radio-btn" for="entidadSinLucro">Entidad sin ánimo de
+                      lucro:</label>
+                    <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
+                      value="entidadSinLucro" (keyup)="setValueField('tipoPersona', $event.target.value);">
+                  </div>
+                  <div class="colForm-6 colForm-md-6 campo-form">
+                    <label class="radio-btn" for="entidadSinLucro">Consorcio o Unión
+                      Temporal</label>
+                    <input type="radio" id="entidadSinLucro" formControlName="tipoPersona" name="tipoPersona"
+                      value="entidadSinLucro" (keyup)="setValueField('tipoPersona', $event.target.value);">
+                  </div>
+                </div>
+                <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
+                  <label for="RUT">RUT <span class="legales">(sin dígito de verificación):
+                    </span></label>
+                  <input type="text" id="RUT" formControlName="numeroEmpresa" name="numeroEmpresa"
+                  (keyup)="setValueField('numeroEmpresa', $event.target.value);">
+                </div>
+              </div>
+            </div>
+            <div class="margen-top borde-superior">
+              <div class="colForm-3 colForm-sm-12 campo-form">
+                <label for="personaNatural">Persona Natural:</label>
+                <input type="radio" id="personaNatural" name="tipoPersona" formControlName="tipoPersona"
+                  value="personaNatural" (keyup)="setValueField('tipoPersona', $event.target.value);">
+              </div>
+              <div class="colForm-3 colForm-sm-12 campo-form">
+                <label for="personaJuridica">Tipo de Documento</label>
+                <select id="cars" formControlName="tipoIdPersona" class="select-form">
+                  <option value="CC">Cedula Ciudadania</option>
+                  <option value="PA">Pasaporte</option>
+                  <option value="CE">Cedula Extranjeria</option>
+                  <option value="SC">Cedula Extranjeria</option>
+                  <option value="CD">Cedula Extranjeria</option>
+                </select>
+              </div>
+
+              <div class="colForm-6 colForm-sm-12 campo-form">
+                <label for="numeroDoc">N°:</label>
+                <input type="number" formControlName="numeroEmpresa" id="numeroDoc" name="numeroDoc"
+                (keyup)="setValueField('numeroEmpresa', $event.target.value);">
+              </div>
+            </div>
+
+            <div class="colForm-12 colForm-md-12 colForm-sm-12 margen-top borde-superior">
+              <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="direccion">Dirección:</label>
+                <input type="text" formControlName="direccionEmpresa" id="direccion" name="direccion"
+                (keyup)="setValueField('direccion', $event.target.value);">
+              </div>
+              <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="departamento">Departamento:</label>
+                <select id="departamento" formControlName="departamento" class="select-form">
+                  <option *ngFor="let dept of departamentos" value="dept.idDepartamento">{{dept.nombreDepartamento}}
+                  </option>
+                </select>
+              </div>
+              <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="ciudad">Ciudad:</label>
+                <select id="ciudad" formControlName="ciudad" class="select-form">
+                  <option *ngFor="let ciudad of ciudades" value="ciudad.idCiudad">{{ciudad.nombreCiudad}}</option>
+                </select>
+              </div>
+            </div>
+            <div class="colForm-12 colForm-md-12 colForm-sm-12">
+              <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="telefonoFijo">Teléfono Fijo:</label>
+                <input type="text" formControlName="telefonoFijo" id="telefonoFijo" name="telefonoFijo"
+                (keyup)="setValueField('telefonoFijo', $event.target.value);">
+              </div>
+              <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="telefonoMov">Teléfono Móvil:</label>
+                <input type="text" formControlName="celular" id="telefonoMov" name="telefonoMov"
+                (keyup)="setValueField('telefonoMov', $event.target.value);">
+              </div>
+              <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="correoElectronico">Correo electrónico:</label>
+                <input type="text" formControlName="correoElectronico" id="correoElectronico" name="correoElectronico"
+                (keyup)="setValueField('correoElectronico', $event.target.value);">
+              </div>
+            </div>
+
+            <div class="colForm-12 colForm-md-12 colForm-sm-12">
+              <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="actividad">Actividad económica principal:</label>
+                <select id="ciuu" formControlName="ciuu" class="select-form">
+                  <option *ngFor="let ciuu of actividadesEconomica" value="ciuu.idCiiu">{{ciuu.descripcion}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cumplimiento-requisitos">
+          <div class="info-formulario margen-top">
+            <p>¿Es beneficiario del crédito para nómina garantizado por el Fondo Nacional de Garantías
+              –FNG?
+            </p>
+            <div class="completar">
+              <div class="colForm-12">
+                <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
+                  <label class="radio-btn" for="beneficiarioSi">Si</label>
+                  <input type="radio" formControlName="prFng" id="beneficiarioSi" name="prFng" value="1"
+                  (keyup)="setValueField('prFng', $event.target.value);">
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
+                  <label class="radio-btn" for="beneficiarioNo">No </label>
+                  <input type="radio" formControlName="prFng" id="beneficiarioNo" name="prFng" value="0"
+                  (keyup)="setValueField('prFng', $event.target.value);">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="completar">
+            <div class="colForm-12">
+              <div class="info-formulario">
+                <p>Si su respuesta es SI, recuerde que de acuerdo con lo dispuesto en el Artículo XX
+                  de
+                  la Resolución XX, debe presentar su solicitud de subsidio del PAEF en la misma
+                  entidad financiera en la que tramitó dicho crédito. </p>
+              </div>
+              <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
+                <label for="entidadFinanciera">Entidad Financiera:</label>
+                <select id="entidadCuenta" formControlName="entidadFinaciera" class="select-form">
+                  <option value="54">BAVV</option>
+                  <option value="50">BDB</option>
+                </select>
+              </div>
+              <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="CuentaBan">Tipo de Cuenta Bancaria:</label>
+                <select id="tipoCuenta" formControlName="tipoCuenta" class="select-form">
+                  <option value="1">Ahorros</option>
+                  <option value="2">Corriente</option>
+                </select>
+              </div>
+              <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="numCuentaBan"> No. Cuenta:</label>
+                <input type="text" formControlName="numeroCuenta" id="numCuentaBan" name="numCuentaBan">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="información-representante">
+          <div class="titulo-seccion">
+            <p>Información del representante legal</p>
+            <p class="legales">No aplica para personas naturales</p>
+          </div>
+          <div class="completar">
+            <div class="colForm-12 colForm-md-12 colForm-sm-12">
+              <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
+                <label for="nombres">Nombres:</label>
+                <input type="text" formControlName="nombres" id="nombres" name="nombres">
+              </div>
+              <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
+                <label for="Apellidos">Apellidos:</label>
+                <input type="text" formControlName="apellidos" id="Apellidos" name="Apellidos">
+              </div>
+              <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
+                <label for="Apellidos">Tipo de Documento:</label>
+                <select id="TipoDocumento" formControlName="tipoIdentificacionRep" class="select-form">
+                  <option value="CC">Cedula Ciudadania</option>
+                  <option value="PA">Pasaporte</option>
+                  <option value="CE">Cedula Extranjeria</option>
+                  <option value="SC">Cedula Extranjeria</option>
+                  <option value="CD">Cedula Extranjeria</option>
+                </select>
+              </div>
+              <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
+                <label for="numeroDoc">N°:</label>
+                <input type="number" formControlName="numeroDocumentoRep" id="numeroDoc" name="numeroDoc">
+              </div>
+            </div>
+            <div class="colForm-12 colForm-md-12 colForm-sm-12">
+              <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="correo">Correo electrónico:</label>
+                <input type="text" formControlName="correoElectronicoRep" id="correo" name="correo">
+              </div>
+              <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
+                <label for="celular">Celular:</label>
+                <input type="text" formControlName="celularRep" id="celular" name="celular">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uso-subsidio">
+          <div class="titulo-seccion">
+            <p>Manifestación del cumplimiento de requisitos</p>
+          </div>
+          <div class="info-formulario margen-top">
+            <div class="colForm-12">
+              <p>De acuerdo con lo establecido en el Decreto XX Artículo XX, los requisitos
+                manifestados a
+                continuación son habilitantes para continuar con la postulación al beneficio PAEF
+              </p>
+            </div>
+          </div>
+          <div class="info-formulario margen-top contenedor-requisitos colForm-10 colForm-sm-12">
+            <div class="completar">
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Cuenta con un producto de depósito en una entidad financiera vigilada por la
+                    Superintendencia Financiera de Colombia </p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Fue constituida antes del 1º de enero de 2020 (Anexo)</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
+                      value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
+                      value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="info-formulario margen-top borde-superior">
+                <div class="colForm-12">
+                  <p class="subtitulo">Tuvo una disminución del veinte por ciento (20%) o más en
+                    sus
+                    ingresos, en los términos descritos en la Resolución XXXX, Artículo XXX
+                    (Anexo)
+                  </p>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Al comparar los ingresos del mes inmediatamente anterior al de la solicitud
+                    del
+                    aporte con los ingresos del mismo mes del año 2019</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
+                      value="">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
+                      value="">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Al comparar los ingresos del mes inmediatamente anterior al de la solicitud
+                    del
+                    aporte con con el promedio de ingresos de enero y febrero de 2020</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
+                      value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
+                      value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Tiene participación de la nación y/o sus entidades descentralizadas por un
+                    monto
+                    superior al 50% de su capital (No aplica para personas naturales)</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
+                      value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
+                      value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Ha presentado esta misma solicitud ante otra entidad financiera </p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
+                      value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
+                      value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="info-formulario margen-top borde-superior">
+                <div class="colForm-12">
+                  <p class="subtitulo">Si usted es un consorcio, unión temporal o una persona
+                    natural
+                    o jurídica que haga parte de alguna de estas figuras</p>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Cumplo con lo dispuesto en el parágrafo 8 del Artículo 2 del Decreto XX del
+                    XX de
+                    mayo de 2020</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
+                      value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
+                      value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="completar">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p class="subtitulo">Si usted es un consorcio o unión temporal, relacione los
+                    números de identificación de las personas jurídicas o naturales de los que
+                    hacen
+                    del o la misma</p>
+                </div>
+                <div class="colForm-12 colForm-md-12 colForm-sm-12">
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
+                    <label for="doc01">N° Documento</label>
+                    <input type="text" formControlName="documentosUnion" id="doc01" name="doc01">
+                  </div>
+                </div>
+              </div>
+              <div class="info-formulario margen-top borde-superior">
+                <div class="colForm-12">
+                  <p class="subtitulo">Si usted es persona natural</p>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Tengo por lo menos tres (3) empleados reportados en la Planilla Integrada de
+                    Liquidación de Aportes (PILA) correspondiente al período de cotización del
+                    mes
+                    de febrero de 2020, en las condiciones establecidas en el XXXXXXXX:</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="0">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-9 colForm-sm-12">
+                  <p>Soy una Persona Expuesta Políticamente (PEP) o soy cónyuge, compañero(a)
+                    permanente o pariente en el segundo grado de consanguinidad, primero de
+                    afinidad
+                    o único civil de una PEP</p>
+                </div>
+                <div class="colForm-2 colForm-md-3 colForm-sm-12">
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">Si</label>
+                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="1">
+                  </div>
+                  <div class="colForm-6 campo-form">
+                    <label class="radio-btn" for="">No </label>
+                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="0">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uso-subsidio">
+          <div class="titulo-seccion">
+            <p>Empleados sobre los que se reconoce el subsidio</p>
+          </div>
+          <div class="info-formulario">
+            <p>En desarrollo de lo establecido en el Artículo XX del Decreto XX, los empleados sobre los
+              que
+              se reconoce el presente subsidio, corresponden a aquellos que, en el mes anterior a la
+              presente solicitud, cumplieron con lo señalado en el artículo XX de la Resolución XXX de
+              2020. </p>
+          </div>
+        </div>
+
+        <div class="uso-subsidio">
+          <div class="titulo-seccion">
+            <p>Uso del subsidio</p>
+          </div>
+          <div class="info-formulario">
+            <p>Con el objetivo de que la UGPP pueda adelantar la verificación de requisitos señalada en
+              el
+              Artículo XX de la Resolución XX, certifico que se encuentran pagados los aportes en
+              la(s)
+              Planilla Integrada de Liquidación de Aportes (PILA) tipo E, de los trabajadores objeto
+              del
+              subsidio, así:</p>
+            <div class="completar">
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <label class="fechas" for="">del periodo de mayo N°<br>
+                      <span>(diligenciar únicamente para la solicitud de Junio)</span>
+                    </label>
+                  </div>
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <input class="fechas" formControlName="plAbril" type="text" id="" name="">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <label class="fechas" for="">del periodo de junio N°<br>
+                      <span>(diligenciar únicamente para para solicitud de Julio)</span>
+                    </label>
+                  </div>
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <input class="fechas" formControlName="plMayo" type="text" id="" name="">
+                  </div>
+                </div>
+              </div>
+              <div class="colForm-12">
+                <div class="colForm-10 colForm-md-6 colForm-sm-12 campo-form margen-top">
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <label class="fechas" for="">del periodo de julio N°<br>
+                      <span>(diligenciar únicamente para para solicitud de Agosto – Solo para
+                        quienes seleccionaron SI en beneficiario de crédito</span>
+                    </label>
+                  </div>
+                  <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
+                    <input class="fechas" formControlName="plJunio" type="text" id="" name="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="margen-top">
+              <p>De acuerdo con lo establecido en el Decreto Ley 639 de 2020, modificado por el
+                Decreto
+                Ley XXX de 2020, expreso mi consentimiento y certifico el cumplimiento de los
+                requisitos
+                establecidos en la norma, los cuales he declarado bajo la gravedad del juramento y
+                asumo
+                la responsabilidad derivada de cualquier inexactitud o incumplimiento de las
+                disposiciones pertinentes</p>
+            </div>
+
+            <div class="colForm-12 firma">
+              <div class="colForm-6 colForm-sm-12">
+                <p>Firma del Representante Legal<br>CC N°</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="anexos">
+          <div class="titulo-seccion">
+            <p>Favor Anexar:</p>
+          </div>
+
+          <div class="completar check-docs">
+            <div class="colForm-12">
+              <div class="colForm-12 campo-form">
+                <label for="vehicle2">Formato Certificación “Primera solicitud” (Numeral 3, artículo
+                  4,
+                  Decreto 639 de 2020). <br>
+                  <span>(Firmada por el representante legal y el revisor fiscal, o por contador
+                    público en los casos en los que la empresa no esté obligada a tener revisor
+                    fiscal).</span></label><br>
+              </div>
+            </div>
+
+            <div class="info-formulario">
+              <p class="tips">Cuando se postule por segunda o tercera vez a este programa de apoyo,
+                también deberá incluir los siguientes documentos: </p>
+            </div>
+
+            <div class="colForm-12">
+              <div class="colForm-12 campo-form">
+                <label for="vehicle1"> Formato Certificación “Segunda y tercera solicitud” <br>
+                  <span> (Numeral 3, artículo 4, Decreto 639 de 2020 y numeral 1 Parágrafo 5
+                    Artículo
+                    4 Decreto 639 de 2020).<br>(Firmada por el representante legal y el revisor
+                    fiscal, o por contador público en los casos en los que la empresa no esté
+                    obligada a tener revisor fiscal).</span></label><br>
+              </div>
+              <div class="colForm-12 campo-form">
+                <label for="vehicle2"> Formato Cuando aplique, Certificación “Restitución aporte
+                  estatal”, expedida por la entidad financiera correspondiente, de la restitución
+                  de
+                  los recursos, en los términos del numeral 4 del artículo 8 del Decreto
+                  Legislativo
+                  639 de 2020. </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="captcha">
+          <div class="colForm-12 contenedor-captcha">
+            <!-- poner aqui el captcha-->
+          </div>
+        </div>
+        <button class="btn-form" (click)="create()" type="button">Descargar Documento</button>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>

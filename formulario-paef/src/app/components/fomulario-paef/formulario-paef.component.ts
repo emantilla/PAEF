@@ -18,16 +18,30 @@ export class FormularioPaefComponent implements OnInit {
   endDatePlaceholder = '';
   hasErrorDates = false;
   url = environment.urlBack;
+  departamentos: Array<any>;
+  ciudades: Array<any>;
+  actividadesEconomica: Array<any>;
 
   competitionView: {
     id: number, end_date: string, image: string, owner: string,
     prize_description: string, start_date: string, uniq_url: string, name: string
   };
 
-  constructor(private fb: FormBuilder, private router: Router, private service: FormularioService ) { }
+  constructor(private fb: FormBuilder, private router: Router, private service: FormularioService) { }
 
   ngOnInit() {
     this.initUserDetailsForm();
+    this.service.getDepartamentos().subscribe(data => {
+      this.departamentos = data;
+    });
+
+    this.service.getCiudades().subscribe(data => {
+      this.ciudades = data;
+    });
+
+    this.service.getCiuu().subscribe(data => {
+      this.actividadesEconomica = data;
+    });
   }
 
   private initUserDetailsForm() {
@@ -37,23 +51,23 @@ export class FormularioPaefComponent implements OnInit {
       razonSocial: ['', Validators.compose([Validators.required])],
       tipoPersona: ['', Validators.compose([Validators.required])],
       tipoIdPersona: [''],
-      numeroEmpresa: ['', Validators.compose([Validators.required])],
+      numeroEmpresa: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
       direccionEmpresa: ['', Validators.compose([Validators.required])],
       departamento: ['', Validators.compose([Validators.required])],
       ciudad: ['', Validators.compose([Validators.required])],
-      telefonoFijo: ['', Validators.compose([Validators.required])],
-      celular: ['', Validators.compose([Validators.required])],
+      telefonoFijo: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
+      celular: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
       correoElectronico: ['', Validators.compose([Validators.required, Validators.email])],
       ciuu: ['', Validators.compose([Validators.required])],
       entidadFinaciera: ['', Validators.compose([Validators.required])],
       tipoCuenta: ['', Validators.compose([Validators.required])],
-      numeroCuenta: ['', Validators.compose([Validators.required])],
+      numeroCuenta: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
       nombres: ['', Validators.compose([Validators.required])],
       apellidos: ['', Validators.compose([Validators.required])],
       tipoIdentificacionRep: ['', Validators.compose([Validators.required])],
-      numeroDocumentoRep: ['', Validators.compose([Validators.required])],
+      numeroDocumentoRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
       correoElectronicoRep: ['', Validators.compose([Validators.required, Validators.email])],
-      celularRep: ['', Validators.compose([Validators.required])],
+      celularRep: ['', Validators.compose([Validators.required, Validators.pattern('[0-9]$')])],
       prFng: ['', Validators.compose([Validators.required])],
       prDeposito: ['', Validators.compose([Validators.required])],
       prConstitucion: ['', Validators.compose([Validators.required])],
@@ -72,15 +86,9 @@ export class FormularioPaefComponent implements OnInit {
   }
 
   setValueField(field, value) {
-    if (field === 'startDateForm' || field === 'endDateForm') {
-      const month = value.value.getMonth() + 1;
-      const day = value.value.getDate();
-      this.createForm.get(field).setValue(value.value.getFullYear() + '-' +
-        (month < 10 ? '0' + month : month) + '-' + (day < 10 ? '0' + day : day));
-      this.refreshPlaceholder(field);
-    } else {
-      this.createForm.get(field).setValue(value);
-    }
+    console.log(field, ' -> ', value);
+    this.createForm.get(field).setValue(value);
+    console.log('estado -> ', this.createForm.valid);
 
   }
 
@@ -104,44 +112,44 @@ export class FormularioPaefComponent implements OnInit {
     }
   }
 
-    setRequest(): any {
-      let data = null;
+  setRequest(): any {
+    let data = null;
 
-      data = {
-        estadoSolicitud: true,
-        solicitud: 1,
-        numeroEmpresa: '123123',
-        nombreEmpresa: 'Mi casa ya',
-        direccionEmpresa: 'Calle cerquita',
-        departamento: '11',
-        departamentoDesc: 'Bogota DC',
-        ciudad: '1111',
-        ciudadDesc: 'Bogota',
-        telefonoFijo: '6570161',
-        telefonoCelular: 3005740292,
-        correoElectronico: 'elkinmantilla',
-        ciiu: '111',
-        entidadCuenta: 'BAVV',
-        entidadCuentaDesc: 'Banco Av Villas',
-        numeroCuenta: '12345678',
-        nombres: 'nombre rep',
-        apellidos: 'apellido rep',
-        tipoIdentificacion: 'SC',
-        numeroIdentificacion: '12345678',
-        correoRep: 'asdasd',
-        celularRep: 3005740292,
-        prProductoDeposito: true,
-        actividadEconomica: 'Agricultura',
-        prConstitucion: true,
-        prDisminucionAno: true,
-        prParticipacion: true,
-        prSolicitud: true,
-        prCumpliento: true,
-        prEmpleados: true,
-        prPEP: true,
-        tipoPersona: '2',
-        prDisminucion: true
-      };
+    data = {
+      estadoSolicitud: true,
+      solicitud: 1,
+      numeroEmpresa: '123123',
+      nombreEmpresa: 'Mi casa ya',
+      direccionEmpresa: 'Calle cerquita',
+      departamento: '11',
+      departamentoDesc: 'Bogota DC',
+      ciudad: '1111',
+      ciudadDesc: 'Bogota',
+      telefonoFijo: '6570161',
+      telefonoCelular: 3005740292,
+      correoElectronico: 'elkinmantilla',
+      ciiu: '111',
+      entidadCuenta: 'BAVV',
+      entidadCuentaDesc: 'Banco Av Villas',
+      numeroCuenta: '12345678',
+      nombres: 'nombre rep',
+      apellidos: 'apellido rep',
+      tipoIdentificacion: 'SC',
+      numeroIdentificacion: '12345678',
+      correoRep: 'asdasd',
+      celularRep: 3005740292,
+      prProductoDeposito: true,
+      actividadEconomica: 'Agricultura',
+      prConstitucion: true,
+      prDisminucionAno: true,
+      prParticipacion: true,
+      prSolicitud: true,
+      prCumpliento: true,
+      prEmpleados: true,
+      prPEP: true,
+      tipoPersona: '2',
+      prDisminucion: true
+    };
   }
 
 }

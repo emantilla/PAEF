@@ -1,0 +1,5612 @@
+[
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05002",
+    "nombreCiudad": "Abejorral"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41006",
+    "nombreCiudad": "Acevedo"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41013",
+    "nombreCiudad": "Agrado"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76243",
+    "nombreCiudad": "ElÁguila"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20011",
+    "nombreCiudad": "Aguachica"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68013",
+    "nombreCiudad": "Aguada"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17013",
+    "nombreCiudad": "Aguadas"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85010",
+    "nombreCiudad": "Aguazul"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15720",
+    "nombreCiudad": "Sativanorte"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41016",
+    "nombreCiudad": "Aipe"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44035",
+    "nombreCiudad": "Albania"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68020",
+    "nombreCiudad": "Albania"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47030",
+    "nombreCiudad": "Algarrobo"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41020",
+    "nombreCiudad": "Algeciras"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19022",
+    "nombreCiudad": "Almaguer"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73024",
+    "nombreCiudad": "Alpujarra"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41026",
+    "nombreCiudad": "Altamira"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05665",
+    "nombreCiudad": "SanPedrodeUrabá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52788",
+    "nombreCiudad": "Tangua"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73026",
+    "nombreCiudad": "Alvarado"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05031",
+    "nombreCiudad": "Amalfi"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73030",
+    "nombreCiudad": "Ambalema"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25035",
+    "nombreCiudad": "Anapoima"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05034",
+    "nombreCiudad": "Andes"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05038",
+    "nombreCiudad": "Angostura"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25040",
+    "nombreCiudad": "Anolaima"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17042",
+    "nombreCiudad": "Anserma"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76041",
+    "nombreCiudad": "Ansermanuevo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25599",
+    "nombreCiudad": "Apulo"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47053",
+    "nombreCiudad": "Aracataca"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17050",
+    "nombreCiudad": "Aranzazu"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68051",
+    "nombreCiudad": "Aratoca"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81001",
+    "nombreCiudad": "Arauca"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81065",
+    "nombreCiudad": "Arauquita"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54051",
+    "nombreCiudad": "Arboledas"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05051",
+    "nombreCiudad": "Arboletes"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05055",
+    "nombreCiudad": "Argelia"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19050",
+    "nombreCiudad": "Argelia"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76054",
+    "nombreCiudad": "Argelia"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05059",
+    "nombreCiudad": "Armenia"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63001",
+    "nombreCiudad": "Armenia"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52435",
+    "nombreCiudad": "Mallama"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20032",
+    "nombreCiudad": "Astrea"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73067",
+    "nombreCiudad": "Ataco"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27787",
+    "nombreCiudad": "Tadó"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15755",
+    "nombreCiudad": "Socotá"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19075",
+    "nombreCiudad": "Balboa"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66075",
+    "nombreCiudad": "Balboa"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41078",
+    "nombreCiudad": "Baraya"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15690",
+    "nombreCiudad": "SantaMaría"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18479",
+    "nombreCiudad": "Morelia"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18256",
+    "nombreCiudad": "ElPaujíl"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15097",
+    "nombreCiudad": "Boavita"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15104",
+    "nombreCiudad": "Boyacá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15762",
+    "nombreCiudad": "Sora"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15776",
+    "nombreCiudad": "Sutamarchán"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47720",
+    "nombreCiudad": "SantaBárbaradePinto"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13655",
+    "nombreCiudad": "SanJacintodelCauca"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15296",
+    "nombreCiudad": "Gámeza"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27745",
+    "nombreCiudad": "Sipí"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17873",
+    "nombreCiudad": "Villamaría"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05658",
+    "nombreCiudad": "SanJosélaMontaña"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18756",
+    "nombreCiudad": "Solano"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05647",
+    "nombreCiudad": "SanAndrésdeCuerquía"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20443",
+    "nombreCiudad": "ManaureBalcóndelCesar"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17088",
+    "nombreCiudad": "Belalcázar"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52215",
+    "nombreCiudad": "Córdoba"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18029",
+    "nombreCiudad": "Albania"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70670",
+    "nombreCiudad": "Sampués"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47268",
+    "nombreCiudad": "ElRetén"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23682",
+    "nombreCiudad": "SanJosédeUré"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19418",
+    "nombreCiudad": "LópezdeMicay"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54810",
+    "nombreCiudad": "Tibú"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15514",
+    "nombreCiudad": "Páez"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13430",
+    "nombreCiudad": "Magangué"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68229",
+    "nombreCiudad": "Curití"
+  },
+  {
+    "idDepartamento": "99",
+    "idCiudad": "99624",
+    "nombreCiudad": "SantaRosalía"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97666",
+    "nombreCiudad": "Taraira"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47288",
+    "nombreCiudad": "Fundación"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54174",
+    "nombreCiudad": "Chitagá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05079",
+    "nombreCiudad": "Barbosa"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68077",
+    "nombreCiudad": "Barbosa"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68079",
+    "nombreCiudad": "Barichara"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73001",
+    "nombreCiudad": "Ibagué"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68081",
+    "nombreCiudad": "Barrancabermeja"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44078",
+    "nombreCiudad": "Barrancas"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23300",
+    "nombreCiudad": "Cotorra"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08758",
+    "nombreCiudad": "Soledad"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20045",
+    "nombreCiudad": "Becerril"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05172",
+    "nombreCiudad": "Chigorodó"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15814",
+    "nombreCiudad": "Toca"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05088",
+    "nombreCiudad": "Bello"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05086",
+    "nombreCiudad": "Belmira"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05091",
+    "nombreCiudad": "Betania"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05093",
+    "nombreCiudad": "Betulia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68092",
+    "nombreCiudad": "Betulia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25095",
+    "nombreCiudad": "Bituima"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54099",
+    "nombreCiudad": "Bochalema"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85315",
+    "nombreCiudad": "Sácama"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20060",
+    "nombreCiudad": "Bosconia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68001",
+    "nombreCiudad": "Bucaramanga"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54109",
+    "nombreCiudad": "Bucarasica"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76109",
+    "nombreCiudad": "Buenaventura"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63111",
+    "nombreCiudad": "Buenavista"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70110",
+    "nombreCiudad": "Buenavista"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27245",
+    "nombreCiudad": "ElCarmendeAtrato"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76113",
+    "nombreCiudad": "Bugalagrande"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25120",
+    "nombreCiudad": "Cabrera"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68121",
+    "nombreCiudad": "Cabrera"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50124",
+    "nombreCiudad": "Cabuyaro"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25123",
+    "nombreCiudad": "Cachipay"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05125",
+    "nombreCiudad": "Caicedo"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76122",
+    "nombreCiudad": "Caicedonia"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70124",
+    "nombreCiudad": "Caimito"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73124",
+    "nombreCiudad": "Cajamarca"
+  },
+  {
+    "idDepartamento": "95",
+    "idCiudad": "95015",
+    "nombreCiudad": "Calamar"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05129",
+    "nombreCiudad": "Caldas"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19137",
+    "nombreCiudad": "Caldono"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76001",
+    "nombreCiudad": "Cali"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68132",
+    "nombreCiudad": "California"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76126",
+    "nombreCiudad": "Calima"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19142",
+    "nombreCiudad": "Caloto"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05134",
+    "nombreCiudad": "Campamento"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15740",
+    "nombreCiudad": "Siachoque"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41132",
+    "nombreCiudad": "Campoalegre"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76130",
+    "nombreCiudad": "Candelaria"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52352",
+    "nombreCiudad": "Iles"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68147",
+    "nombreCiudad": "Capitanejo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05145",
+    "nombreCiudad": "Caramanta"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05147",
+    "nombreCiudad": "Carepa"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68101",
+    "nombreCiudad": "Bolívar"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05197",
+    "nombreCiudad": "Cocorná"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27077",
+    "nombreCiudad": "BajoBaudó"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05150",
+    "nombreCiudad": "Carolina"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76100",
+    "nombreCiudad": "Bolívar"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15638",
+    "nombreCiudad": "Sáchica"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76147",
+    "nombreCiudad": "Cartago"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73152",
+    "nombreCiudad": "Casabianca"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19780",
+    "nombreCiudad": "Suárez"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05154",
+    "nombreCiudad": "Caucasia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68162",
+    "nombreCiudad": "Cerrito"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52051",
+    "nombreCiudad": "Arboleda"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73168",
+    "nombreCiudad": "Chaparral"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68169",
+    "nombreCiudad": "Charta"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68176",
+    "nombreCiudad": "Chima"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20175",
+    "nombreCiudad": "Chimichagua"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25178",
+    "nombreCiudad": "Chipaque"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47170",
+    "nombreCiudad": "Chivolo"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13458",
+    "nombreCiudad": "Montecristo"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68190",
+    "nombreCiudad": "Cimitarra"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63190",
+    "nombreCiudad": "Circasia"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05190",
+    "nombreCiudad": "Cisneros"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41807",
+    "nombreCiudad": "Timaná"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73200",
+    "nombreCiudad": "Coello"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25200",
+    "nombreCiudad": "Cogua"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41206",
+    "nombreCiudad": "Colombia"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70204",
+    "nombreCiudad": "Coloso"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05209",
+    "nombreCiudad": "Concordia"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47205",
+    "nombreCiudad": "Concordia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68209",
+    "nombreCiudad": "Confines"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27615",
+    "nombreCiudad": "Riosucio"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05212",
+    "nombreCiudad": "Copacabana"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19212",
+    "nombreCiudad": "Corinto"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68217",
+    "nombreCiudad": "Coromoro"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70215",
+    "nombreCiudad": "Corozal"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25214",
+    "nombreCiudad": "Cota"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73217",
+    "nombreCiudad": "Coyaima"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85139",
+    "nombreCiudad": "Maní"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54223",
+    "nombreCiudad": "Cucutilla"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50226",
+    "nombreCiudad": "Cumaral"
+  },
+  {
+    "idDepartamento": "99",
+    "idCiudad": "99773",
+    "nombreCiudad": "Cumaribo"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73226",
+    "nombreCiudad": "Cunday"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05234",
+    "nombreCiudad": "Dabeiba"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76233",
+    "nombreCiudad": "Dagua"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44090",
+    "nombreCiudad": "Dibulla"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73236",
+    "nombreCiudad": "Dolores"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66170",
+    "nombreCiudad": "Dosquebradas"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54239",
+    "nombreCiudad": "Durania"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15686",
+    "nombreCiudad": "Santana"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05809",
+    "nombreCiudad": "Titiribí"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15464",
+    "nombreCiudad": "Mongua"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05885",
+    "nombreCiudad": "Yalí"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05858",
+    "nombreCiudad": "Vegachí"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23570",
+    "nombreCiudad": "PuebloNuevo"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52835",
+    "nombreCiudad": "SanAndrésdeTumaco"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05364",
+    "nombreCiudad": "Jardín"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25053",
+    "nombreCiudad": "Arbeláez"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76616",
+    "nombreCiudad": "Riofrío"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25871",
+    "nombreCiudad": "Villagómez"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25777",
+    "nombreCiudad": "Supatá"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13673",
+    "nombreCiudad": "SantaCatalina"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05480",
+    "nombreCiudad": "Mutatá"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68324",
+    "nombreCiudad": "Guavatá"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25269",
+    "nombreCiudad": "Facatativá"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18592",
+    "nombreCiudad": "PuertoRico"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27491",
+    "nombreCiudad": "Nóvita"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08436",
+    "nombreCiudad": "Manatí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52480",
+    "nombreCiudad": "Nariño"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15693",
+    "nombreCiudad": "SantaRosadeViterbo"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13006",
+    "nombreCiudad": "Achí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52560",
+    "nombreCiudad": "Potosí"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05679",
+    "nombreCiudad": "SantaBárbara"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27073",
+    "nombreCiudad": "Bagadó"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15759",
+    "nombreCiudad": "Sogamoso"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05264",
+    "nombreCiudad": "Entrerríos"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15185",
+    "nombreCiudad": "Chitaraque"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13160",
+    "nombreCiudad": "Cantagallo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15790",
+    "nombreCiudad": "Tasco"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52256",
+    "nombreCiudad": "ElRosario"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68235",
+    "nombreCiudad": "ElCarmendeChucurí"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66045",
+    "nombreCiudad": "Apía"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52786",
+    "nombreCiudad": "Taminango"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68720",
+    "nombreCiudad": "SantaHelenadelOpón"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52320",
+    "nombreCiudad": "Guaitarilla"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25151",
+    "nombreCiudad": "Cáqueza"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08573",
+    "nombreCiudad": "PuertoColombia"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15276",
+    "nombreCiudad": "Floresta"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94663",
+    "nombreCiudad": "Mapiripana"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15248",
+    "nombreCiudad": "ElEspino"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63130",
+    "nombreCiudad": "Calarcá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15204",
+    "nombreCiudad": "Cómbita"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08558",
+    "nombreCiudad": "Polonuevo"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47058",
+    "nombreCiudad": "Ariguaní"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68264",
+    "nombreCiudad": "Encino"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68266",
+    "nombreCiudad": "Enciso"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05266",
+    "nombreCiudad": "Envigado"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73268",
+    "nombreCiudad": "Espinal"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73270",
+    "nombreCiudad": "Falan"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17272",
+    "nombreCiudad": "Filadelfia"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63272",
+    "nombreCiudad": "Filandia"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73275",
+    "nombreCiudad": "Flandes"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19290",
+    "nombreCiudad": "Florencia"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76275",
+    "nombreCiudad": "Florida"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68276",
+    "nombreCiudad": "Floridablanca"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44279",
+    "nombreCiudad": "Fonseca"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81300",
+    "nombreCiudad": "Fortul"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25281",
+    "nombreCiudad": "Fosca"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15212",
+    "nombreCiudad": "Coper"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05282",
+    "nombreCiudad": "Fredonia"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73283",
+    "nombreCiudad": "Fresno"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05284",
+    "nombreCiudad": "Frontino"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27025",
+    "nombreCiudad": "AltoBaudó"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25286",
+    "nombreCiudad": "Funza"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70235",
+    "nombreCiudad": "Galeras"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25299",
+    "nombreCiudad": "Gama"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20295",
+    "nombreCiudad": "Gamarra"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41306",
+    "nombreCiudad": "Gigante"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76306",
+    "nombreCiudad": "Ginebra"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05306",
+    "nombreCiudad": "Giraldo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25307",
+    "nombreCiudad": "Girardot"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05308",
+    "nombreCiudad": "Girardota"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15317",
+    "nombreCiudad": "Guacamayas"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54313",
+    "nombreCiudad": "Gramalote"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05313",
+    "nombreCiudad": "Granada"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25312",
+    "nombreCiudad": "Granada"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50313",
+    "nombreCiudad": "Granada"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68318",
+    "nombreCiudad": "Guaca"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08560",
+    "nombreCiudad": "Ponedera"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05315",
+    "nombreCiudad": "Guadalupe"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41319",
+    "nombreCiudad": "Guadalupe"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68320",
+    "nombreCiudad": "Guadalupe"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25320",
+    "nombreCiudad": "Guaduas"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47318",
+    "nombreCiudad": "Guamal"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50318",
+    "nombreCiudad": "Guamal"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73319",
+    "nombreCiudad": "Guamo"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52565",
+    "nombreCiudad": "Providencia"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70265",
+    "nombreCiudad": "Guaranda"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05318",
+    "nombreCiudad": "Guarne"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25322",
+    "nombreCiudad": "Guasca"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25326",
+    "nombreCiudad": "Guatavita"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27135",
+    "nombreCiudad": "ElCantónSanPablo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25335",
+    "nombreCiudad": "Guayabetal"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15092",
+    "nombreCiudad": "Betéitiva"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68344",
+    "nombreCiudad": "Hato"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76364",
+    "nombreCiudad": "Jamundí"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44378",
+    "nombreCiudad": "Hatonuevo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05347",
+    "nombreCiudad": "Heliconia"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73347",
+    "nombreCiudad": "Herveo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05353",
+    "nombreCiudad": "Hispania"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41349",
+    "nombreCiudad": "Hobo"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73349",
+    "nombreCiudad": "Honda"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73352",
+    "nombreCiudad": "Icononzo"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41359",
+    "nombreCiudad": "Isnos"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05361",
+    "nombreCiudad": "Ituango"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27006",
+    "nombreCiudad": "Acandí"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19693",
+    "nombreCiudad": "SanSebastián"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15368",
+    "nombreCiudad": "Jericó"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97511",
+    "nombreCiudad": "Pacoa"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15226",
+    "nombreCiudad": "Cuítiva"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94887",
+    "nombreCiudad": "PanaPana"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05044",
+    "nombreCiudad": "Anzá"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97889",
+    "nombreCiudad": "Yavaraté"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52473",
+    "nombreCiudad": "Mosquera"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27075",
+    "nombreCiudad": "BahíaSolano"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15820",
+    "nombreCiudad": "Tópaga"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52418",
+    "nombreCiudad": "LosAndes"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73408",
+    "nombreCiudad": "Lérida"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15377",
+    "nombreCiudad": "Labranzagrande"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23466",
+    "nombreCiudad": "Montelíbano"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68298",
+    "nombreCiudad": "Gámbita"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25580",
+    "nombreCiudad": "Pulí"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23580",
+    "nombreCiudad": "PuertoLibertador"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05237",
+    "nombreCiudad": "Donmatías"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05756",
+    "nombreCiudad": "Sonsón"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97161",
+    "nombreCiudad": "Carurú"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15664",
+    "nombreCiudad": "SanJosédePare"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23670",
+    "nombreCiudad": "SanAndrésdeSotavento"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23001",
+    "nombreCiudad": "Montería"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27099",
+    "nombreCiudad": "Bojayá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52323",
+    "nombreCiudad": "Gualmatán"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05040",
+    "nombreCiudad": "Anorí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52411",
+    "nombreCiudad": "Linares"
+  },
+  {
+    "idDepartamento": "88",
+    "idCiudad": "88001",
+    "nombreCiudad": "SanAndrés"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25258",
+    "nombreCiudad": "ElPeñón"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27495",
+    "nombreCiudad": "Nuquí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52520",
+    "nombreCiudad": "FranciscoPizarro"
+  },
+  {
+    "idDepartamento": "99",
+    "idCiudad": "99001",
+    "nombreCiudad": "PuertoCarreño"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08137",
+    "nombreCiudad": "CampodelaCruz"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23807",
+    "nombreCiudad": "Tierralta"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52079",
+    "nombreCiudad": "Barbacoas"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08421",
+    "nombreCiudad": "Luruaco"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52385",
+    "nombreCiudad": "LaLlanada"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15238",
+    "nombreCiudad": "Duitama"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13490",
+    "nombreCiudad": "Norosí"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25181",
+    "nombreCiudad": "Choachí"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18094",
+    "nombreCiudad": "BeléndelosAndaquíes"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23068",
+    "nombreCiudad": "Ayapel"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13650",
+    "nombreCiudad": "SanFernando"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15183",
+    "nombreCiudad": "Chita"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05142",
+    "nombreCiudad": "Caracolí"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94888",
+    "nombreCiudad": "Morichal"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18205",
+    "nombreCiudad": "Curillo"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20228",
+    "nombreCiudad": "Curumaní"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54377",
+    "nombreCiudad": "Labateca"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68406",
+    "nombreCiudad": "Lebrija"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25407",
+    "nombreCiudad": "Lenguazaque"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91001",
+    "nombreCiudad": "Leticia"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05411",
+    "nombreCiudad": "Liborina"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52110",
+    "nombreCiudad": "Buesaco"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15511",
+    "nombreCiudad": "Pachavita"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68669",
+    "nombreCiudad": "SanAndrés"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52207",
+    "nombreCiudad": "Consacá"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20310",
+    "nombreCiudad": "González"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15469",
+    "nombreCiudad": "Moniquirá"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54418",
+    "nombreCiudad": "Lourdes"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68425",
+    "nombreCiudad": "Macaravita"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05425",
+    "nombreCiudad": "Maceo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25430",
+    "nombreCiudad": "Madrid"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44430",
+    "nombreCiudad": "Maicao"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70429",
+    "nombreCiudad": "Majagual"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44560",
+    "nombreCiudad": "Manaure"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23162",
+    "nombreCiudad": "Cereté"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17001",
+    "nombreCiudad": "Manizales"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25436",
+    "nombreCiudad": "Manta"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17433",
+    "nombreCiudad": "Manzanares"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19809",
+    "nombreCiudad": "Timbiquí"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05440",
+    "nombreCiudad": "Marinilla"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17442",
+    "nombreCiudad": "Marmato"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17444",
+    "nombreCiudad": "Marquetalia"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66440",
+    "nombreCiudad": "Marsella"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17446",
+    "nombreCiudad": "Marulanda"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68444",
+    "nombreCiudad": "Matanza"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25438",
+    "nombreCiudad": "Medina"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18785",
+    "nombreCiudad": "Solita"
+  },
+  {
+    "idDepartamento": "95",
+    "idCiudad": "95001",
+    "nombreCiudad": "SanJosédelGuaviare"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25740",
+    "nombreCiudad": "Sibaté"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73449",
+    "nombreCiudad": "Melgar"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19450",
+    "nombreCiudad": "Mercaderes"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50330",
+    "nombreCiudad": "Mesetas"
+  },
+  {
+    "idDepartamento": "95",
+    "idCiudad": "95200",
+    "nombreCiudad": "Miraflores"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19455",
+    "nombreCiudad": "Miranda"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05042",
+    "nombreCiudad": "SantaFédeAntioquia"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86001",
+    "nombreCiudad": "Mocoa"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68464",
+    "nombreCiudad": "Mogotes"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68468",
+    "nombreCiudad": "Molagavita"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05467",
+    "nombreCiudad": "Montebello"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63470",
+    "nombreCiudad": "Montenegro"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85162",
+    "nombreCiudad": "Monterrey"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19473",
+    "nombreCiudad": "Morales"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70473",
+    "nombreCiudad": "Morroa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25473",
+    "nombreCiudad": "Mosquera"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73461",
+    "nombreCiudad": "Murillo"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54480",
+    "nombreCiudad": "Mutiscua"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73483",
+    "nombreCiudad": "Natagaima"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17486",
+    "nombreCiudad": "Neira"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41001",
+    "nombreCiudad": "Neiva"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25488",
+    "nombreCiudad": "Nilo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25489",
+    "nombreCiudad": "Nimaima"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25491",
+    "nombreCiudad": "Nocaima"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17495",
+    "nombreCiudad": "Norcasia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25851",
+    "nombreCiudad": "Útica"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13836",
+    "nombreCiudad": "Turbaco"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76497",
+    "nombreCiudad": "Obando"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68498",
+    "nombreCiudad": "Ocamonte"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68500",
+    "nombreCiudad": "Oiba"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05501",
+    "nombreCiudad": "Olaya"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13052",
+    "nombreCiudad": "Arjona"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68502",
+    "nombreCiudad": "Onzaga"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41503",
+    "nombreCiudad": "Oporapa"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86320",
+    "nombreCiudad": "Orito"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73504",
+    "nombreCiudad": "Ortega"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70508",
+    "nombreCiudad": "Ovejas"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25513",
+    "nombreCiudad": "Pacho"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19513",
+    "nombreCiudad": "Padilla"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41518",
+    "nombreCiudad": "Paicol"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20517",
+    "nombreCiudad": "Pailitas"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25518",
+    "nombreCiudad": "Paime"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41524",
+    "nombreCiudad": "Palermo"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17524",
+    "nombreCiudad": "Palestina"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41530",
+    "nombreCiudad": "Palestina"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18247",
+    "nombreCiudad": "ElDoncello"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15516",
+    "nombreCiudad": "Paipa"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13140",
+    "nombreCiudad": "Calamar"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15533",
+    "nombreCiudad": "Paya"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19001",
+    "nombreCiudad": "Popayán"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76036",
+    "nombreCiudad": "Andalucía"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85400",
+    "nombreCiudad": "Támara"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15774",
+    "nombreCiudad": "Susacón"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23574",
+    "nombreCiudad": "PuertoEscondido"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19824",
+    "nombreCiudad": "Totoró"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54172",
+    "nombreCiudad": "Chinácota"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18460",
+    "nombreCiudad": "Milán"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19585",
+    "nombreCiudad": "Puracé"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52203",
+    "nombreCiudad": "Colón"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05790",
+    "nombreCiudad": "Tarazá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15646",
+    "nombreCiudad": "Samacá"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19300",
+    "nombreCiudad": "Guachené"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13810",
+    "nombreCiudad": "Tiquisio"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41357",
+    "nombreCiudad": "Íquira"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25293",
+    "nombreCiudad": "Gachalá"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73043",
+    "nombreCiudad": "Anzoátegui"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91540",
+    "nombreCiudad": "PuertoNariño"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52621",
+    "nombreCiudad": "RobertoPayán"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68861",
+    "nombreCiudad": "Vélez"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15507",
+    "nombreCiudad": "Otanche"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08296",
+    "nombreCiudad": "Galapa"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13894",
+    "nombreCiudad": "Zambrano"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05045",
+    "nombreCiudad": "Apartadó"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76020",
+    "nombreCiudad": "Alcalá"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27001",
+    "nombreCiudad": "Quibdó"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52405",
+    "nombreCiudad": "Leiva"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68432",
+    "nombreCiudad": "Málaga"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15403",
+    "nombreCiudad": "LaUvita"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68370",
+    "nombreCiudad": "Jordán"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13074",
+    "nombreCiudad": "BarrancodeLoba"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15480",
+    "nombreCiudad": "Muzo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25823",
+    "nombreCiudad": "Topaipí"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54344",
+    "nombreCiudad": "Hacarí"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86571",
+    "nombreCiudad": "PuertoGuzmán"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15599",
+    "nombreCiudad": "Ramiriquí"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15757",
+    "nombreCiudad": "Socha"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68522",
+    "nombreCiudad": "Palmar"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27250",
+    "nombreCiudad": "ElLitoralSanJuan"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25839",
+    "nombreCiudad": "Ubalá"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76520",
+    "nombreCiudad": "Palmira"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70523",
+    "nombreCiudad": "Palmito"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73520",
+    "nombreCiudad": "Palocabildo"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54518",
+    "nombreCiudad": "Pamplona"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54520",
+    "nombreCiudad": "Pamplonita"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76834",
+    "nombreCiudad": "Tuluá"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25524",
+    "nombreCiudad": "Pandi"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25530",
+    "nombreCiudad": "Paratebueno"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25535",
+    "nombreCiudad": "Pasca"
+  },
+  {
+    "idDepartamento": "11",
+    "idCiudad": "11001",
+    "nombreCiudad": "BogotáD.C."
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68780",
+    "nombreCiudad": "Suratá"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47541",
+    "nombreCiudad": "Pedraza"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20550",
+    "nombreCiudad": "Pelaya"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17541",
+    "nombreCiudad": "Pensilvania"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05543",
+    "nombreCiudad": "Peque"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66001",
+    "nombreCiudad": "Pereira"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19533",
+    "nombreCiudad": "Piamonte"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68547",
+    "nombreCiudad": "Piedecuesta"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73547",
+    "nombreCiudad": "Piedras"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63548",
+    "nombreCiudad": "Pijao"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05541",
+    "nombreCiudad": "Peñol"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68549",
+    "nombreCiudad": "Pinchote"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41548",
+    "nombreCiudad": "Pital"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41551",
+    "nombreCiudad": "Pitalito"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47551",
+    "nombreCiudad": "Pivijay"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73555",
+    "nombreCiudad": "Planadas"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73585",
+    "nombreCiudad": "Purificación"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47555",
+    "nombreCiudad": "Plato"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85263",
+    "nombreCiudad": "Pore"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76563",
+    "nombreCiudad": "Pradera"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73563",
+    "nombreCiudad": "Prado"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68211",
+    "nombreCiudad": "Contratación"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27600",
+    "nombreCiudad": "RíoQuito"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08549",
+    "nombreCiudad": "Piojó"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05576",
+    "nombreCiudad": "Pueblorrico"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47570",
+    "nombreCiudad": "Puebloviejo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15001",
+    "nombreCiudad": "Tunja"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05873",
+    "nombreCiudad": "VigíadelFuerte"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25317",
+    "nombreCiudad": "Guachetá"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68689",
+    "nombreCiudad": "SanVicentedeChucurí"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25899",
+    "nombreCiudad": "Zipaquirá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15816",
+    "nombreCiudad": "Togüí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52696",
+    "nombreCiudad": "SantaBárbara"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52356",
+    "nombreCiudad": "Ipiales"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52227",
+    "nombreCiudad": "Cumbal"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13433",
+    "nombreCiudad": "Mahates"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47545",
+    "nombreCiudad": "PijiñodelCarmen"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15806",
+    "nombreCiudad": "Tibasosa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25324",
+    "nombreCiudad": "Guataquí"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08606",
+    "nombreCiudad": "Repelón"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15131",
+    "nombreCiudad": "Caldas"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13600",
+    "nombreCiudad": "RíoViejo"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20178",
+    "nombreCiudad": "Chiriguaná"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52001",
+    "nombreCiudad": "Pasto"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15332",
+    "nombreCiudad": "Güicán"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13744",
+    "nombreCiudad": "Simití"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15839",
+    "nombreCiudad": "Tutazá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05004",
+    "nombreCiudad": "Abriaquí"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52885",
+    "nombreCiudad": "Yacuanquer"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70742",
+    "nombreCiudad": "SanLuisdeSincé"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15673",
+    "nombreCiudad": "SanMateo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05475",
+    "nombreCiudad": "Murindó"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47960",
+    "nombreCiudad": "Zapayán"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15476",
+    "nombreCiudad": "Motavita"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15810",
+    "nombreCiudad": "Tipacoque"
+  },
+  {
+    "idDepartamento": "88",
+    "idCiudad": "88564",
+    "nombreCiudad": "Providencia"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52381",
+    "nombreCiudad": "LaFlorida"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13222",
+    "nombreCiudad": "Clemencia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25592",
+    "nombreCiudad": "Quebradanegra"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25594",
+    "nombreCiudad": "Quetame"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63594",
+    "nombreCiudad": "Quimbaya"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25596",
+    "nombreCiudad": "Quipile"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54599",
+    "nombreCiudad": "Ragonvalia"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85279",
+    "nombreCiudad": "Recetor"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05604",
+    "nombreCiudad": "Remedios"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47605",
+    "nombreCiudad": "Remolino"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50606",
+    "nombreCiudad": "Restrepo"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76606",
+    "nombreCiudad": "Restrepo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05607",
+    "nombreCiudad": "Retiro"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25612",
+    "nombreCiudad": "Ricaurte"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91460",
+    "nombreCiudad": "MiritíParaná"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27810",
+    "nombreCiudad": "UniónPanamericana"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15660",
+    "nombreCiudad": "SanEduardo"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52260",
+    "nombreCiudad": "ElTambo"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73616",
+    "nombreCiudad": "Rioblanco"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44001",
+    "nombreCiudad": "Riohacha"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05615",
+    "nombreCiudad": "Rionegro"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68615",
+    "nombreCiudad": "Rionegro"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17614",
+    "nombreCiudad": "Riosucio"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17616",
+    "nombreCiudad": "Risaralda"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41615",
+    "nombreCiudad": "Rivera"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70221",
+    "nombreCiudad": "Coveñas"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76622",
+    "nombreCiudad": "Roldanillo"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73622",
+    "nombreCiudad": "Roncesvalles"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19622",
+    "nombreCiudad": "Rosas"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73624",
+    "nombreCiudad": "Rovira"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05030",
+    "nombreCiudad": "Amagá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05628",
+    "nombreCiudad": "Sabanalarga"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85300",
+    "nombreCiudad": "Sabanalarga"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41298",
+    "nombreCiudad": "Garzón"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05631",
+    "nombreCiudad": "Sabaneta"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41660",
+    "nombreCiudad": "Saladoblanco"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17653",
+    "nombreCiudad": "Salamina"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47675",
+    "nombreCiudad": "Salamina"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54660",
+    "nombreCiudad": "Salazar"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63690",
+    "nombreCiudad": "Salento"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05642",
+    "nombreCiudad": "Salgar"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23672",
+    "nombreCiudad": "SanAntero"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27425",
+    "nombreCiudad": "MedioAtrato"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44098",
+    "nombreCiudad": "Distracción"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13647",
+    "nombreCiudad": "SanEstanislao"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25148",
+    "nombreCiudad": "Caparrapí"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23586",
+    "nombreCiudad": "PurísimadelaConcepción"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27361",
+    "nombreCiudad": "Istmina"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52210",
+    "nombreCiudad": "Contadero"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15425",
+    "nombreCiudad": "Macanal"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25368",
+    "nombreCiudad": "Jerusalén"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66594",
+    "nombreCiudad": "Quinchía"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25224",
+    "nombreCiudad": "Cucunubá"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25288",
+    "nombreCiudad": "Fúquene"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15723",
+    "nombreCiudad": "Sativasur"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25279",
+    "nombreCiudad": "Fómeque"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52354",
+    "nombreCiudad": "Imués"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68682",
+    "nombreCiudad": "SanJoaquín"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54498",
+    "nombreCiudad": "Ocaña"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86568",
+    "nombreCiudad": "PuertoAsís"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76318",
+    "nombreCiudad": "Guacarí"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15676",
+    "nombreCiudad": "SanMigueldeSema"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70820",
+    "nombreCiudad": "SantiagodeTolú"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68368",
+    "nombreCiudad": "JesúsMaría"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70400",
+    "nombreCiudad": "LaUnión"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68160",
+    "nombreCiudad": "Cepitá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15832",
+    "nombreCiudad": "Tununguá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05656",
+    "nombreCiudad": "SanJerónimo"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13670",
+    "nombreCiudad": "SanPablo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25426",
+    "nombreCiudad": "Machetá"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23168",
+    "nombreCiudad": "Chimá"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19355",
+    "nombreCiudad": "Inzá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52378",
+    "nombreCiudad": "LaCruz"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15753",
+    "nombreCiudad": "Soatá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05368",
+    "nombreCiudad": "Jericó"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19130",
+    "nombreCiudad": "Cajibío"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15494",
+    "nombreCiudad": "NuevoColón"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54125",
+    "nombreCiudad": "Cácota"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15187",
+    "nombreCiudad": "Chivatá"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91530",
+    "nombreCiudad": "PuertoAlegría"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05206",
+    "nombreCiudad": "Concepción"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94884",
+    "nombreCiudad": "PuertoColombia"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13188",
+    "nombreCiudad": "Cicuco"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25168",
+    "nombreCiudad": "Chaguaní"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68207",
+    "nombreCiudad": "Concepción"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86885",
+    "nombreCiudad": "Villagarzón"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13838",
+    "nombreCiudad": "Turbaná"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15162",
+    "nombreCiudad": "Cerinza"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41885",
+    "nombreCiudad": "Yaguará"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13549",
+    "nombreCiudad": "Pinillos"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23419",
+    "nombreCiudad": "LosCórdobas"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68322",
+    "nombreCiudad": "Guapotá"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19517",
+    "nombreCiudad": "Páez"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15879",
+    "nombreCiudad": "Viracachá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15835",
+    "nombreCiudad": "Turmequé"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05120",
+    "nombreCiudad": "Cáceres"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52254",
+    "nombreCiudad": "ElPeñol"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23090",
+    "nombreCiudad": "Canalete"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05400",
+    "nombreCiudad": "LaUnión"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68271",
+    "nombreCiudad": "Florián"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05659",
+    "nombreCiudad": "SanJuandeUrabá"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23660",
+    "nombreCiudad": "Sahagún"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08141",
+    "nombreCiudad": "Candelaria"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15632",
+    "nombreCiudad": "Saboyá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52022",
+    "nombreCiudad": "Aldana"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25295",
+    "nombreCiudad": "Gachancipá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05101",
+    "nombreCiudad": "CiudadBolívar"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17665",
+    "nombreCiudad": "SanJosé"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52720",
+    "nombreCiudad": "Sapuyes"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15897",
+    "nombreCiudad": "Zetaquira"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15696",
+    "nombreCiudad": "SantaSofía"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70230",
+    "nombreCiudad": "Chalán"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41668",
+    "nombreCiudad": "SanAgustín"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52490",
+    "nombreCiudad": "OlayaHerrera"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05360",
+    "nombreCiudad": "Itagüí"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15537",
+    "nombreCiudad": "PazdeRío"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15407",
+    "nombreCiudad": "VilladeLeyva"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50568",
+    "nombreCiudad": "PuertoGaitán"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15531",
+    "nombreCiudad": "Pauna"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52694",
+    "nombreCiudad": "SanPedrodeCartago"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68307",
+    "nombreCiudad": "Girón"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47258",
+    "nombreCiudad": "ElPiñón"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15500",
+    "nombreCiudad": "Oicatá"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08078",
+    "nombreCiudad": "Baranoa"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27372",
+    "nombreCiudad": "Juradó"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41483",
+    "nombreCiudad": "Nátaga"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15232",
+    "nombreCiudad": "Chíquiza"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08832",
+    "nombreCiudad": "Tubará"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25183",
+    "nombreCiudad": "Chocontá"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54347",
+    "nombreCiudad": "Herrán"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94001",
+    "nombreCiudad": "Inírida"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15798",
+    "nombreCiudad": "Tenza"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23855",
+    "nombreCiudad": "Valencia"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13062",
+    "nombreCiudad": "Arroyohondo"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27050",
+    "nombreCiudad": "Atrato"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27160",
+    "nombreCiudad": "Cértegui"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15804",
+    "nombreCiudad": "Tibaná"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27430",
+    "nombreCiudad": "MedioBaudó"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50110",
+    "nombreCiudad": "BarrancadeUpía"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25817",
+    "nombreCiudad": "Tocancipá"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13760",
+    "nombreCiudad": "Soplaviento"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52683",
+    "nombreCiudad": "Sandoná"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15172",
+    "nombreCiudad": "Chinavita"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52036",
+    "nombreCiudad": "Ancuyá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52573",
+    "nombreCiudad": "Puerres"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15681",
+    "nombreCiudad": "SanPablodeBorbur"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15491",
+    "nombreCiudad": "Nobsa"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54001",
+    "nombreCiudad": "Cúcuta"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97777",
+    "nombreCiudad": "Papunaua"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15621",
+    "nombreCiudad": "Rondón"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13442",
+    "nombreCiudad": "MaríalaBaja"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54680",
+    "nombreCiudad": "Santiago"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86760",
+    "nombreCiudad": "Santiago"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52390",
+    "nombreCiudad": "LaTola"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15518",
+    "nombreCiudad": "Pajarito"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66456",
+    "nombreCiudad": "Mistrató"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66687",
+    "nombreCiudad": "Santuario"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81736",
+    "nombreCiudad": "Saravena"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54720",
+    "nombreCiudad": "Sardinata"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25718",
+    "nombreCiudad": "Sasaima"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05736",
+    "nombreCiudad": "Segovia"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76736",
+    "nombreCiudad": "Sevilla"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86749",
+    "nombreCiudad": "Sibundoy"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54743",
+    "nombreCiudad": "Silos"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25743",
+    "nombreCiudad": "Silvania"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19743",
+    "nombreCiudad": "Silvia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68745",
+    "nombreCiudad": "Simacota"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25745",
+    "nombreCiudad": "Simijaca"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70001",
+    "nombreCiudad": "Sincelejo"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47745",
+    "nombreCiudad": "Sitionuevo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25754",
+    "nombreCiudad": "Soacha"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68755",
+    "nombreCiudad": "Socorro"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19760",
+    "nombreCiudad": "Sotara"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68770",
+    "nombreCiudad": "Suaita"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41770",
+    "nombreCiudad": "Suaza"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25769",
+    "nombreCiudad": "Subachoque"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19785",
+    "nombreCiudad": "Sucre"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68152",
+    "nombreCiudad": "Carcasí"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68773",
+    "nombreCiudad": "Sucre"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70771",
+    "nombreCiudad": "Sucre"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25772",
+    "nombreCiudad": "Suesca"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25779",
+    "nombreCiudad": "Susa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25781",
+    "nombreCiudad": "Sutatausa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25785",
+    "nombreCiudad": "Tabio"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08685",
+    "nombreCiudad": "SantoTomás"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20787",
+    "nombreCiudad": "Tamalameque"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81794",
+    "nombreCiudad": "Tame"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41791",
+    "nombreCiudad": "Tarqui"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05792",
+    "nombreCiudad": "Tarso"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85410",
+    "nombreCiudad": "Tauramena"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25793",
+    "nombreCiudad": "Tausa"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41799",
+    "nombreCiudad": "Tello"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25797",
+    "nombreCiudad": "Tena"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47798",
+    "nombreCiudad": "Tenerife"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25799",
+    "nombreCiudad": "Tenjo"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54800",
+    "nombreCiudad": "Teorama"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41801",
+    "nombreCiudad": "Teruel"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41797",
+    "nombreCiudad": "Tesalia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25805",
+    "nombreCiudad": "Tibacuy"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25807",
+    "nombreCiudad": "Tibirita"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25815",
+    "nombreCiudad": "Tocaima"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05819",
+    "nombreCiudad": "Toledo"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54820",
+    "nombreCiudad": "Toledo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15466",
+    "nombreCiudad": "Monguí"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68820",
+    "nombreCiudad": "Tona"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76823",
+    "nombreCiudad": "Toro"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85430",
+    "nombreCiudad": "Trinidad"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76828",
+    "nombreCiudad": "Trujillo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05837",
+    "nombreCiudad": "Turbo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25841",
+    "nombreCiudad": "Ubaque"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76845",
+    "nombreCiudad": "Ulloa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25845",
+    "nombreCiudad": "Une"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05036",
+    "nombreCiudad": "Angelópolis"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52699",
+    "nombreCiudad": "Santacruz"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52083",
+    "nombreCiudad": "Belén"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63302",
+    "nombreCiudad": "Génova"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05483",
+    "nombreCiudad": "Nariño"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08372",
+    "nombreCiudad": "JuandeAcosta"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23686",
+    "nombreCiudad": "SanPelayo"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18860",
+    "nombreCiudad": "Valparaíso"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50400",
+    "nombreCiudad": "Lejanías"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81591",
+    "nombreCiudad": "PuertoRondón"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05001",
+    "nombreCiudad": "Medellín"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25878",
+    "nombreCiudad": "Viotá"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76400",
+    "nombreCiudad": "LaUnión"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15763",
+    "nombreCiudad": "Sotaquirá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15299",
+    "nombreCiudad": "Garagoa"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13001",
+    "nombreCiudad": "CartagenadeIndias"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85015",
+    "nombreCiudad": "Chámeza"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73148",
+    "nombreCiudad": "CarmendeApicalá"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50689",
+    "nombreCiudad": "SanMartín"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25898",
+    "nombreCiudad": "Zipacón"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13580",
+    "nombreCiudad": "Regidor"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68250",
+    "nombreCiudad": "ElPeñón"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15215",
+    "nombreCiudad": "Corrales"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25398",
+    "nombreCiudad": "LaPeña"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25086",
+    "nombreCiudad": "Beltrán"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05113",
+    "nombreCiudad": "Buriticá"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23815",
+    "nombreCiudad": "Tuchín"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15367",
+    "nombreCiudad": "Jenesano"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15325",
+    "nombreCiudad": "Guayatá"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08520",
+    "nombreCiudad": "PalmardeVarela"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15244",
+    "nombreCiudad": "ElCocuy"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13440",
+    "nombreCiudad": "Margarita"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25736",
+    "nombreCiudad": "Sesquilé"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05761",
+    "nombreCiudad": "Sopetrán"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15401",
+    "nombreCiudad": "LaVictoria"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20013",
+    "nombreCiudad": "AgustínCodazzi"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15572",
+    "nombreCiudad": "PuertoBoyacá"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25297",
+    "nombreCiudad": "Gachetá"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13212",
+    "nombreCiudad": "Córdoba"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47692",
+    "nombreCiudad": "SanSebastiándeBuenavista"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66088",
+    "nombreCiudad": "BeléndeUmbría"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68855",
+    "nombreCiudad": "ValledeSanJosé"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18150",
+    "nombreCiudad": "CartagenadelChairá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52693",
+    "nombreCiudad": "SanPablo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15114",
+    "nombreCiudad": "Busbanzá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52224",
+    "nombreCiudad": "Cuaspúd"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05842",
+    "nombreCiudad": "Uramita"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50370",
+    "nombreCiudad": "Uribe"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44847",
+    "nombreCiudad": "Uribia"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05847",
+    "nombreCiudad": "Urrao"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44855",
+    "nombreCiudad": "Urumita"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05854",
+    "nombreCiudad": "Valdivia"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15176",
+    "nombreCiudad": "Chiquinquirá"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25328",
+    "nombreCiudad": "GuayabaldeSíquima"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13657",
+    "nombreCiudad": "SanJuanNepomuceno"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20001",
+    "nombreCiudad": "Valledupar"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73861",
+    "nombreCiudad": "Venadillo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05861",
+    "nombreCiudad": "Venecia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25506",
+    "nombreCiudad": "Venecia"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25862",
+    "nombreCiudad": "Vergara"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76863",
+    "nombreCiudad": "Versalles"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68867",
+    "nombreCiudad": "Vetas"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17867",
+    "nombreCiudad": "Victoria"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15442",
+    "nombreCiudad": "Maripí"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76869",
+    "nombreCiudad": "Vijes"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05495",
+    "nombreCiudad": "Nechí"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13473",
+    "nombreCiudad": "Morales"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05893",
+    "nombreCiudad": "Yondó"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52585",
+    "nombreCiudad": "Pupiales"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19845",
+    "nombreCiudad": "Villarica"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73870",
+    "nombreCiudad": "Villahermosa"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85440",
+    "nombreCiudad": "Villanueva"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44874",
+    "nombreCiudad": "Villanueva"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68872",
+    "nombreCiudad": "Villanueva"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73873",
+    "nombreCiudad": "Villarrica"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50001",
+    "nombreCiudad": "Villavicencio"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41872",
+    "nombreCiudad": "Villavieja"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25875",
+    "nombreCiudad": "Villeta"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50711",
+    "nombreCiudad": "Vistahermosa"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17877",
+    "nombreCiudad": "Viterbo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05887",
+    "nombreCiudad": "Yarumal"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85001",
+    "nombreCiudad": "Yopal"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76890",
+    "nombreCiudad": "Yotoco"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76892",
+    "nombreCiudad": "Yumbo"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68895",
+    "nombreCiudad": "Zapatoca"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05895",
+    "nombreCiudad": "Zaragoza"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76895",
+    "nombreCiudad": "Zarzal"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73671",
+    "nombreCiudad": "Saldaña"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25658",
+    "nombreCiudad": "SanFrancisco"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50450",
+    "nombreCiudad": "PuertoConcordia"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70678",
+    "nombreCiudad": "SanBenitoabad"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19807",
+    "nombreCiudad": "Timbío"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66682",
+    "nombreCiudad": "SantaRosadeCabal"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15778",
+    "nombreCiudad": "Sutatenza"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73854",
+    "nombreCiudad": "ValledeSanJuan"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25386",
+    "nombreCiudad": "LaMesa"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20570",
+    "nombreCiudad": "PuebloBello"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05649",
+    "nombreCiudad": "SanCarlos"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25572",
+    "nombreCiudad": "PuertoSalgar"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76403",
+    "nombreCiudad": "LaVictoria"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47707",
+    "nombreCiudad": "SantaAna"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63401",
+    "nombreCiudad": "LaTebaida"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25645",
+    "nombreCiudad": "SanAntoniodelTequendama"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41396",
+    "nombreCiudad": "LaPlata"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19397",
+    "nombreCiudad": "LaVega"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85136",
+    "nombreCiudad": "LaSalina"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19573",
+    "nombreCiudad": "PuertoTejada"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68575",
+    "nombreCiudad": "PuertoWilches"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25649",
+    "nombreCiudad": "SanBernardo"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68572",
+    "nombreCiudad": "PuenteNacional"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25394",
+    "nombreCiudad": "LaPalma"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85125",
+    "nombreCiudad": "HatoCorozal"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68418",
+    "nombreCiudad": "LosSantos"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54553",
+    "nombreCiudad": "PuertoSantander"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05690",
+    "nombreCiudad": "SantoDomingo"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54670",
+    "nombreCiudad": "SanCalixto"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68377",
+    "nombreCiudad": "LaBelleza"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20710",
+    "nombreCiudad": "SanAlberto"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68573",
+    "nombreCiudad": "PuertoParra"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25653",
+    "nombreCiudad": "SanCayetano"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47001",
+    "nombreCiudad": "SantaMarta"
+  },
+  {
+    "idDepartamento": "99",
+    "idCiudad": "99524",
+    "nombreCiudad": "LaPrimavera"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73686",
+    "nombreCiudad": "SantaIsabel"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76670",
+    "nombreCiudad": "SanPedro"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05591",
+    "nombreCiudad": "PuertoTriunfo"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68679",
+    "nombreCiudad": "SanGil"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86569",
+    "nombreCiudad": "PuertoCaicedo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05670",
+    "nombreCiudad": "SanRoque"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05789",
+    "nombreCiudad": "Támesis"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23555",
+    "nombreCiudad": "PlanetaRica"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15090",
+    "nombreCiudad": "Berbeo"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08849",
+    "nombreCiudad": "Usiacurí"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27413",
+    "nombreCiudad": "Lloró"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08638",
+    "nombreCiudad": "Sabanalarga"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05321",
+    "nombreCiudad": "Guatapé"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70823",
+    "nombreCiudad": "TolúViejo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25843",
+    "nombreCiudad": "VilladedeUbaté"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52399",
+    "nombreCiudad": "LaUnión"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18753",
+    "nombreCiudad": "SanVicentedelCaguán"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08770",
+    "nombreCiudad": "Suan"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13780",
+    "nombreCiudad": "TalaiguaNuevo"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13300",
+    "nombreCiudad": "HatillodeLoba"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52678",
+    "nombreCiudad": "Samaniego"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41676",
+    "nombreCiudad": "SantaMaría"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54003",
+    "nombreCiudad": "Ábrego"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17777",
+    "nombreCiudad": "Supía"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25372",
+    "nombreCiudad": "Junín"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68167",
+    "nombreCiudad": "Charalá"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13244",
+    "nombreCiudad": "ElCarmendeBolívar"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18410",
+    "nombreCiudad": "LaMontañita"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25873",
+    "nombreCiudad": "Villapinzón"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27150",
+    "nombreCiudad": "CarmendelDarién"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08001",
+    "nombreCiudad": "Barranquilla"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52838",
+    "nombreCiudad": "Túquerres"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15808",
+    "nombreCiudad": "Tinjacá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15380",
+    "nombreCiudad": "LaCapilla"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27450",
+    "nombreCiudad": "MedioSanJuan"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18001",
+    "nombreCiudad": "Florencia"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15180",
+    "nombreCiudad": "Chiscas"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68255",
+    "nombreCiudad": "ElPlayón"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23675",
+    "nombreCiudad": "SanBernardodelViento"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15667",
+    "nombreCiudad": "SanLuisdeGaceno"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25758",
+    "nombreCiudad": "Sopó"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05138",
+    "nombreCiudad": "Cañasgordas"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25885",
+    "nombreCiudad": "Yacopí"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73770",
+    "nombreCiudad": "Suárez"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05579",
+    "nombreCiudad": "PuertoBerrío"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19364",
+    "nombreCiudad": "Jambaló"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05652",
+    "nombreCiudad": "SanFrancisco"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05660",
+    "nombreCiudad": "SanLuis"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70717",
+    "nombreCiudad": "SanPedro"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73675",
+    "nombreCiudad": "SanAntonio"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54385",
+    "nombreCiudad": "LaEsperanza"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91536",
+    "nombreCiudad": "PuertoArica"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50150",
+    "nombreCiudad": "CastillalaNueva"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19698",
+    "nombreCiudad": "SantanderdeQuilichao"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05390",
+    "nombreCiudad": "LaPintada"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25154",
+    "nombreCiudad": "CarmendeCarupa"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66400",
+    "nombreCiudad": "LaVirginia"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68673",
+    "nombreCiudad": "SanBenito"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05585",
+    "nombreCiudad": "PuertoNare"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70708",
+    "nombreCiudad": "SanMarcos"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54398",
+    "nombreCiudad": "LaPlaya"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91669",
+    "nombreCiudad": "PuertoSantander"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15189",
+    "nombreCiudad": "Ciénega"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44420",
+    "nombreCiudad": "LaJaguadelPilar"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20383",
+    "nombreCiudad": "LaGloria"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73678",
+    "nombreCiudad": "SanLuis"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68179",
+    "nombreCiudad": "Chipatá"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91407",
+    "nombreCiudad": "LaPedrera"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05667",
+    "nombreCiudad": "SanRafael"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91405",
+    "nombreCiudad": "LaChorrera"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19701",
+    "nombreCiudad": "SantaRosa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25662",
+    "nombreCiudad": "SanJuandeRioseco"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47980",
+    "nombreCiudad": "ZonaBananera"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76377",
+    "nombreCiudad": "LaCumbre"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68397",
+    "nombreCiudad": "LaPaz"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17380",
+    "nombreCiudad": "LaDorada"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20400",
+    "nombreCiudad": "LaJaguadeIbirico"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66572",
+    "nombreCiudad": "PuebloRico"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70418",
+    "nombreCiudad": "LosPalmitos"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66383",
+    "nombreCiudad": "LaCelia"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50350",
+    "nombreCiudad": "LaMacarena"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47161",
+    "nombreCiudad": "CerrodeSanAntonio"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17662",
+    "nombreCiudad": "Samaná"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86755",
+    "nombreCiudad": "SanFrancisco"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15842",
+    "nombreCiudad": "Úmbita"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13620",
+    "nombreCiudad": "SanCristóbal"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27580",
+    "nombreCiudad": "RíoIró"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08433",
+    "nombreCiudad": "Malambo"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13042",
+    "nombreCiudad": "Arenal"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54206",
+    "nombreCiudad": "Convención"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15580",
+    "nombreCiudad": "Quípama"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25099",
+    "nombreCiudad": "Bojacá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15236",
+    "nombreCiudad": "Chivor"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23464",
+    "nombreCiudad": "Momil"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50006",
+    "nombreCiudad": "Acacías"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05490",
+    "nombreCiudad": "Necoclí"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23500",
+    "nombreCiudad": "Moñitos"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52258",
+    "nombreCiudad": "ElTablóndeGómez"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23189",
+    "nombreCiudad": "CiénagadeOro"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50325",
+    "nombreCiudad": "Mapiripán"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13468",
+    "nombreCiudad": "Mompós"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15224",
+    "nombreCiudad": "Cucaita"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23417",
+    "nombreCiudad": "Lorica"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68684",
+    "nombreCiudad": "SanJosédeMiranda"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15542",
+    "nombreCiudad": "Pesca"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52240",
+    "nombreCiudad": "Chachagüí"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08675",
+    "nombreCiudad": "SantaLucía"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73411",
+    "nombreCiudad": "Líbano"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85225",
+    "nombreCiudad": "Nunchía"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13030",
+    "nombreCiudad": "AltosdelRosario"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68705",
+    "nombreCiudad": "SantaBárbara"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23079",
+    "nombreCiudad": "Buenavista"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52612",
+    "nombreCiudad": "Ricaurte"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94885",
+    "nombreCiudad": "LaGuadalupe"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41244",
+    "nombreCiudad": "Elías"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52540",
+    "nombreCiudad": "Policarpa"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25339",
+    "nombreCiudad": "Gutiérrez"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47703",
+    "nombreCiudad": "SanZenón"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52687",
+    "nombreCiudad": "SanLorenzo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15087",
+    "nombreCiudad": "Belén"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19548",
+    "nombreCiudad": "Piendamó"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15272",
+    "nombreCiudad": "Firavitoba"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27800",
+    "nombreCiudad": "Unguía"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15550",
+    "nombreCiudad": "Pisba"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85325",
+    "nombreCiudad": "SanLuisdePalenque"
+  },
+  {
+    "idDepartamento": "18",
+    "idCiudad": "18610",
+    "nombreCiudad": "SanJosédelFragua"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70713",
+    "nombreCiudad": "SanOnofre"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25402",
+    "nombreCiudad": "LaVega"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86757",
+    "nombreCiudad": "SanMiguel"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50686",
+    "nombreCiudad": "SanJuanito"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47460",
+    "nombreCiudad": "NuevaGranada"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05686",
+    "nombreCiudad": "SantaRosadeOsos"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05664",
+    "nombreCiudad": "SanPedrolosMilagros"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05674",
+    "nombreCiudad": "SanVicenteFerrer"
+  },
+  {
+    "idDepartamento": "81",
+    "idCiudad": "81220",
+    "nombreCiudad": "CravoNorte"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19392",
+    "nombreCiudad": "LaSierra"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54673",
+    "nombreCiudad": "SanCayetano"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05376",
+    "nombreCiudad": "LaCeja"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17388",
+    "nombreCiudad": "LaMerced"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23350",
+    "nombreCiudad": "LaApartada"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54871",
+    "nombreCiudad": "VillaCaro"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05380",
+    "nombreCiudad": "LaEstrella"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44650",
+    "nombreCiudad": "SanJuandelCesar"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68655",
+    "nombreCiudad": "SabanadeTorres"
+  },
+  {
+    "idDepartamento": "41",
+    "idCiudad": "41378",
+    "nombreCiudad": "LaArgentina"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91430",
+    "nombreCiudad": "LaVictoria"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70702",
+    "nombreCiudad": "SanJuandeBetulia"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19110",
+    "nombreCiudad": "BuenosAires"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50590",
+    "nombreCiudad": "PuertoRico"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47660",
+    "nombreCiudad": "SabanasdeSanÁngel"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15109",
+    "nombreCiudad": "Buenavista"
+  },
+  {
+    "idDepartamento": "66",
+    "idCiudad": "66318",
+    "nombreCiudad": "Guática"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68533",
+    "nombreCiudad": "Páramo"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15764",
+    "nombreCiudad": "Soracá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15218",
+    "nombreCiudad": "Covarachía"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23182",
+    "nombreCiudad": "Chinú"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15837",
+    "nombreCiudad": "Tuta"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19532",
+    "nombreCiudad": "Patía"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91798",
+    "nombreCiudad": "Tarapacá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15455",
+    "nombreCiudad": "Miraflores"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15051",
+    "nombreCiudad": "Arcabuco"
+  },
+  {
+    "idDepartamento": "97",
+    "idCiudad": "97001",
+    "nombreCiudad": "Mitú"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52685",
+    "nombreCiudad": "SanBernardo"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17174",
+    "nombreCiudad": "Chinchiná"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15861",
+    "nombreCiudad": "Ventaquemada"
+  },
+  {
+    "idDepartamento": "23",
+    "idCiudad": "23678",
+    "nombreCiudad": "SanCarlos"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15106",
+    "nombreCiudad": "Briceño"
+  },
+  {
+    "idDepartamento": "08",
+    "idCiudad": "08634",
+    "nombreCiudad": "Sabanagrande"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52019",
+    "nombreCiudad": "Albán"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86573",
+    "nombreCiudad": "PuertoLeguízamo"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52233",
+    "nombreCiudad": "Cumbitara"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25175",
+    "nombreCiudad": "Chía"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13654",
+    "nombreCiudad": "SanJacinto"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54128",
+    "nombreCiudad": "Cáchira"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25290",
+    "nombreCiudad": "Fusagasugá"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05240",
+    "nombreCiudad": "Ebéjico"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25019",
+    "nombreCiudad": "Albán"
+  },
+  {
+    "idDepartamento": "17",
+    "idCiudad": "17513",
+    "nombreCiudad": "Pácora"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68327",
+    "nombreCiudad": "Güepsa"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13688",
+    "nombreCiudad": "SantaRosadelSur"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05890",
+    "nombreCiudad": "Yolombó"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15822",
+    "nombreCiudad": "Tota"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73443",
+    "nombreCiudad": "SanSebastiándeMariquita"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20614",
+    "nombreCiudad": "RíodeOro"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15362",
+    "nombreCiudad": "Iza"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15223",
+    "nombreCiudad": "Cubará"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19821",
+    "nombreCiudad": "Toribío"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13873",
+    "nombreCiudad": "Villanueva"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52287",
+    "nombreCiudad": "Funes"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15293",
+    "nombreCiudad": "Gachantivá"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15522",
+    "nombreCiudad": "Panqueba"
+  },
+  {
+    "idDepartamento": "63",
+    "idCiudad": "63212",
+    "nombreCiudad": "Córdoba"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94883",
+    "nombreCiudad": "SanFelipe"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25483",
+    "nombreCiudad": "Nariño"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05021",
+    "nombreCiudad": "Alejandría"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25126",
+    "nombreCiudad": "Cajicá"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52250",
+    "nombreCiudad": "ElCharco"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47189",
+    "nombreCiudad": "Ciénaga"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68385",
+    "nombreCiudad": "Landázuri"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85230",
+    "nombreCiudad": "Orocué"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15022",
+    "nombreCiudad": "Almeida"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86219",
+    "nombreCiudad": "Colón"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25377",
+    "nombreCiudad": "LaCalera"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76111",
+    "nombreCiudad": "GuadalajaradeBuga"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20621",
+    "nombreCiudad": "LaPaz"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50223",
+    "nombreCiudad": "SanLuisdeCubarral"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50577",
+    "nombreCiudad": "PuertoLleras"
+  },
+  {
+    "idDepartamento": "86",
+    "idCiudad": "86865",
+    "nombreCiudad": "ValledelGuamuez"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50287",
+    "nombreCiudad": "FuentedeOro"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68524",
+    "nombreCiudad": "PalmasdelSocorro"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50683",
+    "nombreCiudad": "SanJuandeArama"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20750",
+    "nombreCiudad": "SanDiego"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54405",
+    "nombreCiudad": "LosPatios"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68686",
+    "nombreCiudad": "SanMiguel"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50680",
+    "nombreCiudad": "SanCarlosdeGuaroa"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54874",
+    "nombreCiudad": "VilladelRosario"
+  },
+  {
+    "idDepartamento": "85",
+    "idCiudad": "85250",
+    "nombreCiudad": "PazdeAriporo"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50270",
+    "nombreCiudad": "ElDorado"
+  },
+  {
+    "idDepartamento": "47",
+    "idCiudad": "47245",
+    "nombreCiudad": "ElBanco"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54245",
+    "nombreCiudad": "ElCarmen"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19256",
+    "nombreCiudad": "ElTambo"
+  },
+  {
+    "idDepartamento": "70",
+    "idCiudad": "70233",
+    "nombreCiudad": "ElRoble"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54250",
+    "nombreCiudad": "ElTarra"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05148",
+    "nombreCiudad": "ElCarmendeViboral"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68245",
+    "nombreCiudad": "ElGuacamayo"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76246",
+    "nombreCiudad": "ElCairo"
+  },
+  {
+    "idDepartamento": "95",
+    "idCiudad": "95025",
+    "nombreCiudad": "ElRetorno"
+  },
+  {
+    "idDepartamento": "44",
+    "idCiudad": "44110",
+    "nombreCiudad": "ElMolino"
+  },
+  {
+    "idDepartamento": "54",
+    "idCiudad": "54261",
+    "nombreCiudad": "ElZulia"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05250",
+    "nombreCiudad": "ElBagre"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05697",
+    "nombreCiudad": "ElSantuario"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50245",
+    "nombreCiudad": "ElCalvario"
+  },
+  {
+    "idDepartamento": "91",
+    "idCiudad": "91263",
+    "nombreCiudad": "ElEncanto"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25245",
+    "nombreCiudad": "ElColegio"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20238",
+    "nombreCiudad": "ElCopey"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50251",
+    "nombreCiudad": "ElCastillo"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25260",
+    "nombreCiudad": "ElRosal"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25001",
+    "nombreCiudad": "AguadeDios"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76250",
+    "nombreCiudad": "ElDovio"
+  },
+  {
+    "idDepartamento": "76",
+    "idCiudad": "76248",
+    "nombreCiudad": "ElCerrito"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20250",
+    "nombreCiudad": "ElPaso"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15322",
+    "nombreCiudad": "Guateque"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05107",
+    "nombreCiudad": "Briceño"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52427",
+    "nombreCiudad": "Magüí"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27660",
+    "nombreCiudad": "SanJosédelPalmar"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52506",
+    "nombreCiudad": "Ospina"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25867",
+    "nombreCiudad": "Vianí"
+  },
+  {
+    "idDepartamento": "20",
+    "idCiudad": "20770",
+    "nombreCiudad": "SanMartín"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13248",
+    "nombreCiudad": "ElGuamo"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05310",
+    "nombreCiudad": "GómezPlata"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94343",
+    "nombreCiudad": "BarrancoMinas"
+  },
+  {
+    "idDepartamento": "50",
+    "idCiudad": "50573",
+    "nombreCiudad": "PuertoLópez"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15600",
+    "nombreCiudad": "Ráquira"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13667",
+    "nombreCiudad": "SanMartíndeLoba"
+  },
+  {
+    "idDepartamento": "94",
+    "idCiudad": "94886",
+    "nombreCiudad": "Cacahual"
+  },
+  {
+    "idDepartamento": "52",
+    "idCiudad": "52317",
+    "nombreCiudad": "Guachucal"
+  },
+  {
+    "idDepartamento": "68",
+    "idCiudad": "68296",
+    "nombreCiudad": "Galán"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19100",
+    "nombreCiudad": "Bolívar"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15135",
+    "nombreCiudad": "Campohermoso"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13268",
+    "nombreCiudad": "ElPeñón"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15761",
+    "nombreCiudad": "Somondoco"
+  },
+  {
+    "idDepartamento": "13",
+    "idCiudad": "13683",
+    "nombreCiudad": "SantaRosa"
+  },
+  {
+    "idDepartamento": "19",
+    "idCiudad": "19318",
+    "nombreCiudad": "Guapí"
+  },
+  {
+    "idDepartamento": "25",
+    "idCiudad": "25486",
+    "nombreCiudad": "Nemocón"
+  },
+  {
+    "idDepartamento": "05",
+    "idCiudad": "05856",
+    "nombreCiudad": "Valparaíso"
+  },
+  {
+    "idDepartamento": "27",
+    "idCiudad": "27205",
+    "nombreCiudad": "Condoto"
+  },
+  {
+    "idDepartamento": "15",
+    "idCiudad": "15047",
+    "nombreCiudad": "Aquitania"
+  },
+  {
+    "idDepartamento": "73",
+    "idCiudad": "73055",
+    "nombreCiudad": "Armero"
+  }
+]
