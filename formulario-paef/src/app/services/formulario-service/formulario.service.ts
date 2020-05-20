@@ -9,13 +9,12 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class FormularioService {
-  //private URL_HOST = 'http://localhost:8000/';
+  // private URL_HOST = 'http://localhost:8000/';
   private URL_HOST = environment.urlBack + '/';
 
   constructor(private httpService: HttpService, private http: HttpClient) { }
 
-  
-  saveFormulario(data:any) {
+  saveFormulario(data: any) {
     return this.httpService.postJSON('accounts/api/v1/rest-auth/user/', data).map(
       response => {
         return response;
