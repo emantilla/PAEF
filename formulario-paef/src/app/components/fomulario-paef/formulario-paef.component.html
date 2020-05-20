@@ -13,7 +13,7 @@
             <div class="contenedor-form">
                 <div class="colForm-12">
                     <div class="colForm-6 logo">
-                        <img src="../../../assets/img/logo.png" alt="">
+                        <img src="../../../img/logo.png" alt="">
                     </div>
                     <div class="colForm-6 fecha">
                         <p class="fecha">12 de Mayo de 2020</p>
@@ -74,7 +74,8 @@
                             <div class="colForm-12 campo-form">
                                 <label for="RazonSocial">Nombre o Razón Social:</label>
                                 <input type="text" formControlName="nombreEmpresa" id="nombreEmpresa"
-                                    name="nombreEmpresa">
+                                    name="nombreEmpresa"
+                                    (click)="setValueField('nombreEmpresa  ', $event.target.value);">
                             </div>
                         </div>
                         <div class="margen-top borde-superior">
@@ -82,13 +83,14 @@
                                 <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                                     <label class="radio-btn" for="personaJuridica">Persona Jurídica:</label>
                                     <input type="radio" formControlName="tipoPersona"
-                                        (click)="setValueField('solicitud', $event.target.value);" id="personaJuridica"
-                                        name="tipoPersona" value="personaJuridica">
+                                        (click)="setValueField('tipoPersona', $event.target.value);"
+                                        id="personaJuridica" name="tipoPersona" value="1">
                                 </div>
                                 <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                                     <label for="NIT">NIT <span class="legales">(sin dígito de verificación):
                                         </span></label>
-                                    <input type="text" id="NIT" formControlName="numeroEmpresa" name="NIT">
+                                    <input type="text" id="NIT" formControlName="numeroEmpresa" name="NIT"
+                                        (keyup)="setValueField('numeroEmpresa', $event.target.value);">
                                 </div>
                             </div>
                             <div class="colForm-8 colForm-md-12 colForm-sm-12">
@@ -97,27 +99,30 @@
                                         <label class="radio-btn" for="entidadSinLucro">Entidad sin ánimo de
                                             lucro:</label>
                                         <input type="radio" id="entidadSinLucro" formControlName="tipoPersona"
-                                            name="tipoPersona" value="entidadSinLucro">
+                                            name="tipoPersona" value="2"
+                                            (click)="setValueField('tipoPersona', $event.target.value);">
                                     </div>
                                     <div class="colForm-6 colForm-md-6 campo-form">
                                         <label class="radio-btn" for="entidadSinLucro">Consorcio o Unión
                                             Temporal</label>
                                         <input type="radio" id="entidadSinLucro" formControlName="tipoPersona"
-                                            name="tipoPersona" value="entidadSinLucro">
+                                            name="tipoPersona" value="3"
+                                            (click)="setValueField('tipoPersona', $event.target.value);">
                                     </div>
                                 </div>
                                 <div class="colForm-12 colForm-md-6 colForm-sm-12 campo-form">
                                     <label for="RUT">RUT <span class="legales">(sin dígito de verificación):
                                         </span></label>
-                                    <input type="text" id="RUT" formControlName="numeroEmpresa" name="RUT">
+                                    <input type="text" id="RUT" formControlName="numeroEmpresa" name="numeroEmpresa"
+                                        (keyup)="setValueField('numeroEmpresa', $event.target.value);">
                                 </div>
                             </div>
                         </div>
                         <div class="margen-top borde-superior">
                             <div class="colForm-3 colForm-sm-12 campo-form">
-                                <label for="personaJuridica">Persona Natural:</label>
-                                <input type="radio" id="personaJuridica" name="tipoPersona"
-                                    formControlName="tipoPersona" value="personaJuridica">
+                                <label for="personaNatural">Persona Natural:</label>
+                                <input type="radio" id="personaNatural" name="tipoPersona" formControlName="tipoPersona"
+                                    value="4" (click)="setValueField('tipoPersona', $event.target.value);">
                             </div>
                             <div class="colForm-3 colForm-sm-12 campo-form">
                                 <label for="personaJuridica">Tipo de Documento</label>
@@ -132,20 +137,23 @@
 
                             <div class="colForm-6 colForm-sm-12 campo-form">
                                 <label for="numeroDoc">N°:</label>
-                                <input type="number" formControlName="numeroEmpresa" id="numeroDoc" name="numeroDoc">
+                                <input type="number" formControlName="numeroEmpresa" id="numeroDoc" name="numeroDoc"
+                                    (keyup)="setValueField('numeroEmpresa', $event.target.value);">
                             </div>
                         </div>
 
                         <div class="colForm-12 colForm-md-12 colForm-sm-12 margen-top borde-superior">
                             <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
                                 <label for="direccion">Dirección:</label>
-                                <input type="text" formControlName="direccionEmpresa" id="direccion" name="direccion">
+                                <input type="text" formControlName="direccionEmpresa" id="direccion" name="direccion"
+                                    (keyup)="setValueField('direccion', $event.target.value);">
                             </div>
                             <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
                                 <label for="departamento">Departamento:</label>
                                 <select id="departamento" formControlName="departamento" class="select-form">
                                     <option *ngFor="let dept of departamentos" value="dept.idDepartamento">
-                                        {{dept.nombreDepartamento}}</option>
+                                        {{dept.nombreDepartamento}}
+                                    </option>
                                 </select>
                             </div>
                             <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
@@ -159,16 +167,19 @@
                         <div class="colForm-12 colForm-md-12 colForm-sm-12">
                             <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
                                 <label for="telefonoFijo">Teléfono Fijo:</label>
-                                <input type="text" formControlName="telefonoFijo" id="telefonoFijo" name="telefonoFijo">
+                                <input type="text" formControlName="telefonoFijo" id="telefonoFijo" name="telefonoFijo"
+                                    (keyup)="setValueField('telefonoFijo', $event.target.value);">
                             </div>
                             <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
                                 <label for="telefonoMov">Teléfono Móvil:</label>
-                                <input type="text" formControlName="celular" id="telefonoMov" name="telefonoMov">
+                                <input type="text" formControlName="celular" id="telefonoMov" name="telefonoMov"
+                                    (keyup)="setValueField('telefonoMov', $event.target.value);">
                             </div>
                             <div class="colForm-4 colForm-md-6 colForm-sm-12 campo-form">
-                                <label for="correoEmpresa">Correo electrónico:</label>
-                                <input type="text" formControlName="correoElectronico" id="correoEmpresa"
-                                    name="correoEmpresa">
+                                <label for="correoElectronico">Correo electrónico:</label>
+                                <input type="text" formControlName="correoElectronico" id="correoElectronico"
+                                    name="correoElectronico"
+                                    (keyup)="setValueField('correoElectronico', $event.target.value);">
                             </div>
                         </div>
 
@@ -193,12 +204,12 @@
                                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                                     <label class="radio-btn" for="beneficiarioSi">Si</label>
                                     <input type="radio" formControlName="prFng" id="beneficiarioSi" name="prFng"
-                                        value="1">
+                                        value="1" (click)="setValueField('prFng', $event.target.value);">
                                 </div>
                                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                                     <label class="radio-btn" for="beneficiarioNo">No </label>
                                     <input type="radio" formControlName="prFng" id="beneficiarioNo" name="prFng"
-                                        value="0">
+                                        value="0" (click)="setValueField('prFng', $event.target.value);">
                                 </div>
                             </div>
                         </div>
@@ -232,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="información-representante">
+                <div *ngIf="!showPersona" class="información-representante">
                     <div class="titulo-seccion">
                         <p>Información del representante legal</p>
                         <p class="legales">No aplica para personas naturales</p>
@@ -619,7 +630,7 @@
                 </div>
                 <div class="captcha">
                     <div class="colForm-12 contenedor-captcha">
-                        <re-captcha (resolved)="resolved($event)" formControlName="recaptchaReactive"
+                        <re-captcha (resolved)="resolved($event)" formControlName="recaptcha"
                             [siteKey]="captchaKey">
                         </re-captcha>
                     </div>
