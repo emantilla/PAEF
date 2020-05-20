@@ -28,6 +28,7 @@
     "jw-angular-pagination": "^1.1.0",
     "jwt-decode": "^2.2.0",
     "mat-video": "^2.7.2",
+    "ng-recaptcha": "^5.0.0",
     "rxjs": "^6.4.0",
     "rxjs-compat": "^6.5.4",
     "sweetalert2": "^9.7.2",
