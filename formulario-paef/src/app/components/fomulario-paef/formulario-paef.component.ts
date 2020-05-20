@@ -86,9 +86,9 @@ export class FormularioPaefComponent implements OnInit {
   }
 
   setValueField(field, value) {
-    console.log(field, ' -> ', value);
+    console.log(field, '->', value);
     this.createForm.get(field).setValue(value);
-    console.log('estado -> ', this.createForm.valid);
+    console.log('estado -> ', this.createForm.status);
 
   }
 

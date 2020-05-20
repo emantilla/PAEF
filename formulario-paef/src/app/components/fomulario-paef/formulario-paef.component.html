@@ -46,17 +46,17 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                   <label class="radio-btn" for="aporteUno">Primer aporte</label>
                   <input type="radio" formControlName="solicitud" id="solicitud"
-                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="1">
+                    (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="1">
                 </div>
                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                   <label class="radio-btn" for="aporteDos">Segundo Aporte</label>
                   <input type="radio" formControlName="solicitud" id="solicitud"
-                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="2">
+                    (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="2">
                 </div>
                 <div class="colForm-2 colForm-md-3 colForm-sm-4 campo-form">
                   <label class="radio-btn" for="aporteTres">Tercer aporte </label>
                   <input type="radio" formControlName="solicitud" id="solicitud"
-                    (keyup)="setValueField('solicitud', $event.target.value);" name="solicitud" value="3">
+                    (click)="setValueField('solicitud', $event.target.value);" name="solicitud" value="3">
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@
               <div class="colForm-12 campo-form">
                 <label for="RazonSocial">Nombre o Razón Social:</label>
                 <input type="text" formControlName="nombreEmpresa" id="nombreEmpresa" name="nombreEmpresa"
-                  (keyup)="setValueField('nombreEmpresa  ', $event.target.value);">
+                  (keyup)="setValueField('nombreEmpresa', $event.target.value);">
               </div>
             </div>
             <div class="margen-top borde-superior">
@@ -227,8 +227,9 @@
                 </select>
               </div>
               <div class="colForm-3 colForm-md-3 colForm-sm-12 campo-form">
-                <label for="numCuentaBan"> No. Cuenta:</label>
-                <input type="text" formControlName="numeroCuenta" id="numCuentaBan" name="numCuentaBan">
+                <label for="numeroCuenta"> No. Cuenta:</label>
+                <input type="text" formControlName="numeroCuenta" id="numeroCuenta" name="numeroCuenta"
+                (keyup)="setValueField('numeroCuenta', $event.target.value);">
               </div>
             </div>
           </div>
@@ -242,11 +243,13 @@
             <div class="colForm-12 colForm-md-12 colForm-sm-12">
               <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
                 <label for="nombres">Nombres:</label>
-                <input type="text" formControlName="nombres" id="nombres" name="nombres">
+                <input type="text" formControlName="nombres" id="nombres" name="nombres"
+                (keyup)="setValueField('nombres', $event.target.value);">
               </div>
               <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                <label for="Apellidos">Apellidos:</label>
-                <input type="text" formControlName="apellidos" id="Apellidos" name="Apellidos">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" formControlName="apellidos" id="apellidos" name="apellidos"
+                (keyup)="setValueField('apellidos', $event.target.value);">
               </div>
               <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
                 <label for="Apellidos">Tipo de Documento:</label>
@@ -259,18 +262,21 @@
                 </select>
               </div>
               <div class="colForm-3 colForm-md-4 colForm-sm-12 campo-form">
-                <label for="numeroDoc">N°:</label>
-                <input type="number" formControlName="numeroDocumentoRep" id="numeroDoc" name="numeroDoc">
+                <label for="numeroDocumentoRep">N°:</label>
+                <input type="number" formControlName="numeroDocumentoRep" id="numeroDocumentoRep" name="numeroDocumentoRep"
+                (keyup)="setValueField('numeroDocumentoRep', $event.target.value);">
               </div>
             </div>
             <div class="colForm-12 colForm-md-12 colForm-sm-12">
               <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
-                <label for="correo">Correo electrónico:</label>
-                <input type="text" formControlName="correoElectronicoRep" id="correo" name="correo">
+                <label for="correoElectronicoRep">Correo electrónico:</label>
+                <input type="text" formControlName="correoElectronicoRep" id="correoElectronicoRep" name="correoElectronicoRep"
+                (keyup)="setValueField('correoElectronicoRep', $event.target.value);">
               </div>
               <div class="colForm-4 colForm-md-3 colForm-sm-12 campo-form">
-                <label for="celular">Celular:</label>
-                <input type="text" formControlName="celularRep" id="celular" name="celular">
+                <label for="celularRep">Celular:</label>
+                <input type="text" formControlName="celularRep" id="celularRep" name="celularRep"
+                (keyup)="setValueField('celularRep', $event.target.value);">
               </div>
             </div>
           </div>
@@ -297,11 +303,13 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-12">
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
-                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="1">
+                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="1"
+                    (keyup)="setValueField('prDeposito', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
-                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="0">
+                    <input type="radio" formControlName="prDeposito" id="prDeposito" name="prDeposito" value="0"
+                    (keyup)="setValueField('prDeposito', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -313,12 +321,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
-                      value="1">
+                      value="1" (keyup)="setValueField('prConstitucion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prConstitucion" id="prConstitucion" name="prConstitucion"
-                      value="0">
+                      value="0" (keyup)="setValueField('prConstitucion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -341,12 +349,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
-                      value="">
+                      value="1" (keyup)="setValueField('prDisminucionAno', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prDisminucionAno" id="prDisminucionAno" name="prDisminucionAno"
-                      value="">
+                      value="0" (keyup)="setValueField('prDisminucionAno', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -360,12 +368,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
-                      value="1">
+                      value="1"  (keyup)="setValueField('prDisminucion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prDisminucion" id="prDisminucion" name="prDisminucion"
-                      value="0">
+                      value="0"  (keyup)="setValueField('prDisminucion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -379,12 +387,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="1">
+                      value="1" (keyup)="setValueField('prParticipacion', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="0">
+                      value="0" (keyup)="setValueField('prParticipacion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -395,13 +403,13 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-12">
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
-                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="1">
+                    <input type="radio" formControlName="prSolicitud" id="prSolicitud" name="prSolicitud"
+                      value="1" (keyup)="setValueField('prSolicitud', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
-                    <input type="radio" formControlName="prParticipacion" id="prParticipacion" name="prParticipacion"
-                      value="0">
+                    <input type="radio" formControlName="prSolicitud" id="prSolicitud" name="prSolicitud"
+                      value="0" (keyup)="setValueField('prSolicitud', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -422,12 +430,12 @@
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
                     <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
-                      value="1">
+                      value="1" (keyup)="setValueField('prCumplimiento', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
                     <input type="radio" formControlName="prCumplimiento" id="prCumplimiento" name="prCumplimiento"
-                      value="0">
+                      value="0" (keyup)="setValueField('prCumplimiento', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -440,8 +448,9 @@
                 </div>
                 <div class="colForm-12 colForm-md-12 colForm-sm-12">
                   <div class="colForm-6 colForm-md-6 colForm-sm-12 campo-form">
-                    <label for="doc01">N° Documento</label>
-                    <input type="text" formControlName="documentosUnion" id="doc01" name="doc01">
+                    <label for="documentosUnion">N° Documento</label>
+                    <input type="text" formControlName="documentosUnion" id="documentosUnion" name="documentosUnion"
+                    (keyup)="setValueField('documentosUnion', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -460,11 +469,13 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-12">
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
-                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="1">
+                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="1"
+                    (keyup)="setValueField('prEmpleados', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
-                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="0">
+                    <input type="radio" formControlName="prEmpleados" id="prEmpleados" name="prEmpleados" value="0"
+                    (keyup)="setValueField('prEmpleados', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -478,11 +489,13 @@
                 <div class="colForm-2 colForm-md-3 colForm-sm-12">
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">Si</label>
-                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="1">
+                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="1"
+                    (keyup)="setValueField('prPEP', $event.target.value);">
                   </div>
                   <div class="colForm-6 campo-form">
                     <label class="radio-btn" for="">No </label>
-                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="0">
+                    <input type="radio" formControlName="prPEP" id="prPEP" name="prPEP" value="0"
+                    (keyup)="setValueField('prPEP', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -523,7 +536,8 @@
                     </label>
                   </div>
                   <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                    <input class="fechas" formControlName="plAbril" type="text" id="" name="">
+                    <input class="fechas" formControlName="plAbril" type="text" id="plAbril" name="plAbril"
+                    (keyup)="setValueField('plAbril', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -535,7 +549,8 @@
                     </label>
                   </div>
                   <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                    <input class="fechas" formControlName="plMayo" type="text" id="" name="">
+                    <input class="fechas" formControlName="plMayo" type="text" id="plMayo" name="plMayo"
+                    (keyup)="setValueField('plMayo', $event.target.value);">
                   </div>
                 </div>
               </div>
@@ -548,7 +563,8 @@
                     </label>
                   </div>
                   <div class="colForm-6 colForm-md-6 colForm-sm-12 alineacion">
-                    <input class="fechas" formControlName="plJunio" type="text" id="" name="">
+                    <input class="fechas" formControlName="plJunio" type="text" id="plJunio" name="plJunio"
+                    (keyup)="setValueField('plJunio', $event.target.value);">
                   </div>
                 </div>
               </div>
